@@ -1,0 +1,44 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+
+.file-download-list{
+  position: relative;
+  z-index: 40;
+  transform: translateY(-120px);
+  margin-bottom: -80px;
+  min-height: 200px;
+  padding: 0px 0px 0px;
+  // @import "../clone/section-padding";
+
+  .container,
+  .container-fluid{
+    position: relative;
+    z-index: 10;
+    background: #fff;
+  }  
+
+
+  .the-download{
+    background: #ecfaff;
+    border-radius: 20px;
+    box-shadow: 3px 3px 13px #e5e5e5;
+    padding: 15px;
+
+    &:hover{
+      h5{
+        color: var(--wp--preset--color--fl-green);
+      }
+    }
+
+    .icon_download{
+      width: 146px;
+      padding: 0 0 1rem;
+    }
+    .wp-block-separator{
+      margin: 0 auto;
+    }
+  }
+}

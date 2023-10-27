@@ -1,0 +1,54 @@
+
+.vmwbmdp-wpbotvoicemessage-form-shortcode, .vmwbmdp-wpbotvoicemessage-form-shortcode:visited {
+  position: relative;
+  background: transparent;
+  color: #0274e6;
+  padding: 4px 6px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: .4s; }
+
+.vmwbmdp-wpbotvoicemessage-form-shortcode:hover, .vmwbmdp-wpbotvoicemessage-form-shortcode:active {
+  background: rgba(2, 116, 230, 0.16);
+  color: #0274e6;
+  transition: .4s; }
+
+.vmwbmdp-wpbotvoicemessage-form-shortcode:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+  z-index: 1; }
+
+.vmwbmdp-wpbotvoicemessage-form-shortcode svg {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  top: 1px; }
+
+.vmwbmdp-wpbotvoicemessage-form-messages-count a {
+  text-decoration: none;
+  color: #0274e6; }
+
+.vmwbmdp-wpbotvoicemessage-form-messages-count-new, .vmwbmdp-wpbotvoicemessage-form-messages-count-new:visited {
+  border-radius: 9px;
+  background: rgba(2, 116, 230, 0.17);
+  margin: 0 0 0 4px;
+  padding: 2px 6px;
+  min-width: 18px;
+  height: 18px;
+  line-height: 1.6;
+  text-align: center;
+  z-index: 26;
+  text-decoration: none;
+  outline: none;
+  font-weight: bold;
+  transition: .4s; }
+
+.vmwbmdp-wpbotvoicemessage-form-messages-count-new:hover, .vmwbmdp-wpbotvoicemessage-form-messages-count-new:active {
+  background: #0274e6;
+  color: white; }

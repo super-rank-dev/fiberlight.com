@@ -1,0 +1,113 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+
+
+$layoutOverflow: -40px;
+
+
+.content-layout-3{
+  position: relative;
+  z-index: 3;
+  padding: $sectionPadding 0px 0px;
+
+  @import "../clone/section-padding";
+
+
+  .row-items{
+    position: relative;
+    z-index: 10;
+  }
+  .content-block{
+    position: relative;
+
+    &-blue{
+      background-color: var(--wp--preset--color--fl-light-blue);
+    }
+
+    h4{
+      padding: 0 0 .5rem 0;
+      margin: 0;
+
+      @include media-breakpoint-down(md){
+        font-size: 26px;
+      }
+    }
+    .bar{
+      position: absolute;
+      z-index: 20;
+      top: -5px;    
+       left: 50%;
+       display: block;
+
+      transform: translate(-50%, 0);
+      height: 10px;
+      width: 60%;
+
+      &-green{
+        background-color: var(--wp--preset--color--fl-green);
+      }
+    }
+  }
+
+  .picture-wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    @include media-breakpoint-down(md){
+      height: 200px;
+    }
+
+    img{
+      object-fit: cover;
+      object-position: center center;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+}
+
+.content-layout-3-bottom{
+  position: relative;
+  z-index: 5;
+  padding: $sectionPadding 0px;
+  background-color: var(--wp--preset--color--fl-tan);
+  margin: $layoutOverflow 0 0;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6{
+    color: var(--wp--preset--color--fl-dark-blue)!important;
+  }
+	p,
+  li{
+		color: var(--wp--preset--color--fl-black)!important;
+	}
+
+  .wp-block-buttons {
+    .wp-block-button{
+      &:after{
+        content: '';
+        background: var(--wp--preset--color--fl-light-light-blue)!important;
+      }
+      &:hover{
+        color: var(--wp--preset--color--fl-dark-blue);
+        &:after{
+          content: '';
+          background: var(--wp--preset--color--fl-green)!important;
+        }
+      }
+      .wp-block-button__link{
+        color: var(--wp--preset--color--fl-dark-blue)!important;
+      }
+    }
+  }
+
+}

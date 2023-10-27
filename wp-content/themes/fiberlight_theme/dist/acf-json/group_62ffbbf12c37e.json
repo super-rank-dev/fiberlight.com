@@ -1,0 +1,237 @@
+{
+    "key": "group_62ffbbf12c37e",
+    "title": "(Block) Content - Layout 5",
+    "fields": [
+        {
+            "key": "field_639ba8ba5347c",
+            "label": "Anchor Tags",
+            "name": "anchor_tags",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_63754ef8cd652"
+            ],
+            "display": "seamless",
+            "layout": "",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_639ba8be5347d",
+            "label": "Padding",
+            "name": "paddings",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_6306b010a5e67"
+            ],
+            "display": "seamless",
+            "layout": "",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_62ffc3cdf1ca2",
+            "label": "Reverse Layout",
+            "name": "reverse_layout",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_62ffc5a0cf69f",
+            "label": "Overlay Above",
+            "name": "overlay_above",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Overlays the component with the section above.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_62ffbc1ab9182",
+            "label": "Image",
+            "name": "image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "acf-image-preview",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_62ffbc77b9184",
+            "label": "Divided Background Color",
+            "name": "divided_background_color",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_62ffbc5bb9183",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "tan": "Tan",
+                "lightblue": "Light Blue",
+                "medblue": "Med Blue",
+                "darkblue": "Dark Blue",
+                "lightblueg": "Light Blue Gradient",
+                "medblueg": "Med Blue Gradient",
+                "darkblueg": "Dark Blue Gradient"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_62ffbc5bb9183",
+            "label": "Divide Background",
+            "name": "divide_background",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_62ffbbf131828",
+            "label": "Background Image",
+            "name": "background_images",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_62f53d193b75b"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_62ffbbf13182f",
+            "label": "Background Patterns",
+            "name": "background_patterns",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_62d0915c6eea3"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/content-layout-5"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1671145931
+}

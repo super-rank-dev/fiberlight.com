@@ -1,0 +1,306 @@
+{
+    "key": "group_5afb2518a9424",
+    "title": "Page Hero",
+    "fields": [
+        {
+            "key": "field_5afb254784fed",
+            "label": "Page Title Override",
+            "name": "page_title_override",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "If left empty, the page title will display instead. Note: There is a limit of 65 characters.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 65
+        },
+        {
+            "key": "field_5afb258284fee",
+            "label": "Description",
+            "name": "description",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "Note: There is a limit of 285 characters.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": 285,
+            "rows": 4,
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5edffde332140",
+            "label": "Layout",
+            "name": "layout",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "Select either an image or a video to show on the right side of the hero section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "image": "Image",
+                "video": "Video"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5afb25aa84fef",
+            "label": "Background Image",
+            "name": "background_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Optimum size is 1600px x 600px at 72dpi.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5edffde332140",
+                        "operator": "==",
+                        "value": "image"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "mainstage-image",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5edffe2732141",
+            "label": "Video URL",
+            "name": "video_url",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Please enter a URL with the ID of the video at the end. For example:\r\n<br>Vimeo - https:\/\/vimeo.com\/87110435",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5edffde332140",
+                        "operator": "==",
+                        "value": "video"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5edffe3832142",
+            "label": "Video Thumbnail Override",
+            "name": "video_thumbnail_override",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Upload a thumbnail if a different image is desired instead of the generated one.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5edffde332140",
+                        "operator": "==",
+                        "value": "video"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5afb25c884ff0",
+            "label": "Buttons",
+            "name": "buttons",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Note: There is a limit of 2 buttons.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 2,
+            "layout": "block",
+            "button_label": "Add Button",
+            "sub_fields": [
+                {
+                    "key": "field_5afb25de84ff1",
+                    "label": "Button",
+                    "name": "button",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "group_5952c6ec81122"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0,
+                    "parent_repeater": "field_5afb25c884ff0"
+                }
+            ],
+            "rows_per_page": 20
+        },
+        {
+            "key": "field_5edffffd32143",
+            "label": "Trigger video from button",
+            "name": "trigger_video_from_button",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Set this to \"Yes\" to trigger the video on click instead of going to the link provided.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5edffde332140",
+                        "operator": "==",
+                        "value": "video"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5b1abb9517dcd",
+            "label": "Hide Hero?",
+            "name": "hide_hero",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "default"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "default"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "default"
+            }
+        ]
+    ],
+    "menu_order": -999,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "excerpt",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1671146536
+}

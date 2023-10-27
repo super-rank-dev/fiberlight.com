@@ -1,0 +1,35 @@
+$global-font-size: 100%;
+$global-width: rem-calc(1240);
+$global-lineheight: 1.5;
+$foundation-palette: (
+  primary: #323e48,
+  secondary: #97d91a,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #ec5840,
+);
+$primary: map-get($foundation-palette, primary);
+$secondary: map-get($foundation-palette, secondary);
+$black: #0a0a0a;
+$white: #fefefe;
+$gray: #e7e8e9;
+$dark-blue: #323e48;
+$blue-gray: #323e48;
+$light-gray: #f1f1f1;
+$medium-gray: #a4abaf;
+$border-gray: #c2c2c2;
+$green: #93d518;
+$dark-green: #5B8401;
+$orange: #f58f15;
+$body-background: $white;
+$body-font-color: $blue-gray;
+$sans: 'Montserrat';
+$headline: 'Titillium Web';
+$body-font-family: $sans;
+
+// 1.1 Advanced Module Settings
+
+$small-spacing: 35;
+$medium-spacing: 70;
+$large-spacing: 105;
+

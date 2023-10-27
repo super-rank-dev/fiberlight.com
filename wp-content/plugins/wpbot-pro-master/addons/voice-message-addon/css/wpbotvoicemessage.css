@@ -1,0 +1,1365 @@
+
+@-webkit-keyframes wpbotvoicemessage-bounce {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3); }
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1); }
+  40% {
+    transform: scale3d(0.9, 0.9, 0.9); }
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03); }
+  80% {
+    transform: scale3d(0.97, 0.97, 0.97); }
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1); } }
+@keyframes wpbotvoicemessage-bounce {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3); }
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1); }
+  40% {
+    transform: scale3d(0.9, 0.9, 0.9); }
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03); }
+  80% {
+    transform: scale3d(0.97, 0.97, 0.97); }
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1); } }
+
+@-webkit-keyframes wpbotvoicemessage-fade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes wpbotvoicemessage-fade {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes wpbotvoicemessage-fade-out {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@keyframes wpbotvoicemessage-fade-out {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@-webkit-keyframes wpbotvoicemessage-scale {
+  0% {
+    transform: scale(0);
+    opacity: 0; }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+
+@keyframes wpbotvoicemessage-scale {
+  0% {
+    transform: scale(0);
+    opacity: 0; }
+  100% {
+    transform: scale(1);
+    opacity: 1; } }
+
+@-webkit-keyframes wpbotvoicemessage-slide-tr {
+  from {
+    transform: translateX(-100%);
+    opacity: 0; }
+  to {
+    transform: translateX(0);
+    opacity: 1; } }
+
+@keyframes wpbotvoicemessage-slide-tr {
+  from {
+    transform: translateX(-100%);
+    opacity: 0; }
+  to {
+    transform: translateX(0);
+    opacity: 1; } }
+
+@-webkit-keyframes wpbotvoicemessage-slide-tl {
+  from {
+    transform: translateX(100%);
+    opacity: 0; }
+  to {
+    transform: translateX(0);
+    opacity: 1; } }
+
+@keyframes wpbotvoicemessage-slide-tl {
+  from {
+    transform: translateX(100%);
+    opacity: 0; }
+  to {
+    transform: translateX(0);
+    opacity: 1; } }
+
+@-webkit-keyframes wpbotvoicemessage-slide-tt {
+  from {
+    transform: translateY(100%);
+    opacity: 0; }
+  to {
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes wpbotvoicemessage-slide-tt {
+  from {
+    transform: translateY(100%);
+    opacity: 0; }
+  to {
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes wpbotvoicemessage-slide-tt {
+  from {
+    transform: translateY(100%);
+    opacity: 0; }
+  to {
+    transform: translateY(0);
+    opacity: 1; } }
+
+@-webkit-keyframes wpbotvoicemessage-slide-tb {
+  from {
+    transform: translateY(-100%);
+    opacity: 0; }
+  to {
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes wpbotvoicemessage-slide-tb {
+  from {
+    transform: translateY(-100%);
+    opacity: 0; }
+  to {
+    transform: translateY(0);
+    opacity: 1; } }
+
+@-webkit-keyframes wpbotvoicemessage-flip-x {
+  from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 0; }
+  40% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in; }
+  60% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1; }
+  80% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg); }
+  to {
+    transform: perspective(400px); } }
+
+@keyframes wpbotvoicemessage-flip-x {
+  from {
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 0; }
+  40% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in; }
+  60% {
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1; }
+  80% {
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg); }
+  to {
+    transform: perspective(400px); } }
+
+@-webkit-keyframes wpbotvoicemessage-flip-y {
+  from {
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 0; }
+  40% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in; }
+  60% {
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1; }
+  80% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg); }
+  to {
+    transform: perspective(400px); } }
+
+@keyframes wpbotvoicemessage-flip-y {
+  from {
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 0; }
+  40% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in; }
+  60% {
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1; }
+  80% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg); }
+  to {
+    transform: perspective(400px); } }
+
+@-webkit-keyframes wpbotvoicemessage-rotate {
+  from {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0; }
+  to {
+    transform-origin: center;
+    transform: translate3d(0, 0, 0);
+    opacity: 1; } }
+
+@keyframes wpbotvoicemessage-rotate {
+  from {
+    transform-origin: center;
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0; }
+  to {
+    transform-origin: center;
+    transform: translate3d(0, 0, 0);
+    opacity: 1; } }
+
+@-webkit-keyframes wpbotvoicemessage-wobble {
+  from {
+    transform: scale3d(1, 1, 1); }
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); }
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); }
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); }
+  to {
+    transform: scale3d(1, 1, 1); } }
+
+@keyframes wpbotvoicemessage-wobble {
+  from {
+    transform: scale3d(1, 1, 1); }
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); }
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); }
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); }
+  to {
+    transform: scale3d(1, 1, 1); } }
+
+@-webkit-keyframes vmwbmdp-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+@keyframes vmwbmdp-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.vmwbmdp-wpbotvoicemessage-form-box {
+  position: relative; }
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-left .vmwbmdp-wpbotvoicemessage-start-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-left .vmwbmdp-wpbotvoicemessage-allow-access-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-left .vmwbmdp-wpbotvoicemessage-mic-access-err-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-left .vmwbmdp-wpbotvoicemessage-recording-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-left .vmwbmdp-wpbotvoicemessage-reset-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-left .vmwbmdp-wpbotvoicemessage-error-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-left .vmwbmdp-wpbotvoicemessage-send-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-left .vmwbmdp-wpbotvoicemessage-thanks-box {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left; }
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-center .vmwbmdp-wpbotvoicemessage-start-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-center .vmwbmdp-wpbotvoicemessage-allow-access-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-center .vmwbmdp-wpbotvoicemessage-mic-access-err-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-center .vmwbmdp-wpbotvoicemessage-recording-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-center .vmwbmdp-wpbotvoicemessage-reset-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-center .vmwbmdp-wpbotvoicemessage-error-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-center .vmwbmdp-wpbotvoicemessage-send-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-center .vmwbmdp-wpbotvoicemessage-thanks-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-right .vmwbmdp-wpbotvoicemessage-start-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-right .vmwbmdp-wpbotvoicemessage-allow-access-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-right .vmwbmdp-wpbotvoicemessage-mic-access-err-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-right .vmwbmdp-wpbotvoicemessage-recording-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-right .vmwbmdp-wpbotvoicemessage-reset-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-right .vmwbmdp-wpbotvoicemessage-error-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-right .vmwbmdp-wpbotvoicemessage-send-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-right .vmwbmdp-wpbotvoicemessage-thanks-box {
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right; }
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-busy > div {
+    opacity: .5; }
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-busy:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.01;
+    background: #fff;
+    z-index: 1; }
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-busy:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+    top: 50%;
+    left: 50%;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512;' xml:space='preserve'%3E%3Cpath d='M493.815,70.629c-11.001-1.003-20.73,7.102-21.733,18.102l-2.65,29.069C424.473,47.194,346.429,0,256,0 C158.719,0,72.988,55.522,30.43,138.854c-5.024,9.837-1.122,21.884,8.715,26.908c9.839,5.024,21.884,1.123,26.908-8.715 C102.07,86.523,174.397,40,256,40c74.377,0,141.499,38.731,179.953,99.408l-28.517-20.367c-8.989-6.419-21.48-4.337-27.899,4.651 c-6.419,8.989-4.337,21.479,4.651,27.899l86.475,61.761c12.674,9.035,30.155,0.764,31.541-14.459l9.711-106.53 C512.919,81.362,504.815,71.632,493.815,70.629z'/%3E%3Cpath d='M472.855,346.238c-9.838-5.023-21.884-1.122-26.908,8.715C409.93,425.477,337.603,472,256,472 c-74.377,0-141.499-38.731-179.953-99.408l28.517,20.367c8.989,6.419,21.479,4.337,27.899-4.651 c6.419-8.989,4.337-21.479-4.651-27.899l-86.475-61.761c-12.519-8.944-30.141-0.921-31.541,14.459l-9.711,106.53 c-1.003,11,7.102,20.73,18.101,21.733c11.014,1.001,20.731-7.112,21.733-18.102l2.65-29.069C87.527,464.806,165.571,512,256,512 c97.281,0,183.012-55.522,225.57-138.854C486.594,363.309,482.692,351.262,472.855,346.238z'/%3E%3C/svg%3E%0A");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-animation-name: vmwbmdp-spin;
+            animation-name: vmwbmdp-spin;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear; }
+  .vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-wpbotvoicemessage-start-box,
+  .vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-wpbotvoicemessage-recording-box,
+  .vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-wpbotvoicemessage-reset-box,
+  .vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-wpbotvoicemessage-error-box,
+  .vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-wpbotvoicemessage-send-box,
+  .vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-wpbotvoicemessage-thanks-box,
+  .vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-wpbotvoicemessage-allow-access-box,
+  .vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-wpbotvoicemessage-mic-access-err-box {
+    display: none; }
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-step-start .vmwbmdp-wpbotvoicemessage-start-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-step-recording .vmwbmdp-wpbotvoicemessage-recording-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-step-reset .vmwbmdp-wpbotvoicemessage-reset-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-step-error .vmwbmdp-wpbotvoicemessage-error-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-step-send .vmwbmdp-wpbotvoicemessage-send-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-step-thanks .vmwbmdp-wpbotvoicemessage-thanks-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-step-allow-access .vmwbmdp-wpbotvoicemessage-allow-access-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-step-mic-access-err .vmwbmdp-wpbotvoicemessage-mic-access-err-box {
+    display: flex; }
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-none.vmwbmdp-step-start .vmwbmdp-wpbotvoicemessage-start-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-none.vmwbmdp-step-recording .vmwbmdp-wpbotvoicemessage-recording-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-none.vmwbmdp-step-reset .vmwbmdp-wpbotvoicemessage-reset-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-none.vmwbmdp-step-error .vmwbmdp-wpbotvoicemessage-error-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-none.vmwbmdp-step-send .vmwbmdp-wpbotvoicemessage-send-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-none.vmwbmdp-step-thanks .vmwbmdp-wpbotvoicemessage-thanks-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-none.vmwbmdp-step-allow-access .vmwbmdp-wpbotvoicemessage-allow-access-box,
+  .vmwbmdp-wpbotvoicemessage-form-box.vmwbmdp-align-none.vmwbmdp-step-mic-access-err .vmwbmdp-wpbotvoicemessage-mic-access-err-box {
+    display: block; }
+  .vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-speak-now-btns button {
+    text-decoration: none; }
+
+/**
+ * plugin_description
+ * Exclusively on Envato Market: plugin_uri
+ *
+ * @encoding        UTF-8
+ * @version         plugin_version
+ * @copyright       plugin_copyright
+ * @license         license
+ * @contributors    contributors
+ * @support         plugin_support
+ **/
+@-webkit-keyframes spin {
+  from {
+    transform: rotateZ(0); }
+  to {
+    transform: rotateZ(1turn); } }
+@keyframes spin {
+  from {
+    transform: rotateZ(0); }
+  to {
+    transform: rotateZ(1turn); } }
+
+.vmwbmdp-wpbotvoicemessage-player-box.green-audio-player {
+  width: 100%;
+  min-width: 300px;
+  height: 56px;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.07);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #fff;
+  border-radius: 8px; }
+  .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player svg,
+  .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player img {
+    display: block; }
+  .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .play-pause-btn {
+    display: none;
+    cursor: pointer; }
+    .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .play-pause-btn svg {
+      width: 12px; }
+  .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .loading .loading__spinner {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #b0b0b0;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spin 0.4s linear infinite;
+            animation: spin 0.4s linear infinite; }
+  .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .slider {
+    flex-grow: 1;
+    background-color: #d8d8d8;
+    cursor: pointer;
+    position: relative; }
+    .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .slider .gap-progress {
+      background-color: #0274e6;
+      border-radius: inherit;
+      position: absolute;
+      pointer-events: none; }
+      .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .slider .gap-progress .pin {
+        height: 16px;
+        width: 16px;
+        border-radius: 8px;
+        background-color: #0274e6;
+        position: absolute;
+        pointer-events: all;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.32); }
+        .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .slider .gap-progress .pin::after {
+          content: "";
+          display: block;
+          background: rgba(0, 0, 0, 0);
+          width: 200%;
+          height: 200%;
+          margin-left: -50%;
+          margin-top: -50%;
+          border-radius: 50%; }
+  .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .controls {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #55606e;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+    margin-right: 24px; }
+    .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .controls .controls__slider {
+      margin-left: 16px;
+      margin-right: 16px;
+      border-radius: 2px;
+      height: 4px; }
+      .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .controls .controls__slider .controls__progress {
+        width: 0;
+        height: 100%; }
+        .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .controls .controls__slider .controls__progress .progress__pin {
+          right: -8px;
+          top: -6px; }
+    .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .controls span {
+      cursor: default; }
+  .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .volume {
+    position: relative; }
+    .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .volume .volume__button {
+      cursor: pointer; }
+      .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .volume .volume__button svg {
+        width: 16px; }
+      .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .volume .volume__button.open path {
+        fill: #0274e6; }
+    .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .volume .volume__controls {
+      width: 30px;
+      height: 135px;
+      background-color: rgba(0, 0, 0, 0.62);
+      border-radius: 7px;
+      position: absolute;
+      left: -3px;
+      bottom: 52px;
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+      z-index: 2; }
+      .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .volume .volume__controls.hidden {
+        display: none; }
+      .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .volume .volume__controls.top {
+        bottom: 52px;
+        left: -3px; }
+      .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .volume .volume__controls.middle {
+        bottom: -54px;
+        left: 54px; }
+      .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .volume .volume__controls.bottom {
+        bottom: -164px;
+        left: -3px; }
+      .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .volume .volume__controls .volume__slider {
+        margin-top: 12px;
+        margin-bottom: 12px;
+        width: 6px;
+        border-radius: 3px; }
+        .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .volume .volume__controls .volume__slider .volume__progress {
+          bottom: 0;
+          height: 100%;
+          width: 6px; }
+          .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .volume .volume__controls .volume__slider .volume__progress .volume__pin {
+            left: -5px;
+            top: -8px; }
+  .vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .download {
+    display: none;
+    margin-left: 16px;
+    cursor: pointer; }
+
+.vmwbmdp-wpbotvoicemessage-fbutton-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+}
+  .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-modal-wrap {
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-delay: .4s;
+            animation-delay: .4s;
+    width: 100%;
+    height: 100%; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-overlay.vmwbmdp-wpbotvoicemessage-modal-animation-bounce .vmwbmdp-wpbotvoicemessage-modal-wrap {
+    -webkit-animation-name: wpbotvoicemessage-bounce;
+            animation-name: wpbotvoicemessage-bounce;
+    -webkit-animation-duration: .6s;
+            animation-duration: .6s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-overlay.vmwbmdp-wpbotvoicemessage-modal-animation-fade .vmwbmdp-wpbotvoicemessage-modal-wrap {
+    -webkit-animation-name: wpbotvoicemessage-fade;
+            animation-name: wpbotvoicemessage-fade;
+    -webkit-animation-duration: .6s;
+            animation-duration: .6s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-overlay.vmwbmdp-wpbotvoicemessage-modal-animation-flip-x .vmwbmdp-wpbotvoicemessage-modal-wrap {
+    -webkit-animation-name: wpbotvoicemessage-flip-x;
+            animation-name: wpbotvoicemessage-flip-x;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-overlay.vmwbmdp-wpbotvoicemessage-modal-animation-flip-y .vmwbmdp-wpbotvoicemessage-modal-wrap {
+    -webkit-animation-name: wpbotvoicemessage-flip-y;
+            animation-name: wpbotvoicemessage-flip-y;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-overlay.vmwbmdp-wpbotvoicemessage-modal-animation-scale .vmwbmdp-wpbotvoicemessage-modal-wrap {
+    -webkit-animation-name: wpbotvoicemessage-scale;
+            animation-name: wpbotvoicemessage-scale;
+    -webkit-animation-duration: .4s;
+            animation-duration: .4s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-overlay.vmwbmdp-wpbotvoicemessage-modal-animation-slide-tr .vmwbmdp-wpbotvoicemessage-modal-wrap {
+    -webkit-animation-name: wpbotvoicemessage-slide-tr;
+            animation-name: wpbotvoicemessage-slide-tr;
+    -webkit-animation-duration: .4s;
+            animation-duration: .4s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-overlay.vmwbmdp-wpbotvoicemessage-modal-animation-slide-tl .vmwbmdp-wpbotvoicemessage-modal-wrap {
+    -webkit-animation-name: wpbotvoicemessage-slide-tl;
+            animation-name: wpbotvoicemessage-slide-tl;
+    -webkit-animation-duration: .4s;
+            animation-duration: .4s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-overlay.vmwbmdp-wpbotvoicemessage-modal-animation-slide-tt .vmwbmdp-wpbotvoicemessage-modal-wrap {
+    -webkit-animation-name: wpbotvoicemessage-slide-tt;
+            animation-name: wpbotvoicemessage-slide-tt;
+    -webkit-animation-duration: .4s;
+            animation-duration: .4s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-overlay.vmwbmdp-wpbotvoicemessage-modal-animation-slide-tb .vmwbmdp-wpbotvoicemessage-modal-wrap {
+    -webkit-animation-name: wpbotvoicemessage-slide-tb;
+            animation-name: wpbotvoicemessage-slide-tb;
+    -webkit-animation-duration: .4s;
+            animation-duration: .4s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-overlay.vmwbmdp-wpbotvoicemessage-modal-animation-rotate .vmwbmdp-wpbotvoicemessage-modal-wrap {
+    -webkit-animation-name: wpbotvoicemessage-rotate;
+            animation-name: wpbotvoicemessage-rotate;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-overlay.vmwbmdp-wpbotvoicemessage-modal-animation-wobble .vmwbmdp-wpbotvoicemessage-modal-wrap {
+    -webkit-animation-name: wpbotvoicemessage-wobble;
+            animation-name: wpbotvoicemessage-wobble;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 48px;
+    width: 480px;
+    max-width: 480px; }
+    @media (max-width: 480px) {
+      .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal {
+        width: 100%; } }
+    .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal h1,
+    .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal h2,
+    .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal h3,
+    .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal h4,
+    .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal h5,
+    .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal h6 {
+      padding: 0 0 12px 0;
+      margin: 0; }
+    .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal div.vmwbmdp-wpbotvoicemessage-start-box div:first-child {
+      padding-top: 0; }
+    .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal div.vmwbmdp-wpbotvoicemessage-start-box div:last-child {
+      padding-bottom: 0; }
+    .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal .vmwbmdp-wpbotvoicemessage-close {
+      cursor: pointer;
+      position: absolute;
+      right: 18px;
+      top: 18px;
+      width: 32px;
+      height: 32px;
+      opacity: .3;
+      z-index: 1;
+      transition: .8s;
+      transform-origin: center center;
+      transform: scale(0.75); }
+      .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal .vmwbmdp-wpbotvoicemessage-close:hover {
+        opacity: 1;
+        transform: scale(1); }
+      .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal .vmwbmdp-wpbotvoicemessage-close:before, .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal .vmwbmdp-wpbotvoicemessage-close:after {
+        position: absolute;
+        left: 15px;
+        content: ' ';
+        height: 33px;
+        width: 2px;
+        background-color: #333; }
+      .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal .vmwbmdp-wpbotvoicemessage-close:before {
+        transform: rotate(45deg); }
+      .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal .vmwbmdp-wpbotvoicemessage-close:after {
+        transform: rotate(-45deg); }
+
+.vmwbmdp-wpbotvoicemessage-reverse .vmwbmdp-wpbotvoicemessage-fbutton-overlay {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-duration: .6s;
+          animation-duration: .6s;
+  -webkit-animation-name: wpbotvoicemessage-fade-out;
+          animation-name: wpbotvoicemessage-fade-out; }
+  .vmwbmdp-wpbotvoicemessage-reverse .vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-modal-wrap {
+    -webkit-animation-name: wpbotvoicemessage-fade-out;
+            animation-name: wpbotvoicemessage-fade-out;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-duration: .4s;
+            animation-duration: .4s; }
+
+.vmwbmdp-wpbotvoicemessage-before-txt {
+  padding: 12px 0; }
+
+.vmwbmdp-wpbotvoicemessage-after-txt {
+  padding: 12px 0; }
+
+.vmwbmdp-wpbotvoicemessage-recording-animation {
+  width: 100%; }
+  .vmwbmdp-wpbotvoicemessage-recording-animation canvas {
+    max-width: 384px;
+    width: 100%; }
+
+.vmwbmdp-wpbotvoicemessage-send-box form {
+  width: 100%; }
+
+.form-group {
+  padding-top: 12px; }
+
+.form-wrap label {
+  font-size: 15px; }
+
+.fb-checkbox {
+  display: flex;
+  align-items: center; }
+
+.fb-radio {
+  display: flex;
+  align-items: center; }
+
+.form-control {
+  width: 100% !important;
+  border: 1px solid #ccc !important; }
+
+.fb-text.field-vmwbmdpCurrentURL-preview,
+.fb-text.field-vmwbmdpUserDetails-preview {
+  display: none; }
+
+.rendered-form .field-vmwbmdpUserDetails,
+.rendered-form .field-vmwbmdpCurrentURL {
+  display: none; }
+
+.frmb-control .input-control-14:before,
+.frmb-control .input-control-15:before {
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg enable-background='new 0 0 512 512' height='512' viewBox='0 0 512 512' width='512' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%230274e6' d='m256 0c-141.159 0-256 114.841-256 256s114.841 256 256 256 256-114.841 256-256-114.841-256-256-256zm0 482c-124.617 0-226-101.383-226-226s101.383-226 226-226 226 101.383 226 226-101.383 226-226 226z'/%3E%3Cpath fill='%230274e6' d='m256 270c57.897 0 105-47.103 105-105s-47.103-105-105-105-105 47.103-105 105 47.103 105 105 105zm0-180c41.355 0 75 33.645 75 75s-33.645 75-75 75-75-33.645-75-75 33.645-75 75-75z'/%3E%3Cpath fill='%230274e6' d='m424.649 335.443c-19.933-22.525-48.6-35.443-78.649-35.443h-180c-30.049 0-58.716 12.918-78.649 35.443l-7.11 8.035 5.306 9.325c34.817 61.187 100.131 99.197 170.453 99.197s135.636-38.01 170.454-99.198l5.306-9.325zm-168.649 86.557c-55.736 0-107.761-28.197-138.383-74.295 13.452-11.352 30.579-17.705 48.383-17.705h180c17.804 0 34.931 6.353 48.383 17.705-30.622 46.098-82.647 74.295-138.383 74.295z'/%3E%3C/svg%3E");
+  height: 16px;
+  width: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.frmb-control .input-control-14:before {
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 511.997 511.997' style='enable-background:new 0 0 511.997 511.997;' xml:space='preserve'%3E%3Cpath fill='%230274e6' d='M211.26,389.24l-60.331,60.331c-25.012,25.012-65.517,25.012-90.508,0.005c-24.996-24.996-24.996-65.505-0.005-90.496 l120.683-120.683c24.991-24.992,65.5-24.992,90.491,0c8.331,8.331,21.839,8.331,30.17,0c8.331-8.331,8.331-21.839,0-30.17 c-41.654-41.654-109.177-41.654-150.831,0L30.247,328.909c-41.654,41.654-41.654,109.177,0,150.831 c41.649,41.676,109.177,41.676,150.853,0l60.331-60.331c8.331-8.331,8.331-21.839,0-30.17S219.591,380.909,211.26,389.24z'/%3E%3Cpath fill='%230274e6' d='M479.751,30.24c-41.654-41.654-109.199-41.654-150.853,0l-72.384,72.384c-8.331,8.331-8.331,21.839,0,30.17 c8.331,8.331,21.839,8.331,30.17,0l72.384-72.384c24.991-24.992,65.521-24.992,90.513,0c24.991,24.991,24.991,65.5,0,90.491 L316.845,283.638c-24.992,24.992-65.5,24.992-90.491,0c-8.331-8.331-21.839-8.331-30.17,0s-8.331,21.839,0,30.17 c41.654,41.654,109.177,41.654,150.831,0l132.736-132.736C521.405,139.418,521.405,71.894,479.751,30.24z'/%3E%3C/svg%3E%0A"); }
+
+/* Start Record Button */
+.vmwbmdp-wpbotvoicemessage-start-btn-box {
+  display: inline-block;
+  /* Hover animations */
+}
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-entrance-bounce {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-bounce;
+            animation-name: wpbotvoicemessage-bounce;
+    -webkit-animation-duration: .6s;
+            animation-duration: .6s; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-entrance-fade {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-fade;
+            animation-name: wpbotvoicemessage-fade;
+    -webkit-animation-duration: .6s;
+            animation-duration: .6s; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-entrance-flip-x {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-flip-x;
+            animation-name: wpbotvoicemessage-flip-x;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-entrance-flip-y {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-flip-y;
+            animation-name: wpbotvoicemessage-flip-y;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-entrance-scale {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-scale;
+            animation-name: wpbotvoicemessage-scale;
+    -webkit-animation-duration: .4s;
+            animation-duration: .4s; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-entrance-wobble {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-wobble;
+            animation-name: wpbotvoicemessage-wobble;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-entrance-rotate {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-rotate;
+            animation-name: wpbotvoicemessage-rotate;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-bounce button:hover span, .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-fade button:hover span, .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-flip-x button:hover span, .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-flip-y button:hover span, .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-scale button:hover span, .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-rotate button:hover span, .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-wobble button:hover span {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both; }
+    .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-bounce button:hover span:nth-child(2), .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-fade button:hover span:nth-child(2), .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-flip-x button:hover span:nth-child(2), .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-flip-y button:hover span:nth-child(2), .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-scale button:hover span:nth-child(2), .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-rotate button:hover span:nth-child(2), .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-wobble button:hover span:nth-child(2) {
+      -webkit-animation-delay: .1s;
+              animation-delay: .1s; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-bounce button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-bounce;
+            animation-name: wpbotvoicemessage-bounce;
+    -webkit-animation-duration: .6s;
+            animation-duration: .6s; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-fade button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-fade;
+            animation-name: wpbotvoicemessage-fade;
+    -webkit-animation-duration: .6s;
+            animation-duration: .6s; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-flip-x button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-flip-x;
+            animation-name: wpbotvoicemessage-flip-x;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-flip-y button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-flip-y;
+            animation-name: wpbotvoicemessage-flip-y;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-scale button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-scale;
+            animation-name: wpbotvoicemessage-scale;
+    -webkit-animation-duration: .4s;
+            animation-duration: .4s; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-rotate button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-rotate;
+            animation-name: wpbotvoicemessage-rotate;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box.vmwbmdp-hover-wobble button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-wobble;
+            animation-name: wpbotvoicemessage-wobble;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-start-btn-box .vmwbmdp-wpbotvoicemessage-start-btn {
+    display: flex;
+    align-items: center;
+    text-decoration: none; }
+    .vmwbmdp-wpbotvoicemessage-start-btn-box .vmwbmdp-wpbotvoicemessage-start-btn .vmwbmdp-wpbotvoicemessage-start-btn-icon {
+      display: flex;
+      align-self: center; }
+    .vmwbmdp-wpbotvoicemessage-start-btn-box .vmwbmdp-wpbotvoicemessage-start-btn.vmwbmdp-icon-position-before {
+      flex-direction: row; }
+      .vmwbmdp-wpbotvoicemessage-start-btn-box .vmwbmdp-wpbotvoicemessage-start-btn.vmwbmdp-icon-position-before span:nth-child(2) {
+        padding-top: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 0 !important; }
+    .vmwbmdp-wpbotvoicemessage-start-btn-box .vmwbmdp-wpbotvoicemessage-start-btn.vmwbmdp-icon-position-after {
+      flex-direction: row-reverse; }
+      .vmwbmdp-wpbotvoicemessage-start-btn-box .vmwbmdp-wpbotvoicemessage-start-btn.vmwbmdp-icon-position-after span:nth-child(2) {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        padding-left: 0 !important; }
+    .vmwbmdp-wpbotvoicemessage-start-btn-box .vmwbmdp-wpbotvoicemessage-start-btn.vmwbmdp-icon-position-above {
+      flex-direction: column; }
+      .vmwbmdp-wpbotvoicemessage-start-btn-box .vmwbmdp-wpbotvoicemessage-start-btn.vmwbmdp-icon-position-above span:nth-child(2) {
+        padding-right: 0 !important;
+        padding-bottom: 0 !important;
+        padding-left: 0 !important; }
+    .vmwbmdp-wpbotvoicemessage-start-btn-box .vmwbmdp-wpbotvoicemessage-start-btn.vmwbmdp-icon-position-bellow {
+      flex-direction: column-reverse; }
+      .vmwbmdp-wpbotvoicemessage-start-btn-box .vmwbmdp-wpbotvoicemessage-start-btn.vmwbmdp-icon-position-bellow span:nth-child(2) {
+        padding-top: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important; }
+
+/* Buttons */
+.vmwbmdp-speak-now-btns,
+.vmwbmdp-wpbotvoicemessage-reset-box,
+.vmwbmdp-send-btns {
+}
+  .vmwbmdp-speak-now-btns.vmwbmdp-entrance-bounce,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-entrance-bounce,
+  .vmwbmdp-send-btns.vmwbmdp-entrance-bounce {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-bounce;
+            animation-name: wpbotvoicemessage-bounce;
+    -webkit-animation-duration: .6s;
+            animation-duration: .6s; }
+  .vmwbmdp-speak-now-btns.vmwbmdp-entrance-fade,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-entrance-fade,
+  .vmwbmdp-send-btns.vmwbmdp-entrance-fade {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-fade;
+            animation-name: wpbotvoicemessage-fade;
+    -webkit-animation-duration: .6s;
+            animation-duration: .6s; }
+  .vmwbmdp-speak-now-btns.vmwbmdp-entrance-flip-x,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-entrance-flip-x,
+  .vmwbmdp-send-btns.vmwbmdp-entrance-flip-x {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-flip-x;
+            animation-name: wpbotvoicemessage-flip-x;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-speak-now-btns.vmwbmdp-entrance-flip-y,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-entrance-flip-y,
+  .vmwbmdp-send-btns.vmwbmdp-entrance-flip-y {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-flip-y;
+            animation-name: wpbotvoicemessage-flip-y;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-speak-now-btns.vmwbmdp-entrance-scale,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-entrance-scale,
+  .vmwbmdp-send-btns.vmwbmdp-entrance-scale {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-scale;
+            animation-name: wpbotvoicemessage-scale;
+    -webkit-animation-duration: .4s;
+            animation-duration: .4s; }
+  .vmwbmdp-speak-now-btns.vmwbmdp-entrance-wobble,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-entrance-wobble,
+  .vmwbmdp-send-btns.vmwbmdp-entrance-wobble {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-wobble;
+            animation-name: wpbotvoicemessage-wobble;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-speak-now-btns.vmwbmdp-entrance-rotate,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-entrance-rotate,
+  .vmwbmdp-send-btns.vmwbmdp-entrance-rotate {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-rotate;
+            animation-name: wpbotvoicemessage-rotate;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s; }
+  .vmwbmdp-speak-now-btns.vmwbmdp-hover-bounce button:hover span, .vmwbmdp-speak-now-btns.vmwbmdp-hover-fade button:hover span, .vmwbmdp-speak-now-btns.vmwbmdp-hover-flip-x button:hover span, .vmwbmdp-speak-now-btns.vmwbmdp-hover-flip-y button:hover span, .vmwbmdp-speak-now-btns.vmwbmdp-hover-scale button:hover span, .vmwbmdp-speak-now-btns.vmwbmdp-hover-rotate button:hover span, .vmwbmdp-speak-now-btns.vmwbmdp-hover-wobble button:hover span,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-bounce button:hover span,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-fade button:hover span,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-flip-x button:hover span,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-flip-y button:hover span,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-scale button:hover span,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-rotate button:hover span,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-wobble button:hover span,
+  .vmwbmdp-send-btns.vmwbmdp-hover-bounce button:hover span,
+  .vmwbmdp-send-btns.vmwbmdp-hover-fade button:hover span,
+  .vmwbmdp-send-btns.vmwbmdp-hover-flip-x button:hover span,
+  .vmwbmdp-send-btns.vmwbmdp-hover-flip-y button:hover span,
+  .vmwbmdp-send-btns.vmwbmdp-hover-scale button:hover span,
+  .vmwbmdp-send-btns.vmwbmdp-hover-rotate button:hover span,
+  .vmwbmdp-send-btns.vmwbmdp-hover-wobble button:hover span {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both; }
+    .vmwbmdp-speak-now-btns.vmwbmdp-hover-bounce button:hover span:nth-child(2), .vmwbmdp-speak-now-btns.vmwbmdp-hover-fade button:hover span:nth-child(2), .vmwbmdp-speak-now-btns.vmwbmdp-hover-flip-x button:hover span:nth-child(2), .vmwbmdp-speak-now-btns.vmwbmdp-hover-flip-y button:hover span:nth-child(2), .vmwbmdp-speak-now-btns.vmwbmdp-hover-scale button:hover span:nth-child(2), .vmwbmdp-speak-now-btns.vmwbmdp-hover-rotate button:hover span:nth-child(2), .vmwbmdp-speak-now-btns.vmwbmdp-hover-wobble button:hover span:nth-child(2),
+    .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-bounce button:hover span:nth-child(2),
+    .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-fade button:hover span:nth-child(2),
+    .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-flip-x button:hover span:nth-child(2),
+    .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-flip-y button:hover span:nth-child(2),
+    .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-scale button:hover span:nth-child(2),
+    .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-rotate button:hover span:nth-child(2),
+    .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-wobble button:hover span:nth-child(2),
+    .vmwbmdp-send-btns.vmwbmdp-hover-bounce button:hover span:nth-child(2),
+    .vmwbmdp-send-btns.vmwbmdp-hover-fade button:hover span:nth-child(2),
+    .vmwbmdp-send-btns.vmwbmdp-hover-flip-x button:hover span:nth-child(2),
+    .vmwbmdp-send-btns.vmwbmdp-hover-flip-y button:hover span:nth-child(2),
+    .vmwbmdp-send-btns.vmwbmdp-hover-scale button:hover span:nth-child(2),
+    .vmwbmdp-send-btns.vmwbmdp-hover-rotate button:hover span:nth-child(2),
+    .vmwbmdp-send-btns.vmwbmdp-hover-wobble button:hover span:nth-child(2) {
+      -webkit-animation-delay: .1s;
+              animation-delay: .1s; }
+  .vmwbmdp-speak-now-btns.vmwbmdp-hover-bounce button:hover span,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-bounce button:hover span,
+  .vmwbmdp-send-btns.vmwbmdp-hover-bounce button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-bounce;
+            animation-name: wpbotvoicemessage-bounce;
+    -webkit-animation-duration: .6s;
+            animation-duration: .6s; }
+  .vmwbmdp-speak-now-btns.vmwbmdp-hover-fade button:hover span,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-fade button:hover span,
+  .vmwbmdp-send-btns.vmwbmdp-hover-fade button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-fade;
+            animation-name: wpbotvoicemessage-fade;
+    -webkit-animation-duration: .6s;
+            animation-duration: .6s; }
+  .vmwbmdp-speak-now-btns.vmwbmdp-hover-flip-x button:hover span,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-flip-x button:hover span,
+  .vmwbmdp-send-btns.vmwbmdp-hover-flip-x button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-flip-x;
+            animation-name: wpbotvoicemessage-flip-x;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-speak-now-btns.vmwbmdp-hover-flip-y button:hover span,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-flip-y button:hover span,
+  .vmwbmdp-send-btns.vmwbmdp-hover-flip-y button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-flip-y;
+            animation-name: wpbotvoicemessage-flip-y;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-speak-now-btns.vmwbmdp-hover-scale button:hover span,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-scale button:hover span,
+  .vmwbmdp-send-btns.vmwbmdp-hover-scale button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-scale;
+            animation-name: wpbotvoicemessage-scale;
+    -webkit-animation-duration: .4s;
+            animation-duration: .4s; }
+  .vmwbmdp-speak-now-btns.vmwbmdp-hover-rotate button:hover span,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-rotate button:hover span,
+  .vmwbmdp-send-btns.vmwbmdp-hover-rotate button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-rotate;
+            animation-name: wpbotvoicemessage-rotate;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s; }
+  .vmwbmdp-speak-now-btns.vmwbmdp-hover-wobble button:hover span,
+  .vmwbmdp-wpbotvoicemessage-reset-box.vmwbmdp-hover-wobble button:hover span,
+  .vmwbmdp-send-btns.vmwbmdp-hover-wobble button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-wobble;
+            animation-name: wpbotvoicemessage-wobble;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-speak-now-btns button span,
+  .vmwbmdp-wpbotvoicemessage-reset-box button span,
+  .vmwbmdp-send-btns button span {
+    display: block; }
+
+/* Floating Button */
+.vmwbmdp-wpbotvoicemessage-fbutton-box {
+  position: fixed;
+  z-index: 999;
+}
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.top-left {
+    top: 0;
+    left: 0; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.top-right {
+    top: 0;
+    right: 0; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.left-center {
+    top: 50%;
+    left: 0;
+    transform: translate(0%, -50%); }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.right-center {
+    top: 50%;
+    right: 0;
+    transform: translate(0%, -50%); }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.bottom-left {
+    bottom: 0;
+    left: 0; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.bottom-center {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%); }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.bottom-right {
+    bottom: 0;
+    right: 0; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-entrance-bounce {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-bounce;
+            animation-name: wpbotvoicemessage-bounce;
+    -webkit-animation-duration: .6s;
+            animation-duration: .6s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-entrance-fade {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-fade;
+            animation-name: wpbotvoicemessage-fade;
+    -webkit-animation-duration: .6s;
+            animation-duration: .6s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-entrance-flip-x {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-flip-x;
+            animation-name: wpbotvoicemessage-flip-x;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-entrance-flip-y {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-flip-y;
+            animation-name: wpbotvoicemessage-flip-y;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-entrance-scale {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-scale;
+            animation-name: wpbotvoicemessage-scale;
+    -webkit-animation-duration: .4s;
+            animation-duration: .4s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-entrance-wobble {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-wobble;
+            animation-name: wpbotvoicemessage-wobble;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-entrance-rotate {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-animation-name: wpbotvoicemessage-rotate;
+            animation-name: wpbotvoicemessage-rotate;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-bounce button:hover span, .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-fade button:hover span, .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-flip-x button:hover span, .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-flip-y button:hover span, .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-scale button:hover span, .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-rotate button:hover span, .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-wobble button:hover span {
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both; }
+    .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-bounce button:hover span:nth-child(2), .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-fade button:hover span:nth-child(2), .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-flip-x button:hover span:nth-child(2), .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-flip-y button:hover span:nth-child(2), .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-scale button:hover span:nth-child(2), .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-rotate button:hover span:nth-child(2), .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-wobble button:hover span:nth-child(2) {
+      -webkit-animation-delay: .1s;
+              animation-delay: .1s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-bounce button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-bounce;
+            animation-name: wpbotvoicemessage-bounce;
+    -webkit-animation-duration: .6s;
+            animation-duration: .6s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-fade button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-fade;
+            animation-name: wpbotvoicemessage-fade;
+    -webkit-animation-duration: .6s;
+            animation-duration: .6s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-flip-x button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-flip-x;
+            animation-name: wpbotvoicemessage-flip-x;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-flip-y button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-flip-y;
+            animation-name: wpbotvoicemessage-flip-y;
+    -webkit-animation-duration: .8s;
+            animation-duration: .8s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-scale button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-scale;
+            animation-name: wpbotvoicemessage-scale;
+    -webkit-animation-duration: .4s;
+            animation-duration: .4s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-rotate button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-rotate;
+            animation-name: wpbotvoicemessage-rotate;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box.vmwbmdp-hover-wobble button:hover span {
+    -webkit-animation-name: wpbotvoicemessage-wobble;
+            animation-name: wpbotvoicemessage-wobble;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+    -webkit-backface-visibility: visible !important;
+            backface-visibility: visible !important; }
+  .vmwbmdp-wpbotvoicemessage-fbutton-box button {
+    display: flex;
+    align-items: center;
+    outline: none;
+    /* Icon position */ }
+    .vmwbmdp-wpbotvoicemessage-fbutton-box button:hover, .vmwbmdp-wpbotvoicemessage-fbutton-box button:focus {
+      text-decoration: none; }
+    .vmwbmdp-wpbotvoicemessage-fbutton-box button .vmwbmdp-wpbotvoicemessage-fbutton-icon {
+      display: flex;
+      align-self: center; }
+    .vmwbmdp-wpbotvoicemessage-fbutton-box button.vmwbmdp-icon-position-before {
+      flex-direction: row; }
+      .vmwbmdp-wpbotvoicemessage-fbutton-box button.vmwbmdp-icon-position-before span:nth-child(2) {
+        padding-top: 0 !important;
+        padding-right: 0 !important;
+        padding-bottom: 0 !important; }
+    .vmwbmdp-wpbotvoicemessage-fbutton-box button.vmwbmdp-icon-position-after {
+      flex-direction: row-reverse; }
+      .vmwbmdp-wpbotvoicemessage-fbutton-box button.vmwbmdp-icon-position-after span:nth-child(2) {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        padding-left: 0 !important; }
+    .vmwbmdp-wpbotvoicemessage-fbutton-box button.vmwbmdp-icon-position-above {
+      flex-direction: column; }
+      .vmwbmdp-wpbotvoicemessage-fbutton-box button.vmwbmdp-icon-position-above span:nth-child(2) {
+        padding-right: 0 !important;
+        padding-bottom: 0 !important;
+        padding-left: 0 !important; }
+    .vmwbmdp-wpbotvoicemessage-fbutton-box button.vmwbmdp-icon-position-bellow {
+      flex-direction: column-reverse; }
+      .vmwbmdp-wpbotvoicemessage-fbutton-box button.vmwbmdp-icon-position-bellow span:nth-child(2) {
+        padding-top: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important; }
+    .vmwbmdp-wpbotvoicemessage-fbutton-box button span,
+    .vmwbmdp-wpbotvoicemessage-fbutton-box button span path {
+      transition: all .15s linear; }
+
+/* For all buttons */
+.vmwbmdp-wpbotvoicemessage-form-box button, .vmwbmdp-wpbotvoicemessage-form-box button:hover, .vmwbmdp-wpbotvoicemessage-form-box button:focus, .vmwbmdp-wpbotvoicemessage-form-box button:active, .vmwbmdp-wpbotvoicemessage-form-box button:visited {
+  outline: none; }
+
+.vmwbmdp-wpbotvoicemessage-modal-opened .vmwbmdp-wpbotvoicemessage-fbutton-box {
+  transition: .5s;
+  opacity: 0;
+  display: none; }
+
+
+/*
+  Custom CSS
+*/
+.vmwbmdp-wpbotvoicemessage-fbutton-box button,
+.vmwbmdp-wpbotvoicemessage-fbutton-overlay,
+.vmwbmdp-wpbotvoicemessage-start-btn-box .vmwbmdp-wpbotvoicemessage-start-btn{
+  background: #486274 !important;
+}
+.vmwbmdp-wpbotvoicemessage-fbutton-box:hover button {
+  color: #486274 !important;
+  background: #fff !important;
+  fill: #486274 !important;
+}
+.vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-wpbotvoicemessage-start-btn:not(.vmwbmdp-wpbotvoicemessage-custom):hover{
+  fill: #fff !important;
+  color: #fff !important;
+}
+.vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-wpbotvoicemessage-start-btn:not(.vmwbmdp-wpbotvoicemessage-custom):hover svg{
+  fill: #fff !important;
+  color: #fff !important;
+  background: #486274 !important;
+}
+.vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-send-rec-btn,
+.vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-reset-rec-btn,
+.vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-restart {
+    background: #486274 !important;
+}
+.vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-send-rec-btn:hover,
+.vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-reset-rec-btn:hover,
+.vmwbmdp-wpbotvoicemessage-form-box .vmwbmdp-restart:hover{
+    color: #486274 !important;
+    background: #fff !important;
+    box-shadow: 1px 1px 4px #486274 !important;
+} 
+.vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .slider .gap-progress,
+.vmwbmdp-wpbotvoicemessage-player-box.green-audio-player .slider .gap-progress .pin{
+  background: #486274 !important;
+}
+.vmwbmdp-wpbotvoicemessage-fbutton-overlay{
+  z-index: 999999 !important;
+}
+#vmwbmdp-wpbotvoicemessage-fbutton{
+  display: none !important;
+}
+.vmwbmdp-wpbotvoicemessage-fbutton-overlay {
+    left: inherit;
+    top: inherit;
+    transform: none;
+    position: inherit;
+    padding: inherit;
+    width: inherit;
+    max-width: inherit;
+}
+.vmwbmdp-wpbotvoicemessage-fbutton-overlay{
+    position: fixed;
+    z-index: 999998;
+    right: 10px;
+    bottom: 100px;
+    border-radius: 10px;
+    background: transparent !important;
+}
+.vmwbmdp-wpbotvoicemessage-fbutton-overlay.vmwbmdp-wpbotvoicemessage-modal-animation-fade .vmwbmdp-wpbotvoicemessage-modal-wrap{
+    width: 100%;
+    height: auto;
+}
+.vmwbmdp-wpbotvoicemessage-fbutton-modal{
+    height: auto;
+    background: #fff;
+    width: 340px;
+    position: relative;
+    box-shadow: 4px 19px 88px #dedede;
+    padding: 50px;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    z-index: 9999999999;
+    border-radius: 50%;
+}
+.vmwbmdp-wpbotvoicemessage-fbutton-overlay .vmwbmdp-wpbotvoicemessage-fbutton-modal{
+    left: inherit;
+    top: inherit;
+    transform: none;
+    position: relative;
+    background: #ffffff !important;
+    border-radius: 100% !important;
+    border: 1px solid transparent;
+    width: 380px;
+    width: 350px;
+    padding: 50px;
+}
+.vmwbmdp-wpbotvoicemessage-close{
+    position: absolute;
+    background-color: #009bc1;
+    background-image: url(../images/captch-refresh.png);
+    background-repeat: no-repeat;
+    background-position: -31px 0px;
+    width: 30px !important;
+    height: 30px !important;
+    line-height: 30px;
+    font-size: 20px;
+    top: 17px !important;
+    right: 57px !important;
+    text-align: center;
+    border-radius: 50px;
+    cursor: pointer;
+    opacity: 1 !important;
+    z-index: 99999 !important;
+}
+.vmwbmdp-wpbotvoicemessage-close:before,
+.vmwbmdp-wpbotvoicemessage-close:after{
+    display: none !important;
+}
+.vmwbmdp-wpbotvoicemessage-fbutton-modal:before {
+    content: "";
+    position: absolute;
+    right: 95px;
+    bottom: -14px;
+    width: 100px;
+    height: 34px;
+    display: block;
+    background-image: url(../images/circle-arrow.png);
+    background-repeat: no-repeat;
+}
+.vmwbmdp-wpbotvoicemessage-fbutton-modal .fb-text-label,
+.vmwbmdp-wpbotvoicemessage-fbutton-modal .fb-select-label,
+.vmwbmdp-wpbotvoicemessage-fbutton-modal .fb-textarea-label{
+  display: none;
+}

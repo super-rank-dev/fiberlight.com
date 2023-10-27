@@ -1,0 +1,82 @@
+/* css for custom table */
+
+/* Table Css for slider list page */
+.qchero_slider_table_area{margin-top: 20px;}
+
+
+
+.sld_payment_table {
+  margin: 0 0 40px 0;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: table;
+}
+.sld_responsive_head{
+  display:none;
+}
+
+
+#sld_page_check{display: block;
+    overflow: hidden;
+    position: relative;
+    left: -185%;top: -39px;}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+  .sld_payment_cell {
+    display: block !important;
+  }
+  .sld_payment_row {
+    display: block !important;
+  }
+  .header{display:none !important;}
+  .sld_responsive_head{
+
+    display: block;
+    float: left;
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+
+  #sld_page_check{left: 0%;top: 0px;}
+}
+
+
+.sld_payment_row {
+  display: table-row;
+  background: #fff;
+}
+.sld_payment_row:nth-of-type(odd) {
+  background: #e9e9e9;
+}
+.sld_payment_row.header {
+  font-weight: 900;
+
+  background: #0073aa;
+}
+.sld_payment_row.header .sld_payment_cell{
+  color:#fff;
+}
+.sld_payment_cell {
+  padding: 15px 12px;
+  display: table-cell;
+  color: #555;
+  vertical-align: middle;
+}
+
+.sld_menu_title,.form_wrapper_sliderhero{
+  background-color: #fff;
+  padding: 15px;
+  border-left: 3px solid #0073aa;
+  margin-top: 12px;
+}
+.sld_menu_title h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: normal;
+}

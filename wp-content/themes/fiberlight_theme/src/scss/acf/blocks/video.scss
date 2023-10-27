@@ -1,0 +1,134 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../../vendor/bootstrap-5.2.2/scss/bootstrap-utilities";
+@import "../../core/site_variables";
+
+
+.video{
+  position: relative;
+  min-height: 200px;
+  margin-bottom: -30px;
+  padding: $sectionPadding 0px ;
+  @import "../clone/section-padding";
+
+  .container,
+  .container-fluid{
+    position: relative;
+    z-index: 10;
+    transform: translate(0, -30px);
+  }  
+
+  .video-description{
+    position: relative;
+    z-index: 10;
+    width: calc(100% + 60px);
+    padding: 30px;
+
+    @include media-breakpoint-down(lg){
+      width: 100%;
+    }
+
+    p{
+      color: var(--wp--preset--color--fl-white)!important;
+      font-size: $font-size-base * .9;
+      line-height: $font-size-base * 1.1;
+
+      &:last-child{
+        margin-bottom: 0px;
+      }
+    }
+
+
+    .bar{
+      right: -5px;
+      top: 50%;
+      transform: translate(0, -50%);
+      height: 60%;
+      width: 10px;
+      display: block;
+      position: absolute;
+      &-green{
+        background-color: var(--wp--preset--color--fl-green);
+      }
+    }
+  }
+
+  .video-wrap{
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+
+    .btn-play-icon{
+      position: absolute;
+      z-index: 20;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-image: url(/wp-content/themes/fiberlight_theme/dist/images/btn_video_play.svg);
+      background-size: 100px 100px;
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 100px;
+    }
+
+    .darken{
+      position: absolute;
+      z-index: 15;
+      background-color: rgba(0, 0, 0, .5);
+      width: 100%; 
+      height: 100%;
+    }
+    .picture-wrap{
+      position: absolute;
+      z-index: 10;
+      width: 100%;
+      height: 100%;
+  
+      img{
+        object-fit: cover;
+        object-position: center center;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .vimeo-video{
+      position: absolute;
+      z-index: 5;
+    }
+
+  }
+  .embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+  
+    .embed-responsive-item,
+    iframe,
+    embed,
+    object,
+    video {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  }
+  
+  // Modifier class for 16:9 aspect ratio
+  .embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+  }
+  
+  // Modifier class for 4:3 aspect ratio
+  .embed-responsive-4by3 {
+    padding-bottom: 75%;
+  }
+}

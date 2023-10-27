@@ -1,0 +1,53 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+
+
+.content-layout-10{
+  position: relative;
+  padding: $sectionPadding 0px ;
+  @import "../clone/section-padding";
+  
+  .container,
+  .container-fluid{
+    position: relative;
+    z-index: 10;
+  }  
+
+  .darken{
+    position: absolute;
+    top: 0;
+    left: calc(var(--bs-gutter-x) * .5);
+    z-index: 10;
+    width: calc(100% - var(--bs-gutter-x));
+    height: 100%;
+    background-color: var(--wp--preset--color--fl-light-blue);
+    opacity: .7;
+  }
+
+  .image-wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    img{
+      object-fit: cover;
+      object-position: center center;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .content{
+    position: absolute;
+    z-index: 15;
+    padding: 30px;
+    width: calc(100% - var(--bs-gutter-x));
+    height: auto;
+  }
+
+}
+
+

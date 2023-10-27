@@ -1,0 +1,48 @@
+.acf-flexible-content .layout {
+  background-color: white;
+  margin-bottom: 50px; }
+  .acf-flexible-content .layout > .acf-fields > .acf-field {
+    border-color: #cfcfcf; }
+  .acf-flexible-content .layout .acf-fc-layout-handle {
+    font-size: 15px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    background-color: #32373c;
+    color: white;
+    padding: 25px 10px; }
+  .acf-flexible-content .layout .acf-fc-layout-controlls {
+    top: 28px; }
+
+.acf-flexible-content .layout .layout {
+  background-color: #f2f2f2;
+  margin-bottom: -5px; }
+  .acf-flexible-content .layout .layout:last-child {
+    margin-bottom: 15px; }
+  .acf-flexible-content .layout .layout .acf-fc-layout-handle {
+    background-color: #636c75;
+    padding: 15px 10px; }
+  .acf-flexible-content .layout .layout .acf-fc-layout-controlls {
+    top: 17px; }
+
+.acf-flexible-content .layout .layout .layout {
+  background-color: white;
+  padding-bottom: 0;
+  margin-bottom: -10px; }
+  .acf-flexible-content .layout .layout .layout:last-child {
+    background-color: white;
+    padding-bottom: 0;
+    margin-bottom: 20px; }
+  .acf-flexible-content .layout .layout .layout > .acf-fields > .acf-field {
+    border-color: #eee; }
+  .acf-flexible-content .layout .layout .layout .acf-fc-layout-handle {
+    background-color: #8f969c;
+    padding: 8px 10px; }
+  .acf-flexible-content .layout .layout .layout .acf-fc-layout-controlls {
+    top: 10px; }
+
+.dev-links > a {
+  background-color: #0073aa !important;
+  transition: all .25s !important; }
+  .dev-links > a:hover {
+    background-color: #FFF !important;
+    color: #0073aa !important; }

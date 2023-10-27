@@ -1,0 +1,205 @@
+{
+    "key": "group_5952c6ec81122",
+    "title": "Button Group - Clone",
+    "fields": [
+        {
+            "key": "field_5952c6ec878f6",
+            "label": "Button Text",
+            "name": "button_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5952c6ec87981",
+            "label": "Button Color",
+            "name": "button_color",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "primary": "Primary",
+                "secondary": "Secondary"
+            },
+            "default_value": [
+                "blue"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5952c6ec879fa",
+            "label": "Button Size",
+            "name": "button_size",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "normal": "Normal",
+                "large": "Large"
+            },
+            "default_value": [
+
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5952c6ec87a71",
+            "label": "Open in a New Tab",
+            "name": "open_in_a_new_tab",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0
+        },
+        {
+            "key": "field_5952c6ec87ae5",
+            "label": "URL Type",
+            "name": "url_type",
+            "type": "radio",
+            "instructions": "Please pick a URL Type. If you pick WordPress Content you will be able to search for content existing on this site. If you pick URL you will need to supply the URL to which this button will link.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "URL": "URL",
+                "WordPress Content": "WordPress Content"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "save_other_choice": 0,
+            "default_value": "URL",
+            "layout": "vertical",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5952c6ec87b59",
+            "label": "WordPress Content",
+            "name": "wordpress_content",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5952c6ec87ae5",
+                        "operator": "==",
+                        "value": "WordPress Content"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+
+            ],
+            "taxonomy": [
+
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "id",
+            "ui": 1
+        },
+        {
+            "key": "field_5952c6ec87bcd",
+            "label": "URL",
+            "name": "url",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5952c6ec87ae5",
+                        "operator": "==",
+                        "value": "URL"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            },
+            {
+                "param": "post_type",
+                "operator": "!=",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1498597110
+}

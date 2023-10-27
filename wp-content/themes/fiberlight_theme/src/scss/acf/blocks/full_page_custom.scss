@@ -1,0 +1,35 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+
+.full-page-custom{
+  position: relative;
+  // min-height: 100vh;
+  // height: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: calc(200px + #{$headerHeight});
+  padding-bottom: calc(200px + #{$headerHeight});
+
+  // @include media-breakpoint-up(md){
+  //   scroll-snap-align: start;
+  // }
+  @include media-breakpoint-down(xl){
+    padding-top: calc(100px + #{$headerHeight});
+    padding-bottom: calc(100px + #{$headerHeight});
+  }
+  @include media-breakpoint-down(md){
+    height: 100%;
+    padding-top: calc(40px + #{$headerHeight});
+    padding-bottom: $headerHeight + (230px / 2);
+  }
+
+
+  .container,
+  .container-fluid{
+    position: relative;
+    z-index: 10;
+  }  
+}

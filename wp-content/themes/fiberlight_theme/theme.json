@@ -1,0 +1,274 @@
+{
+	"version": 2.2,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [{
+					"slug": "background",
+					"color": "#ffffff",
+					"name": "Background"
+				},
+				{
+					"slug": "foreground",
+					"color": "#000000",
+					"name": "Foreground"
+				},
+				{
+					"slug": "fl-white",
+					"color": "#ffffff",
+					"name": "White"
+				},
+				{
+					"slug": "fl-black",
+					"color": "#000000",
+					"name": "Black"
+				},
+				{
+					"slug": "fl-tan",
+					"color": "#edf4ed",
+					"name": "Tan"
+				},
+				{
+					"slug": "fl-gray",
+					"color": "#d2d8d2",
+					"name": "Gray"
+				},
+				{
+					"slug": "fl-med-blue",
+					"color": "#264f5c",
+					"name": "Medium Blue"
+				},
+				{
+					"slug": "fl-dark-blue",
+					"color": "#0a2239",
+					"name": "Dark Blue"
+				},
+				{
+					"slug": "fl-light-blue",
+					"color": "#258ea6",
+					"name": "Light Blue"
+				},
+				{
+					"slug": "fl-light-light-blue",
+					"color": "#74c1ce",
+					"name": "Light Light Blue"
+				},
+				{
+					"slug": "fl-green",
+					"color": "#72b01d",
+					"name": "Green"
+				},
+				{
+					"slug": "transparent",
+					"color": "transparent",
+					"name": "Transparent"
+				}
+			],
+			"gradients": [
+				{
+					"slug": "fl-gradient-tan",
+					"gradient": "linear-gradient(90deg,#edf4ed 0%,#d2d8d2 100%)",
+					"name": "Gradient Tan"
+				},
+				{
+					"slug": "fl-gradient-white",
+					"gradient": "linear-gradient(90deg,#ffffff 0%,#d2d8d2 100%)",
+					"name": "Gradient Tan"
+				},
+				{
+					"slug": "fl-gradient-green",
+					"gradient": "linear-gradient(90deg,#72b01d 0%,#5d8918 100%)",
+					"name": "Gradient Green"
+				},
+				{
+					"slug": "fl-gradient-light-light-blue",
+					"gradient": "linear-gradient(90deg,#258ea6 0%,#74c1ce 100%)",
+					"name": "Gradient Light Lighter Blue"
+				},
+				{
+					"slug": "fl-gradient-light-blue",
+					"gradient": "linear-gradient(90deg,#258ea6 0%,#165067 100%)",
+					"name": "Gradient Light Blue"
+				},
+				{
+					"slug": "fl-gradient-med-blue",
+					"gradient": "linear-gradient(90deg,#0a2239 0%,#165067 100%)",
+					"name": "Gradient Medium Blue"
+				},
+				{
+					"slug": "fl-gradient-light-dark-blue",
+					"gradient": "linear-gradient(90deg,#258ea6 0%,#0a2239 100%)",
+					"name": "Gradient Light Dark Blue"
+				},
+				{
+					"slug": "fl-gradient-dark-blue",
+					"gradient": "linear-gradient(90deg,#0a2239 0%,#091b28 100%)",
+					"name": "Gradient Dark Blue"
+				}
+			]
+		},
+		"spacing": {
+			"units": ["px", "em", "rem", "vh", "vw", "%"]
+		},
+		"layout": {
+			"contentSize": "1320px"
+		},
+		"typography": {
+			"dropCap": false,
+			"fontFamilies": [{
+					"name": "System",
+					"slug": "system",
+					"fontFamily": "agenda, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+				},
+				{
+					"name": "Serif",
+					"slug": "serif",
+					"fontFamily": "agenda, \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+				},
+				{
+					"name": "Monospace",
+					"slug": "monospace",
+					"fontFamily": "Consolas,Menlo,Monaco,\"SF Mono\",\"DejaVu Sans Mono\",\"Roboto Mono\",\"Courier New\",Courier,monospace"
+				}
+			],
+			"fontSizes": [{
+					"slug": "extra-small",
+					"size": ".5rem",
+					"name": "Extra small"
+				},
+				{
+					"slug": "small",
+					"size": ".75rem",
+					"name": "Small"
+				},
+				{
+					"slug": "medium",
+					"size": "1rem",
+					"name": "Medium"
+				},
+				{
+					"slug": "large",
+					"size": "2rem",
+					"name": "Large"
+				},
+				{
+					"slug": "x-large",
+					"size": "2.75rem",
+					"name": "XL"
+				},
+				{
+					"slug": "xx-large",
+					"size": "4rem",
+					"name": "XXL"
+				}
+			]
+		},
+		"custom": {
+			"h-spacing": "2.375rem",
+			"v-spacing": "0rem",
+			"button-shadow": "0 8px 8px 0 rgba(0, 0, 0, 0.2)",
+			"small-button-shadow": "0 1px 1px 0 rgba(0, 0, 0, 0.2)",
+			"button-highlight": "0 0 0 #fff",
+			"button-border-color": "rgba(0, 0, 0, 0.05)",
+			"button-border-radius": "4px",
+			"button-padding": ".3rem 1rem"
+		}
+	},
+	"styles": {
+		"spacing": {
+			"blockGap": "var(--wp--custom--v-spacing)",
+			"margin": {
+				"top": "0px",
+				"right": "0px",
+				"bottom": "0px",
+				"left": "0px"
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--background)",
+			"text": "var(--wp--preset--color--foreground)"
+		},
+		"typography": {
+			"fontSize": "1.3rem",
+			"fontFamily": "var(--wp--preset--font-family--system)",
+			"lineHeight": "1.5rem"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				}
+			}
+		},
+		"blocks": {
+			"core/heading": {
+				"color": {
+					"text": "var(--wp--preset--color--foreground)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xx-large)"
+				}
+			},
+			"core/button": {
+				"color": {
+					"background": "transparent",
+					"text": "var(--wp--preset--color--foreground)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)"
+				},
+				"border": {
+					"radius": "0px",
+					"width": "0px",
+					"style": "solid",
+					"color": "none"
+				},
+				"spacing": {
+					"padding": {
+						"top": "0.3rem",
+						"right": "0rem",
+						"bottom": "0.3rem",
+						"left": "0rem"
+					}
+				}
+			},
+			"core/code": {
+				"color": {
+					"text": "var(--wp--preset--color--foreground)"
+				}
+			},
+			"core/post-navigation-link": {
+				"spacing": {
+					"margin": {
+						"top": "calc(var(--wp--custom--v-spacing) * 3)",
+						"bottom": "var(--wp--custom--v-spacing)"
+					}
+				}
+			},
+			"core/query-pagination": {
+				"spacing": {
+					"margin": {
+						"top": "calc(var(--wp--custom--v-spacing) * 3) !important"
+					}
+				}
+			},
+			"core/post-author": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--extra-small)"
+				}
+			},
+			"core/post-date": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--extra-small)"
+				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--extra-small)"
+				}
+			}
+		}
+	}
+}

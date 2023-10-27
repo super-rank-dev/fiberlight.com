@@ -1,0 +1,131 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+
+
+$layoutOverflow: -40px;
+
+
+.content-layout-4{
+  position: relative;
+  z-index: 3;
+  padding: 0 0px $sectionPadding;
+  min-height: calc(680px + #{$sectionPadding});
+  @import "../clone/section-padding";
+  
+  @include media-breakpoint-down(lg){
+    min-height: inherit;
+  }
+
+  .content-block{
+    transform: translate(-400px, 0px);
+    position: relative;
+    z-index: 30;
+    padding: 30px;
+    width: 160%;
+
+    @include media-breakpoint-down(xl){
+      transform: translate(-340px, 0px);
+      width: 190%;
+    }
+    @include media-breakpoint-down(lg){
+      transform: translate(-330px, 0px);
+      width: 270%;
+    }
+    @include media-breakpoint-down(md){
+      transform: none;
+      width: auto;
+    }
+
+    .subtitle{
+      font-size: $font-size-base * 1.5;
+      font-weight: 400;
+      padding: 0 0 1rem 0;
+    }
+
+    &-default{
+      background-color: var(--wp--preset--color--fl-light-blue);
+    }
+    &-light{
+      background-color: var(--wp--preset--color--fl-tan);
+      h2,h3,p,li{
+        color: var(--wp--preset--color--fl-black)!important;
+      }
+    }
+    &-dark{
+      background-color: var(--wp--preset--color--fl-dark-blue);
+    }
+  }
+
+    .picture-wrap-img-01{
+      transform: translate(100px, 45px);
+      position: relative;
+      z-index: 20;
+      width: 100%;
+      height: 450px;
+
+      @include media-breakpoint-down(lg){
+        transform: translate(0px, 45px);
+        height: 300px;
+      }
+      @include media-breakpoint-down(md){
+        transform: none;
+        width: auto;
+        height: 250px;
+      }
+  
+      img{
+        object-fit: cover;
+        object-position: center center;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .picture-wrap-img-02{
+      transform: translate(40px, 150px);
+      position: relative;
+      z-index: 10;
+      width: 120%;
+      height: 480px;
+
+      @include media-breakpoint-down(lg){
+        transform: translate(0px, 150px);
+        height: 280px;
+      }
+      @include media-breakpoint-down(md){
+        transform: none;
+        width: auto;
+        height: 250px;
+      }
+  
+      img{
+        object-fit: cover;
+        object-position: center center;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .container-bottom{
+      margin-top: 180px;
+
+      @include media-breakpoint-down(md){
+        margin-top: 40px;
+      }
+    }
+  
+
+  .content-layout-4-top{
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(60% + ((229px / 3) * -1));
+    background-color: var(--wp--preset--color--fl-tan);
+  }
+  
+}
+

@@ -1,0 +1,1 @@
+["Bot::<p>Welcome to our BMI calculator!<\/p>\n","Bot::<p>Welcome to our BMI calculator!<\/p>\n"]

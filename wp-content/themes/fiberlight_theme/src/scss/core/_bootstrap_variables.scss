@@ -1,0 +1,33 @@
+@import url("https://use.typekit.net/buc6ftw.css");
+
+$font-family-sans-serif:      agenda, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+$font-size-base:              1.3rem !default; 
+$h1-font-size:                4rem !default;
+$h2-font-size:                3.75rem !default;
+$h3-font-size:                3rem !default;
+$h4-font-size:                2rem !default;
+$h5-font-size:                1.25rem !default;
+$h6-font-size:                1.25rem !default;
+
+// $headings-margin-bottom:      $spacer * .5;
+$headings-font-family:        $font-family-sans-serif;
+$headings-font-style:         null;
+$headings-font-weight:        600;
+$headings-line-height:        1;
+$headings-color:              null;
+
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  xss: 321px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;
+// scss-docs-end grid-breakpoints
+$accordion-button-color: #d2d8d2;
+$accordion-icon-color:                    $accordion-button-color;
+$accordion-icon-active-color:             $accordion-button-color;

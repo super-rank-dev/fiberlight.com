@@ -1,0 +1,7 @@
+@import url("https://use.typekit.net/buc6ftw.css");/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */.full-page-custom{position:relative;padding-right:0px;padding-left:0px;padding-top:calc(200px + 95px);padding-bottom:calc(200px + 95px)}@media (max-width: 1199.98px){.full-page-custom{padding-top:calc(100px + 95px);padding-bottom:calc(100px + 95px)}}@media (max-width: 767.98px){.full-page-custom{height:100%;padding-top:calc(40px + 95px);padding-bottom:210px}}.full-page-custom .container,.full-page-custom .container-fluid{position:relative;z-index:10}

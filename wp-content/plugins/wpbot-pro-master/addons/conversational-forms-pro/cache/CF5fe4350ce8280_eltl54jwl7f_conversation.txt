@@ -1,0 +1,1 @@
+["Bot::How can I help you today, are you a renter\/tenant or a landlord","Bot::<p>Hi welcome to <b>RENTED123.com<\/b>, my name is <b>Carrie<\/b>. I\u2019m your personal concierge for all of your renter and landlord support services.<\/p>\n"]

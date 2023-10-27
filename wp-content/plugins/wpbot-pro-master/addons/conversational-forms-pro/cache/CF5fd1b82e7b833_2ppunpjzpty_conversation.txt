@@ -1,0 +1,1 @@
+["Bot::Your hobbies?","User::Male","Bot::Your gender?","User::1654651","Bot::May I know your phone number?","User::sdfre@fer.ceer","Bot::What is your email address?","Bot::<p>Nice to meet you john !<\/p>\n","User::john","Bot::What is your name?"]

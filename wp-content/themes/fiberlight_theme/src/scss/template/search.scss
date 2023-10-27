@@ -1,0 +1,106 @@
+@import "../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../core/bootstrap_variables";
+@import "../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../core/site_variables";
+
+
+.search-results{
+  #header-search-form{
+    display: none;
+  }
+  .header-search-btn{
+    display: none;
+  }
+}
+
+.search-hero{
+  position: relative;
+
+
+  @import "../template-parts/search-form";
+  .search{
+    margin: 80px 0 50px;
+    // @include media-breakpoint-down(md){
+    //   margin: 120px 0;
+    // }
+  }
+
+  &.half-height{
+    height: auto;
+    padding-top: 50px + $headerHeight;
+    padding-bottom: $headerHeight / 1.5;
+
+    .background-image{
+      img{
+        object-fit: cover;
+        object-position: center center;
+
+        @include media-breakpoint-down(md){
+          object-fit: cover;
+          object-position: center top;
+        }
+      }
+    }
+  } 
+}
+.search-page{
+  position: relative;
+  padding: $sectionPadding 0px;
+
+  @import "../template-parts/search-form";
+
+
+
+  h3{
+    font-weight: 100;
+    font-size: 35px;
+  }
+  h4{
+    margin: 0;
+    @include media-breakpoint-down(md){
+      font-size: $h4-font-size * .8;
+    }
+  }
+  p{
+    margin: 0;
+  }
+  article{
+    padding: 30px 0px;
+    border-bottom: 1px solid var(--wp--preset--color--fl-gray);
+
+    .post-type{
+      display: inline-block;
+      background-color: var(--wp--preset--color--fl-gray);
+      padding: 4px 8px;
+      font-size: 14px;
+      line-height: 14px;
+      font-weight: 100;
+    }
+  }
+
+  nav{
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    height: auto;
+
+    .nav-links{
+      padding: 20px 0 0;
+
+      .page-numbers{
+        border: 1px solid var(--wp--preset--color--fl-gray);
+        padding: 4px;
+        font-size: 14px;
+        line-height: 14px;
+        min-width: 24px;
+        display: inline-block;
+      }
+      .prev,
+      .next{
+        min-width: 50px;
+        border: none;
+      }
+    }
+  }
+}

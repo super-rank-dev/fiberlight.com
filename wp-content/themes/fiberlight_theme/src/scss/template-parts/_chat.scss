@@ -1,0 +1,7 @@
+#wp-chatbot-chat-container{
+  display: none!important;
+
+  &.chat-box-show{
+    display: block!important;
+  }
+}

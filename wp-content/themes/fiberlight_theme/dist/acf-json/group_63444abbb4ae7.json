@@ -1,0 +1,161 @@
+{
+    "key": "group_63444abbb4ae7",
+    "title": "(Block) Image",
+    "fields": [
+        {
+            "key": "field_639baec0fcc22",
+            "label": "Anchor Tags",
+            "name": "anchor_tags",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_63754ef8cd652"
+            ],
+            "display": "seamless",
+            "layout": "",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_639baebffcc21",
+            "label": "Padding",
+            "name": "paddings",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_6306b010a5e67"
+            ],
+            "display": "seamless",
+            "layout": "",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_639baebffcc21",
+            "label": "Padding",
+            "name": "paddings",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_6306b010a5e67"
+            ],
+            "display": "seamless",
+            "layout": "",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_63445883279cc",
+            "label": "Move Section Up",
+            "name": "move_section_up",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        },
+        {
+            "key": "field_63444abb544c4",
+            "label": "Image",
+            "name": "image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_64c96895132a6",
+            "label": "Image Mobile",
+            "name": "image_mobile",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/image"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1690921130
+}

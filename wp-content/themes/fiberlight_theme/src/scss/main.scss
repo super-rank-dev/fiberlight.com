@@ -1,0 +1,48 @@
+// Functions first
+@import "../vendor/bootstrap-5.2.2/scss/functions";
+
+// Variable overrides second
+@import "core/bootstrap_variables";
+
+// Required Bootstrap imports
+@import "../vendor/bootstrap-5.2.2/scss/variables";
+@import "../vendor/bootstrap-5.2.2/scss/maps";
+@import "../vendor/bootstrap-5.2.2/scss/mixins";
+@import "../vendor/bootstrap-5.2.2/scss/root";
+
+
+// @import "../vendor/bootstrap-5.2.2/scss/bootstrap.scss";
+
+// Optional components
+@import "../vendor/bootstrap-5.2.2/scss/utilities";
+@import "../vendor/bootstrap-5.2.2/scss/reboot";
+@import "../vendor/bootstrap-5.2.2/scss/containers";
+@import "../vendor/bootstrap-5.2.2/scss/grid";
+@import "../vendor/bootstrap-5.2.2/scss/forms";
+@import "../vendor/bootstrap-5.2.2/scss/helpers";
+@import "../vendor/bootstrap-5.2.2/scss/utilities/api";
+@import "../vendor/bootstrap-5.2.2/scss/images";
+@import "../vendor/bootstrap-5.2.2/scss/transitions";
+@import "../vendor/bootstrap-5.2.2/scss/accordion";
+
+
+@import "core/site_variables";
+@import "core/wordpress";
+@import "core/typeography";
+
+
+@import "core/blocks/button";
+@import "core/blocks/columns";
+@import "core/blocks/separator";
+
+@import "acf/clone/background-image";
+@import "acf/clone/background-pattern";
+
+@import "plugins/tablepress";
+
+// Template Parts
+@import "template-parts/header";
+@import "template-parts/navbar";
+@import "template-parts/footer";
+// @import "template-parts/chat";
+

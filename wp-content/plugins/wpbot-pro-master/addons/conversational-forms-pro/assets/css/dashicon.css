@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'qcformbuilder-forms';
+  src:url('fonts/qcformbuilder-forms.eot?7moc5h');
+  src:url('fonts/qcformbuilder-forms.eot?#iefix7moc5h') format('embedded-opentype'),
+    url('fonts/qcformbuilder-forms.woff?7moc5h') format('woff'),
+    url('fonts/qcformbuilder-forms.ttf?7moc5h') format('truetype'),
+    url('fonts/qcformbuilder-forms.svg?7moc5h#qcformbuilder-forms') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="dashicons-wfb-"], [class*="dashicons-wfb-"], .mce-ico.mce-i-qcformbuilder-forms {
+  font-family: 'qcformbuilder-forms';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: top;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.loading-placeholder > .dashicons-wfb-logo:before{
+  color: #a3be5f;
+}
+.wpview-error > .dashicons-wfb-logo:before{
+  color: #bf0000;
+}
+div.wp-menu-image.dashicons-wfb-logo:before{
+  font-family: 'qcformbuilder-forms' !important;
+  font-size: 19px !important;
+}
+.mce-ico.mce-i-qcformbuilder-forms:before,
+.dashicons-wfb-logo:before {
+  content: "\e604";
+}
+
+.qcformbuilder-editor-logo > span.dashicons-wfb-logo{
+  font-size: 20px;
+  line-height: 15px;
+  vertical-align: -2px;
+  color: #a3be5f;
+}
+
+.current div.wp-menu-image.dashicons-wfb-logo:before,
+.wp-not-current-submenu:hover div.wp-menu-image.dashicons-wfb-logo:before{
+  color: inherit !important;
+}
+
+.qcformbuilder-forms-menu-dashicon .dashicons {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+  margin-right: 4px;
+}
+

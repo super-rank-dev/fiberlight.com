@@ -1,0 +1,92 @@
+{
+    "key": "group_6340400e0587a",
+    "title": "(Block) Team Member List",
+    "fields": [
+        {
+            "key": "field_639bb22f5c5cb",
+            "label": "Anchor Tags",
+            "name": "anchor_tags",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_63754ef8cd652"
+            ],
+            "display": "seamless",
+            "layout": "",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_639bb22f5c5ca",
+            "label": "Padding",
+            "name": "paddings",
+            "aria-label": "",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_6306b010a5e67"
+            ],
+            "display": "seamless",
+            "layout": "",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_6340400e09bd9",
+            "label": "Team Member",
+            "name": "team_member",
+            "aria-label": "",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "team-member"
+            ],
+            "taxonomy": "",
+            "return_format": "object",
+            "multiple": 1,
+            "allow_null": 0,
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/team-member-list"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1671148191
+}

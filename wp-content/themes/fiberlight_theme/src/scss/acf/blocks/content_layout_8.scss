@@ -1,0 +1,42 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+
+
+.content-layout-8{  
+  position: relative;
+  padding: $sectionPadding 0px ;
+  @import "../clone/section-padding";
+
+
+  .container,
+  .container-fluid{
+    position: relative;
+    z-index: 10;
+  }  
+
+  .background-image{
+    padding: 0;
+  }
+
+  .darken{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: calc(100% - 30px);
+    height: 100%;
+    background-color: var(--wp--preset--color--fl-dark-blue);
+    opacity: .3;
+  }
+
+  .inner-block{
+    position: relative;
+    z-index: 20;
+  }
+
+}
+
+

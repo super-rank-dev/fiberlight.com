@@ -1,0 +1,82 @@
+// Styles for the PageBuilder
+$handle_1: #32373c;
+$handle_2: #636c75;
+$handle_3: #8f969c;
+
+// 1st level
+.acf-flexible-content .layout {
+  background-color: white;
+  margin-bottom: 50px;
+
+  & > .acf-fields > .acf-field {
+    border-color: #cfcfcf;
+  }
+
+  .acf-fc-layout-handle {
+    font-size: 15px;
+    letter-spacing: .5px;
+    text-transform:uppercase;
+    background-color: $handle_1;
+    color: white;
+    padding: 25px 10px;
+  }
+
+  .acf-fc-layout-controlls {
+    top: 28px;
+  }
+}
+
+// 2nd level
+.acf-flexible-content .layout .layout {
+  background-color: #f2f2f2;
+  margin-bottom: -5px;
+
+  &:last-child {
+    margin-bottom: 15px;
+  }
+
+  .acf-fc-layout-handle  {
+    background-color: $handle_2;
+    padding: 15px 10px;
+  }
+
+  .acf-fc-layout-controlls {
+    top: 17px;
+  }
+}
+
+// 3rd level
+.acf-flexible-content .layout .layout .layout {
+  background-color: white;
+  padding-bottom: 0;
+  margin-bottom: -10px;
+
+  &:last-child {
+    background-color: white;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+  }
+
+  & > .acf-fields > .acf-field {
+    border-color: #eee;
+  }
+
+  .acf-fc-layout-handle {
+    background-color: $handle_3;
+    padding: 8px 10px;
+  }
+
+  .acf-fc-layout-controlls {
+    top: 10px;
+  }
+}
+.dev-links {
+    > a {
+        background-color: #0073aa !important;
+        transition: all .25s !important;
+        &:hover {
+            background-color: #FFF !important;
+            color: #0073aa !important;
+        }
+    }
+}

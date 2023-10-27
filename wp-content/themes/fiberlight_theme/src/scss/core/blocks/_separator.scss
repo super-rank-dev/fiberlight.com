@@ -1,0 +1,30 @@
+.wp-block-separator{
+  height: 15px;
+  background: var(--wp--preset--color--fl-green);
+  border: none;
+  width: 25%;
+  min-width: 100px;
+
+  &.is-style-wide{
+    width: 100%;
+  }
+  &.has-alpha-channel-opacity{
+    opacity: 1;
+  }
+  &.is-style-dots{
+    height: 15px;
+    background: var(--wp--preset--color--fl-green)!important;
+    border: none;
+    width: 25%;
+    min-width: 100px;
+    &:before{
+      content: "";
+      color: currentColor;
+      font-size: 1rem;
+      letter-spacing: none;
+      padding-left: 0;
+      font-family: serif;
+    }
+
+  }
+}

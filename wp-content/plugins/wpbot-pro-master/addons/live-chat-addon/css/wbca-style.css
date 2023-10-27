@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*...Friend list section...*/
+
+.wbcaBodyHolder{
+	clear:both;
+	background-color:#ffffff;
+	border-left: 1px solid #EAEAEA;
+	border-right: 1px solid #EAEAEA;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.wpbot-saas-live-chat{
+	border-radius: 0px 0px 5px 5px;
+}
+
+.wbcaBody {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	vertical-align: baseline;
+	/*box-shadow: 0px 3px 1px -3px;*/
+	font-size:13px;
+	width: 95%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.live-chat {
+    width: 65px;
+    box-shadow: 0px 3px 9px -6px;
+    border-radius: 50%;
+    height: 65px;
+}
+.chatbot-shortcode-row .wbcaBody, .chatbot-theme-shortcode-container .wbcaBody{
+	min-height: 620px;
+}
+.chatbot-shortcode-row #wbca_chat_body, .chatbot-theme-shortcode-container #wbca_chat_body{
+	min-height: 575px;
+}
+.chatbot-shortcode-row .wpbot-saas-live-chat, .chatbot-theme-shortcode-container .wpbot-saas-live-chat{
+	min-width: 375px;
+}
+
+.wbcaBodyLoading{
+	background: url(../images/loading.gif) center center no-repeat;
+	height:50px;
+}
+.wbcaTitle {
+	cursor:pointer;
+	background-color:#1e88e5;
+	border-bottom:1px solid #1565c0;
+	border-radius:4px 4px 0 0;
+	-moz-border-radius:4px 4px 0 0;
+	-webkit-border-radius:4px 4px 0 0;
+	-o-border-radius:4px 4px 0 0;
+	color:#ffffff;
+}
+
+.listOpenIcon:hover, .close:hover, .minus.hover, span.chatCloseIcon:hover{
+	opacity:0.7;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; 
+	filter: alpha(opacity=70);
+}
+.wbcaTitle span{
+	display:inline-block;
+	font-size: 14px;
+    font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 30px;
+}
+
+.wbcaTitle span.chat-member{
+	padding: 0px 5px;
+}
+.wbcaTitle span.chatIcon{
+	width:16px; 
+	height:16px;
+	margin: 0px 10px;
+	margin-top: 10px;
+	float: left;
+}
+.wbcaTitle span.chatIcon.wbca_email{
+	margin-top: 10px;
+}
+.wbcaTitle span.wbca_chat{
+	background:url(../images/wbca_chat.png) no-repeat center center;
+}
+
+.wbcaTitle span.chatIcon img{
+	border: 0;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.wbcaTitle span.listOpenIcon, .wbcaTitle span.chatCloseIcon{
+	width:21px; height:21px;
+	display:inline-block;
+	float: right;
+ 	margin: 5px 10px 5px 0px;
+	font-size:16px;
+	line-height:21px;
+	text-align:center;
+}
+.wbcaTitle span.chatCloseIcon{
+	margin-top:6px;
+	font-size: 20px;
+    font-weight: 400;
+}
+/*...chat body section...*/
+
+.wbca_chat_wrap {
+	width: 100%;
+}
+
+#wbca_chat_body {
+	overflow-x: hidden;
+	overflow-y: auto;
+	vertical-align: baseline;
+	width:95%;
+    padding-left: 10px;
+}
+#wbca_chat_footer {
+	position:relative;
+	height: 34px;
+}
+
+.wbcaBody #wbca_chat_footer input[type="text"] {
+	width: 100%;
+	border: none;
+	padding: 8px 10px;
+	margin: 0;
+	font-size: 13px;
+	background-color:transparent;
+	border:0px;
+	border-top:1px solid #EBEBEB;
+}
+a.btn-send-message {
+    width: 70px;
+    position: absolute;
+    height: 64px;
+    left: 290px;
+}
+.wbca_float_right_footer [type=file] + label {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+.wbcaBody #wbca_chat_footer > input:focus {
+	background-color:#ffffff;
+	outline: 0
+}
+.wbcaUser {
+	float: left;
+	max-width: 200px;
+	margin: 5px 10px;
+	font-size: 13px;
+}
+
+.wbcaEvents {
+	float: right;
+	margin:5px 8px 0px 10px;
+}
+.wbcaEvents i.close{
+	display:inline-block; 
+	width:21px; height:21px;
+	font-size:28px;
+	line-height:21px;
+	text-align:center;
+}
+.wbcaEvents i{
+	font-size:18px;
+	margin-left:10px;
+}
+
+.wbcaOnline {
+	color: #94CC66;
+	font-size: 14px;
+	margin-right: 3px;
+	opacity: 0.9;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; 
+	filter: alpha(opacity=90);
+}
+/*...message section...*/
+.leftMessage {
+	margin-right:5px;
+	max-width: 78%;
+}
+.rightMessage{
+	margin-left:5px;
+}
+
+/*...user online status...*/
+
+i.chat_online_circle{
+	background:url(../images/online.png) no-repeat;
+	background-size:100%;
+	-webkit-background-size: 100%;           /* Safari 3.0 */
+     -moz-background-size: 100%;           /* Gecko 1.9.2 (Firefox 3.6) */
+       -o-background-size: 100%; 
+}
+i.chat_offline_circle{
+	background:url(../images/offline.png) no-repeat;
+	background-size:100%;
+	-webkit-background-size: 100%;           /* Safari 3.0 */
+     -moz-background-size: 100%;           /* Gecko 1.9.2 (Firefox 3.6) */
+       -o-background-size: 100%; 
+}
+
+
+/*......... register, login, message .............................*/
+
+.wbca_message_wrap, .wbca_login_wrap, .wbca_logres_wrap, .wbca_register_wrap, .wbca_signup_wrap{
+	padding:10px;
+}
+.wbca_register_wrap, .open-log-in, .wbca-hide{
+	display:none;
+}
+.wbca_signup_wrap{
+	    margin: 15% 0;
+}
+#wbca_type_suggest{
+	margin: 10px;
+    background: #f5f5f5;
+    padding: 10px;
+}
+#wbca_type_suggest p{
+	margin:0;
+	padding:0;
+}
+.wbca_login_wrap .wbca_login_submit{
+	display:inline-block;
+}
+
+.wbca_login_wrap .wbca_login_submit{
+	text-align:right;
+	width:44%;
+}
+
+.wbcaBody button:hover{
+	background-color: #90a4ae;
+}
+.wbca_logres_wrap{
+	padding:5px 0;
+	text-align:center;
+}
+.wbcaBody textarea{
+	height:80px;
+}
+
+/*..Ticker..... */
+
+#wbca_type_suggest{
+	position: relative;
+}
+
+#wbca_type_suggest .cursor{
+	display: inline-block; 
+	background: #565c61; 
+	width: 1px; 
+	height: 14px; 
+	text-align: center;
+}
+
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+#wbcaChatWindow{
+	width:100%;
+}
+}
+
+
+/* ----------- iPhone 6 ----------- */
+
+@media (max-width: 320px){
+	#wbcaChatWindow{
+		width:100%;
+	}
+}
+
+span.wbca_mobile_ChatIcon.wbca_chat{
+	min-width:34px;
+	height:34px;
+	border-radius:17px;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	position:fixed;
+	right:0px;
+	bottom:34px;
+	cursor:pointer;
+	z-index:90000;
+}
+.wbca_mobile_Chat{
+	display:inline-block;
+	margin-left: 35px;
+	margin-right: 15px;
+	line-height: 34px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#ffffff;
+}
+
+span.wbca_mobile_ChatIcon.wbca_chat {
+	background: #1e88e5 url(../images/wbca_chat.png) no-repeat 9px center;
+}
+
+/* ----------- iPhone 4, 4S, 5, 5s, 6, 6+ ----------- */
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait),
+  only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait),
+  only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait),
+  only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait),
+  only screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait),
+  only screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+	#wbcaChatWindow{
+		width:100%;
+	}
+} 
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape),
+  only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape),
+  only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape),
+  only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape),
+  only screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape),
+  only screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+	#wbcaChatWindow{
+		width:100%;
+	}
+}
+/* Portrait and Landscape ipad mini, 1, 2 */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	#wbcaChatWindow{
+		width:100%;
+	}	  
+
+}
+/* Portrait and Landscape 3, 4 */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	#wbcaChatWindow{
+		width:100%;
+	}
+}
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+	#wbcaChatWindow{
+		width:100%;
+	}
+}
+.wbca_header_txt{}
+.wbca_header_txt p{font-size: 18px;text-align: center;}
+.live-chat {
+    background: #15b860 !important;
+    color: #fff !important;
+    border-radius: 5px 0 0 5px !important;
+	font-size: 16px !important;
+	height:auto !important;
+	    cursor: pointer;
+}
+.wbcaTitle {
+    display: flex;
+}
+.wbcaBodyHolder {
+    border-bottom: 1px solid #EAEAEA;
+}
+.wbca_admin_message_row .wbcaMessage{
+
+     background-color: #15b860;
+    border-bottom-color: #15b860;	
+	color: #fff;	
+	max-width: 80%;
+}
+.wbca_client_message_row .wbcaMessage {
+    background-color: #a4f3f6 !important;
+    border-bottom-color: #a4f3f6 !important;
+    color: #181818 !important;
+	max-width: 80%;
+}
+.wbcaTitle {
+    background-color: #15b860;
+    border-bottom: 1px solid #15b860;
+}
+.wbcaContent {
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+.floting_live_chat {
+    background: none !important;
+    border: 2px solid #15b860 !important;
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50% !important;
+     box-shadow: #767580 0px 4px 20px;
+}
+.wbcaTitle {
+    background-color: #1e88e5;
+    border-bottom: 1px solid #1e88e5;
+}
+.wbca_signup_wrap {
+    margin: 15% 0;
+}
+.wbca_message_wrap p{
+    font-size: 18px;
+    text-align: center;
+    color: #5a5a5a;	
+}
+.wbcaBody {
+    width: 100%;
+}
+.wbcaBody input[type="text"], .wbcaBody input[type="password"], .wbcaFooter textarea, .wbcaBody textarea, #wbca_add_search_form input[type="text"], #wbca_add_search_form textarea, #wbca_edit_form input[type="text"], #wbca_edit_form textarea {
+    width: 100%;
+    max-width: 328px;
+}
+.wbcaBody select.inputbox {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ddd;
+}
+.wbcaTitle {
+    display: flex;
+    justify-content: space-between;
+}
+select:focus, textarea:focus, input[type='url']:focus, input[type='tel']:focus, input[type='text']:focus, input[type='date']:focus, input[type='email']:focus, input[type='number']:focus, input[type='search']:focus, input[type='password']:focus, span.select2-container--default .select2-selection--single:focus {
+    outline: none;
+    border-color: #3eaf7c;
+}
+
+
+
+.wbcaBody button.button:hover {
+    color: #fff;
+    background-color: #33b0d9;
+	transform: translate3d(0, -3px, 0);
+}
+.wbcaBody button.button {
+    background: #1e88e5 !important;
+    color: #fff !important;
+    border-radius: 4px !important;
+    padding: 10px 40px !important;
+    margin: 10px 0 0 0 !important;
+}
+.wbcaBody input[type="text"], .wbcaBody input[type="password"], .wbcaFooter textarea, .wbcaBody textarea, #wbca_add_search_form input[type="text"], #wbca_add_search_form textarea, #wbca_edit_form input[type="text"], #wbca_edit_form textarea {
+    padding: 12px 8px !important;
+}
+
+.wpbot-saas-live-chat {
+/*    max-height: 815px !important;
+	height: 80vh !important;*/
+}
+
+.wpbot-saas-live-chat {
+    bottom: 130px !important;
+	box-shadow: 0 5px 40px rgba(0,0,0,.16)!important;
+}
+
+
+.wbcaBody {
+    background-color: #ffffff;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.rightMessage span {
+    font-size: 9px;
+    color: #636363;
+}
+.leftMessage span{
+    font-size: 10px;
+    color: #fff;
+}
+.live-chat img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.wbca_client_message_row .wbcaMessage {
+    background-color: #f1f1f1 !important;
+    border-bottom-color: #f1f1f1 !important;
+}
+.wbcaContent {
+    font-size: 12px;
+}
+#wbca_chat_footer input{
+}
+.wbca_float_right_footer {
+    float: right;
+    background: url(../images/send.png);
+	width: 25px;
+    height: 57px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+    border-top: 1px solid #eee;
+}
+.wbca_float_left_footer {
+    float: left;
+    width: 76%;
+}
+.wbcaBody{
+    max-height:685px !important;
+}
+
+.wpbot-saas-live-chat {
+ max-height:715px !important; 
+}
+#wbca_chat_body{
+	max-height:622px !important; 
+}
+
+
+
+
+
+/**************************************************************************
+2. Ball Selector
+**************************************************************************/
+/*.floting_live_chat {
+	position: relative;
+	border-radius: 50%;
+}
+.floting_live_chat {
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	animation: spin 2s linear infinite;
+	border: 3px solid transparent;
+	border-top-color: #9370DB;
+}*/
+.floting_live_chat_animation:before {
+	content: "";
+	position: absolute;
+	top: -9px;
+	left: -9px;
+	right: -9px;
+	bottom: -9px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #BA55D3;
+	animation: spin 3s linear infinite;
+}
+.floting_live_chat_animation:after {
+	content: "";
+	position: absolute;
+	top: -15px;
+	left: -15px;
+	right: -15px;
+	bottom: -15px;
+	border-radius: 50%;
+	border: 3px solid transparent;
+	border-top-color: #FF00FF;
+	animation: spin 1.5s linear infinite;
+}
+ @keyframes spin {
+ 0% {
+ -webkit-transform: rotate(0deg);
+ -ms-transform: rotate(0deg);
+ transform: rotate(0deg);
+}
+ 100% {
+ -webkit-transform: rotate(360deg);
+ -ms-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+}
+ @keyframes spinHide {
+ 0% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+.wbca_float_right_footer [type=file] {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+.wbca_float_right_footer [type=file] + label {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Rubik", sans-serif;
+  font-size: inherit;
+  font-weight: 500;
+  outline: none;
+  position: relative;
+  transition: all 0.3s;
+  vertical-align: middle;
+}
+.wbca_float_right_footer [type=file] + label.btn-upload {
+  overflow: hidden;
+}
+.wbca_float_right_footer [type=file] + label.btn-upload:before {
+  font-size: 100%;
+  height: 100%;
+  right: 130%;
+  line-height: 3.3;
+  position: absolute;
+  top: 0px;
+  transition: all 0.3s;
+}
+
+.wbca_float_right_footer {
+    width: 90px;
+    display: flex;
+    align-items: center;
+}
+.wbca_float_left_footer {
+    float: left;
+    width: 70%;
+}
+
+.wbca_float_right_footer label.btn-upload img {
+    max-width: 22px !important;
+}

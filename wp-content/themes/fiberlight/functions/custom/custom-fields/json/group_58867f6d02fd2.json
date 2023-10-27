@@ -1,0 +1,166 @@
+{
+    "key": "group_58867f6d02fd2",
+    "title": "Events",
+    "fields": [
+        {
+            "key": "field_58867f7f63ac2",
+            "label": "Start Date",
+            "name": "start_date",
+            "type": "date_time_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y g:i a",
+            "return_format": "F j, Y g:i a",
+            "first_day": 1
+        },
+        {
+            "key": "field_58867f8c63ac3",
+            "label": "End Date",
+            "name": "end_date",
+            "type": "date_time_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F j, Y g:i a",
+            "return_format": "F j, Y g:i a",
+            "first_day": 1
+        },
+        {
+            "key": "field_58867fd163ac4",
+            "label": "Tags",
+            "name": "tags",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Day Event": "Day Event",
+                "Night Event": "Night Event"
+            },
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value"
+        },
+        {
+            "key": "field_5886812763ac5",
+            "label": "Image",
+            "name": "image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5886813663ac6",
+            "label": "Featured",
+            "name": "featured",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0
+        },
+        {
+            "key": "field_5886816e09fa5",
+            "label": "Short Description",
+            "name": "short_description",
+            "type": "wysiwyg",
+            "instructions": "Describe the event in one sentence.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        },
+        {
+            "key": "field_5886815963ac7",
+            "label": "Long Description",
+            "name": "long_description",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "event"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "excerpt",
+        "discussion",
+        "comments",
+        "format",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1485210810
+}

@@ -1,0 +1,134 @@
+[
+    {
+        "name": "loilo/fuse",
+        "version": "3.4.2",
+        "version_normalized": "3.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Loilo/Fuse.git",
+            "reference": "c7d9ba147482f415604c49a4a380e94d30eee066"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Loilo/Fuse/zipball/c7d9ba147482f415604c49a4a380e94d30eee066",
+            "reference": "c7d9ba147482f415604c49a4a380e94d30eee066",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">= 5.6"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.5"
+        },
+        "time": "2019-03-01T14:09:36+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Fuse\\": "src/"
+            },
+            "files": [
+                "src/Bitap/matched_indices.php",
+                "src/Bitap/pattern_alphabet.php",
+                "src/Bitap/regex_search.php",
+                "src/Bitap/score.php",
+                "src/Bitap/search.php",
+                "src/Helpers/deep_value.php",
+                "src/Helpers/is_list.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Florian Reuschel",
+                "email": "florian@loilo.de"
+            }
+        ],
+        "description": "Fuzzy search for PHP based on Bitap algorithm"
+    },
+    {
+        "name": "phpspec/php-diff",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phpspec/php-diff.git",
+            "reference": "0464787bfa7cd13576c5a1e318709768798bec6a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phpspec/php-diff/zipball/0464787bfa7cd13576c5a1e318709768798bec6a",
+            "reference": "0464787bfa7cd13576c5a1e318709768798bec6a",
+            "shasum": ""
+        },
+        "time": "2016-04-07T12:29:16+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Diff": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Chris Boulton",
+                "homepage": "http://github.com/chrisboulton"
+            }
+        ],
+        "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays)."
+    },
+    {
+        "name": "wyndow/fuzzywuzzy",
+        "version": "v0.6.0",
+        "version_normalized": "0.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wyndow/fuzzywuzzy.git",
+            "reference": "6249a966a97ffc231d743ea5c4ccb4e6797582f5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wyndow/fuzzywuzzy/zipball/6249a966a97ffc231d743ea5c4ccb4e6797582f5",
+            "reference": "6249a966a97ffc231d743ea5c4ccb4e6797582f5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4",
+            "phpspec/php-diff": "^1.0"
+        },
+        "require-dev": {
+            "phpspec/phpspec": "^2.2"
+        },
+        "time": "2017-04-25T21:20:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "FuzzyWuzzy\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Crumm",
+                "email": "mike@crumm.net"
+            }
+        ],
+        "description": "Fuzzy string matching based on FuzzyWuzzy from Seatgeek"
+    }
+]

@@ -1,0 +1,6 @@
+Plugin Name -- Chatbot Form Builder Pro
+Text domain -- qcformbuilder-forms
+Function prefix -- wfb_pro
+Class prefix -- n/a
+Root namespace -- qcformbuilderwp\qcformbuilderforms\pro\
+Hook Prefix -- qcformbuilder_forms_pro

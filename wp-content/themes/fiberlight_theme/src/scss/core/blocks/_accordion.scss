@@ -1,0 +1,148 @@
+.accordion{
+  border: none;
+  padding: calc(#{$sectionPadding} + 20px) 0 0;
+
+  @include media-breakpoint-down(lg){
+    padding: 0 0 0;
+  }
+
+  &-item{
+    border: none;
+    background-color: transparent;
+
+    .accordion-header{
+      padding: 0px;
+
+      &:hover{
+        cursor: pointer;
+      }
+
+      .accordion-button{
+        position: relative;
+        z-index: 5;
+        font-weight: 400;
+        font-size: 22px;
+        background-color: transparent;
+        color: var(--wp--preset--color--fl-black);
+
+        &:hover{
+          color: var(--wp--preset--color--fl-dark-blue);
+        } 
+
+        &:after{
+          background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+        
+        @include media-breakpoint-down(xxl){
+          font-size: 18px;
+          padding: 10px 10px;
+        }
+
+        @include media-breakpoint-down(md){
+          padding: 10px 0px;
+        }
+      
+        &:not(.collapsed){
+          background-color: transparent;
+          border: none;
+          box-shadow: none;
+          color: var(--wp--preset--color--fl-dark-blue);
+          font-weight: 800;
+          
+          &:after{
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+          }
+          &:before{
+            content: '';
+            background: var(--wp--preset--color--fl-green);
+            position: absolute;
+            z-index: -1;
+            bottom: 10px;
+            left: 10px;
+            width: 20%;
+            height: 10%;
+            clip-path: polygon(2% 0, 100% 0, 98% 99%, 0 100%);
+          }
+        }
+      }
+
+    }
+
+    .accordion-body{
+      a{
+        font-size: 18px;
+        line-height: 22px;
+        display: inherit;
+        padding: 0 0 10px;
+
+        @include media-breakpoint-down(xxl){
+          font-size: 15px;
+          line-height: 18px;
+          padding: 0 0 6px;
+
+        }
+      }
+    }
+  }
+}
+
+
+  .c-accordion__title:after {
+    color: var(--wp--preset--color--fl-black);
+  }
+
+.has-fl-gradient-light-blue-gradient-background,
+.has-fl-gradient-med-blue-gradient-background,
+.has-fl-gradient-dark-blue-gradient-background,
+.has-fl-gradient-light-dark-blue-gradient-background,
+.has-fl-gradient-med-blue-gradient-background,
+.has-fl-dark-blue-background-color,
+.has-fl-light-blue-background-color,
+.has-foreground-background{
+  .accordion{
+    &-header{
+      .accordion-button{
+        color: var(--wp--preset--color--fl-white);
+        &:hover{
+          color: var(--wp--preset--color--fl-green);
+        }
+        &:not(.collapsed){
+          color: var(--wp--preset--color--fl-white);
+        &:hover{
+          color: var(--wp--preset--color--fl-green);
+        }
+        }
+      }
+    }
+  }
+ 
+    .c-accordion__title:after {
+      color: var(--wp--preset--color--fl-white)!important;
+    }
+  
+}
+
+
+.has-fl-tan-background-color{
+  .accordion{
+    &-header{
+      .accordion-button{
+        color: var(--wp--preset--color--fl-black);
+        &:hover{
+          color: var(--wp--preset--color--fl-green);
+        }
+        &:not(.collapsed){
+          color: var(--wp--preset--color--fl-black);
+        &:hover{
+          color: var(--wp--preset--color--fl-green);
+        }
+        }
+      }
+    }
+  }
+ 
+    .c-accordion__title:after {
+      color: var(--wp--preset--color--fl-black)!important;
+    }
+  
+}

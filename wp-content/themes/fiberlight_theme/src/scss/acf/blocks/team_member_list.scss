@@ -1,0 +1,223 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+
+.team-member-list{
+  position: relative;
+  padding: $sectionPadding 0px ;
+  @import "../clone/section-padding";
+
+  .card {
+    border: none;
+    background-color: transparent;
+
+    @include media-breakpoint-down(lg){
+      margin-bottom: 0px;
+    }
+
+    .image-wrap{
+      width: 100%;
+      height: auto;
+      position: relative;
+      background-color: var(--wp--preset--color--fl-gray);
+
+      img{
+        object-fit: cover;
+        object-position: center top;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &-body{
+      margin: 16px 0 8px;
+      padding: 25px;
+      background-color: var(--wp--preset--color--fl-gray);
+
+      @include media-breakpoint-down(lg){
+        padding: 15px;
+      }
+      @include media-breakpoint-down(md){
+        margin: 0;
+      }
+  
+      h2{
+        font-size: 1.9rem;
+        padding: 0px 20px 0 0;
+        margin: 0 0 .5rem 0;
+
+  
+        @include media-breakpoint-down(xl){
+          font-size: 1.5rem;
+          margin: 0 0 .25rem 0;
+        }
+        @include media-breakpoint-down(lg){
+          font-size: 1.25rem;
+          margin: 0 0 .2rem 0!important;
+        }
+        @include media-breakpoint-down(md){
+          font-size: 2rem;
+          padding: 0px!important;
+        }
+      }
+      .title{
+        color: var(--wp--preset--color--fl-light-blue);
+        padding: 0px 20px 0 0;
+        margin: 0;
+        font-size: 1.2rem;
+        line-height: 1.1rem;
+  
+        @include media-breakpoint-down(xl){
+          font-size: .9rem;
+          line-height: 1rem;
+        }
+        @include media-breakpoint-down(md){
+          padding: 0px;
+          font-size: 1rem;
+          line-height: 1rem;
+        }
+      }
+      .department{
+        color: #828282;
+        font-style: italic;
+        font-size: 1rem;
+        &-item{
+          &:after{
+            content: ', ';
+          }
+          &:last-child:after{
+            content: '';
+          }
+        }
+      }
+    }
+
+    &-footer{
+      border: none;
+      background-color: transparent;
+      padding: 0px 0px 0px 25px;
+
+      @include media-breakpoint-down(md){
+        padding: 0px;
+      }
+
+      .icon{
+        width: 36px;
+        height: 36px;
+        float: right;
+        background: #dae9e6;
+        padding: 4px;
+        margin: 10px 0 0 8px;
+  
+        &:hover{
+          background:var(--wp--preset--color--fl-green);
+        }
+      }
+
+      &-btn{
+        display: inline-block;
+        background-color: var(--wp--preset--color--fl-light-blue);
+        color: $white;
+        padding: 6px 16px;
+        text-decoration: none;
+        margin: 10px 0 0;
+        text-transform: uppercase;
+        font-size: 16px;
+  
+        &:hover{
+          background-color: var(--wp--preset--color--fl-green);
+        }
+  
+        @include media-breakpoint-down(lg){
+          text-align: center;
+          font-size: 16px;
+          padding: 6px 16px;
+          margin: 0;
+          width: 100%;
+        }
+        
+      }
+    }
+  }
+
+
+
+
+
+  .team-member-item{
+    &:nth-child(even){
+      padding-left: 30px;
+    }
+    &:nth-child(odd){
+      padding-right: 30px;
+    }
+
+    @include media-breakpoint-down(lg){
+      &:nth-child(even){
+        padding-left: 15px;
+      }
+      &:nth-child(odd){
+        padding-right: 15px;
+      }
+    }
+
+
+
+
+
+  }
+
+  .box-name{
+    background: var(--wp--preset--color--fl-gray);
+    padding: 25px 20px;
+
+    @include media-breakpoint-down(xl){
+      padding: 20px 15px;
+    }
+    @include media-breakpoint-down(lg){
+      padding: 10px 10px;
+    }
+
+    h2{
+      font-size: 1.9rem;
+      padding: 0px 20px 0 0;
+      margin: 0 0 .5rem 0;
+
+      @include media-breakpoint-down(xl){
+        font-size: 1.5rem;
+        margin: 0 0 .25rem 0;
+      }
+      @include media-breakpoint-down(md){
+        padding: 0px;
+      }
+    }
+    .title{
+      color: var(--wp--preset--color--fl-light-blue);
+      padding: 0px 20px 0 0;
+      margin: 0;
+      font-size: 1.2rem;
+      line-height: 1.1rem;
+
+      @include media-breakpoint-down(xl){
+        font-size: .9rem;
+        line-height: 1rem;
+      }
+      @include media-breakpoint-down(md){
+        padding: 0px;
+      }
+    }
+  }
+
+  .box-description{
+    padding: 0px 10px;
+    
+    @include media-breakpoint-down(md){
+      padding: 0;
+    }
+
+    
+
+  }
+}

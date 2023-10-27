@@ -1,0 +1,153 @@
+.wp-block-buttons {
+  .wp-block-button{
+    position: relative;
+    margin: .5rem 0 1rem;
+    
+    @include media-breakpoint-down(xss){
+      margin: .15rem 0 .5rem;
+    }
+
+    &:after{
+      content: '';
+      background: var(--wp--preset--color--fl-light-light-blue);
+      position: absolute;
+      z-index: 1;
+      bottom: 2px;
+      left: -8%;
+      width: 116%;
+      height: 36%;
+      clip-path: polygon(2% 0, 100% 0, 98% 99%, 0 100%);
+    }
+    &:hover{
+      color: var(--wp--preset--color--fl-dark-blue);
+      &:after{
+        content: '';
+        background: var(--wp--preset--color--fl-green);
+      }
+    }
+
+    
+    .wp-block-button__link{
+      font-size: $buttonSize;
+      line-height: $buttonSize;
+      font-weight: 600;
+      color: var(--wp--preset--color--fl-dark-blue);
+      z-index: 2;
+      position: relative;
+
+      @include media-breakpoint-down(xxl){
+        font-size: $buttonSize * .9;
+        line-height: $buttonSize * .9;
+      }
+      @include media-breakpoint-down(xl){
+        font-size: $buttonSize * .8;
+        line-height: $buttonSize * .8;
+      }
+      @include media-breakpoint-down(md){
+        font-size: $buttonSize * .75;
+        line-height: $buttonSize * .75;
+      }
+      @include media-breakpoint-down(xss){
+        font-size: $buttonSize * .5;
+        line-height: $buttonSize * .5;
+      }
+    }
+  }
+
+  &-sm {
+    .wp-block-button{
+      &:after{
+        content: '';
+        position: absolute;
+        z-index: 1;
+        bottom: 2px;
+        left: -5%;
+        width: 110%;
+        height: 36%;
+        clip-path: polygon(2% 0, 100% 0, 98% 99%, 0 100%);
+      }
+
+      $buttonSize: 20px;
+      .wp-block-button__link{
+        font-size: $buttonSize;
+        line-height: $buttonSize;
+        color: var(--wp--preset--color--fl-white);
+  
+        @include media-breakpoint-down(xxl){
+          font-size: $buttonSize * .9;
+          line-height: $buttonSize * .9;
+        }
+        @include media-breakpoint-down(xl){
+          font-size: $buttonSize * .8;
+          line-height: $buttonSize * .8;
+        }
+        @include media-breakpoint-down(md){
+          font-size: $buttonSize * .75;
+          line-height: $buttonSize * .75;
+        }
+        @include media-breakpoint-down(xss){
+          font-size: $buttonSize * .5;
+          line-height: $buttonSize * .5;
+        }
+      }
+    }
+  }
+}
+
+
+
+// Adjust for Dark Background Colors
+.has-fl-gradient-light-blue-gradient-background,
+.has-fl-gradient-med-blue-gradient-background,
+.has-fl-gradient-dark-blue-gradient-background,
+.has-fl-gradient-light-dark-blue-gradient-background,
+.has-fl-gradient-med-blue-gradient-background,
+.has-fl-dark-blue-background-color,
+.has-foreground-background{
+
+  .wp-block-buttons{
+    .wp-block-button{
+      
+        &:after{
+          content: '';
+          background: var(--wp--preset--color--fl-green);
+        }
+        &:hover{
+          &:after{
+            content: '';
+            background: var(--wp--preset--color--fl-light-light-blue);
+          }
+        }
+      .wp-block-button__link{
+        color: var(--wp--preset--color--fl-white);
+        &:hover{
+          color: var(--wp--preset--color--fl-white);
+        }
+      }
+    }
+  }
+}
+
+.has-fl-light-blue-background-color,
+.has-fl-gradient-light-light-blue-gradient-background{
+  .wp-block-buttons{
+    .wp-block-button{
+      &:after{
+        content: '';
+        background: var(--wp--preset--color--fl-green);
+      }
+      &:hover{
+        &:after{
+          content: '';
+          background: var(--wp--preset--color--fl-dark-blue);
+        }
+      }
+      .wp-block-button__link{
+        color: var(--wp--preset--color--fl-white);
+        &:hover{
+          color: var(--wp--preset--color--fl-white);
+        }
+      }
+    }
+  }
+}

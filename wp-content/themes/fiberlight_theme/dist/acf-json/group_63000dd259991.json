@@ -1,0 +1,83 @@
+{
+    "key": "group_63000dd259991",
+    "title": "(Clone) Divided Background",
+    "fields": [
+        {
+            "key": "field_63000dffb05b9",
+            "label": "Divide Background",
+            "name": "divide_background",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_63000ddcb05b8",
+            "label": "Divided Background Color",
+            "name": "divided_background_color",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_63000dffb05b9",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "white": "White",
+                "tan": "Tan",
+                "lightblue": "Light Blue",
+                "medblue": "Med Blue",
+                "darkblue": "Dark Blue",
+                "lightblueg": "Light Blue Gradient",
+                "medblueg": "Med Blue Gradient",
+                "darkblueg": "Dark Blue Gradient"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1660947999
+}

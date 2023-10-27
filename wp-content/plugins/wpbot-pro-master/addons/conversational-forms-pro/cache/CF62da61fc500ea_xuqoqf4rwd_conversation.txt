@@ -1,0 +1,1 @@
+["User::Sergey Lavrov","Bot::Who is russia's president","User::1","Bot::capital of turkey","User::Mathew Arnold","Bot::'Culture and Anarchy' was written by"]

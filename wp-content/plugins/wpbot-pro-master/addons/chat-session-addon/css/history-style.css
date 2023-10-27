@@ -1,0 +1,97 @@
+.wp-chatbot-messages-wrapper{padding: 15px;padding-left: 43px;padding-right: 43px;}
+.wp-chatbot-messages-wrapper ul{overflow:inherit !Important}
+a.page-numbers {
+    margin-right: 5px;
+    padding-right: 5px;
+    line-height: 18px;
+}
+.sld_menu_title_align {
+    text-align: right;
+}
+
+#wpbot_checked_all{opacity:1 !important}
+.wpbot_sessions_checkbox{opacity:1 !important}
+
+/* The Modal (background) */
+.wpcsmodal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.wpcsmodal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.wpcsclose {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.wpcsclose:hover,
+.wpcsclose:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.wpcs_text_field {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.wpcs_submit_field {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.wpcs_submit_field:hover {
+  background-color: #45a049;
+}
+
+.wpcs_form_container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.wpcs_form_container form{width:100%}
+.wpvo_filter_session{
+  float: right;
+}
+.wpvo_filter_session .filter_session_start_date,.wpvo_filter_session .filter_session_end_date, .wpvo_filter_session .filter_session_button{
+  float: left;
+  margin-right: 5px;
+}
+.wpvo_filter_session .filter_session_button{
+  background-color: #00cec9;
+  border-radius: 5px;
+  padding: 7px 15px;
+  color: #fff;
+}

@@ -1,0 +1,69 @@
+{
+    "key": "group_62d0915c6eea3",
+    "title": "(Clone) Background Patterns",
+    "fields": [
+        {
+            "key": "field_62fa677f19c22",
+            "label": "Pattern",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 1
+        },
+        {
+            "key": "field_62d09166396c8",
+            "label": "Background Pattern",
+            "name": "background_pattern",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "Choose a background pattern.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "None",
+                "geodesic": "Geodesic",
+                "geodesic-light": "Geodesic Light"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1689630327
+}

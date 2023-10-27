@@ -1,0 +1,106 @@
+.qcld-notice-error{
+	background: #ff0a00;
+    border-color: #bb0016;
+    color: #fff;
+    border-radius: 10px;
+    border-right: 4px solid #bb0016;
+    border-left-width: 12px;
+}
+.qcld-notice-error p{
+	font-size: 18px;
+}
+.qcld-notice-error p a{
+	color: #fff;
+}
+.qcld-notice-error p a:hover{
+	color: #2a1bef;
+}
+
+.qcld-success-notice{
+	margin-top: 15px;
+	border-left: 4px solid #46b450;
+	background: #fff;
+	box-shadow: 0 1px 5px 4px rgba(0,0,0,.1);
+	padding: 1px 12px;
+}
+.qcld-success-notice p,
+.qcld-error-notice p{
+	margin: 6px 0;
+	font-size: 14px;
+}
+
+.qcld-error-notice{
+	margin-top: 15px;
+	border-left: 4px solid #bb0016;
+	background: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	padding: 1px 12px;
+}
+.qc-notice-error{
+	padding:0 0 11px 0;
+}
+.qc-notice-error img{
+	width:40px;
+	float:left
+}
+.qc-notice-error p{
+	position: relative;
+    top: 9px;
+    margin: 0 0 7px 40px;
+}
+
+
+
+/* Custom CSS for Help Section */
+.qcld-wpbotvoicemessage-section-block,
+.qcld-wpbotvoicemessage-section-block th,
+.qcld-wpbotvoicemessage-section-block td,
+.qcld-wpbotvoicemessage-section-block tr,
+.qcld-wpbotvoicemessage-section-block label,
+.qcld-wpbotvoicemessage-section-block input[type='text'],
+.qcld-wpbotvoicemessage-section-block input[type='password']{
+  font-size: 16px;
+  line-height: 24px;
+}
+.qcld-wpbotvoicemessage-section-block p,
+.qcld-wpbotvoicemessage-section-block li{
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+.qcld-wpbotvoicemessage-help-section li{
+    margin-left: 40px;
+}
+.shortcode-section-title{
+    font-size: 24px;
+    /*text-decoration: underline;*/
+}
+.qcld-wpbotvoicemessage-section-block{
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.qc-wpbotvoicemessage-code-box{
+  background: #f2f2f2;
+  display: inline-block;
+  padding: 10px 45px;
+  color: #0679ad;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-left: 30px;
+}
+.qpvoicemessage-step-6{
+	display: inline-block;
+    background: rgba(0,0,0,.72);
+    color: #fff!important;
+    border-radius: 4px;
+    padding: 1px 10px 0 9px!important;
+    height: 2em;
+    font-size: .69em!important;
+    line-height: 2em!important;
+    text-transform: uppercase;
+    margin: 0;
+}

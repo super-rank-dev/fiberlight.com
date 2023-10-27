@@ -1,0 +1,40 @@
+@import "../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../core/bootstrap_variables";
+@import "../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../core/site_variables";
+
+.error-page{
+  position: relative;
+  height: 100vh;
+
+  @include media-breakpoint-down(md){
+    height: 100vh;
+  }
+
+  @import "../template-parts/search-form";
+
+  .search{
+    margin: 180px 0 0;
+    @include media-breakpoint-down(md){
+      margin: 120px 0 0;
+    }
+  }
+
+  .the-message{
+    margin: 100px 0 0;
+
+    @include media-breakpoint-down(md){
+      margin: 50px 0 0;
+    }
+  }
+
+  .background-image{
+    img{
+      @include media-breakpoint-down(md){
+        object-position: top center;
+      }
+    }
+  }
+
+}

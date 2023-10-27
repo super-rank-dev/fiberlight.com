@@ -1,0 +1,50 @@
+{
+    "key": "group_6307e7eea6735",
+    "title": "(Clone) Navigation Settings",
+    "fields": [
+        {
+            "key": "field_6307e7ff75984",
+            "label": "Navigation Style",
+            "name": "navigation_style",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "dark": "Logo",
+                "light": "Logo Reverse"
+            },
+            "default_value": "dark",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1661462811
+}

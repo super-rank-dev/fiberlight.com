@@ -1,0 +1,56 @@
+=====v1.4.0====
+
+# Multiple processors supported.
+
+==07-02-2020====
+
+# Preprocessor email subject system variable supported.
+
+==06-30-2020====
+
+# Conversation Details translation added in WPBot language center.
+
+==06-19-2020====
+
+# Entry time issue fixed.
+# Imoport - file type must be json error fixed.
+
+===06-15-2020====
+
+# Datetime will take from WP Settings
+
+===06-10-2020=====
+
+# Conditions for checkbox issue fixed.
+
+====06-08-2020=====
+
+# Maxlength, Minlength added for number field.
+# License warning issue fixed.
+
+=====05-14-2020====
+
+# Preprocessor varibable issue fixed.
+
+=====05-06-2020===
+
+# Auto Populated checkbox is removed.
+
+====04-16-2020===
+
+# Calculation issue fixed
+
+====04-13-2020===
+
+# Multiple file upload supported.
+
+====04-10-2020====
+
+# File will be attached with admin email.
+
+====04-06-2020====
+
+# File upload field added.
+
+====03-27-2020====
+# Field label can be empty for next button.

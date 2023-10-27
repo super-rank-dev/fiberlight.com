@@ -1,0 +1,33 @@
+/**
+ * JavaScript code for the "Edit" screen integration of the Row Highlighting feature.
+ *
+ * @package TablePress
+ * @subpackage Row Highlighting
+ * @author Tobias Bäthge
+ * @since 2.0.0
+ */
+
+/* globals tp */
+
+/**
+ * WordPress dependencies.
+ */
+import { addAction as add_action, addFilter as add_filter } from '@wordpress/hooks';
+
+/**
+ * Internal dependencies.
+ */
+import { $ } from '../../../admin/js/_common-functions';
+
+add_action( 'tablepress.optionsCheckDependencies', 'tp/row-highlighting/handle-options-check-dependencies', () => {
+	const highlight_parameters_disabled = ( '' === tp.table.options.row_highlight.trim() );
+	$( '#option-row_highlight_full_cell_match' ).disabled = highlight_parameters_disabled;
+	$( '#option-row_highlight_case_sensitive' ).disabled = highlight_parameters_disabled;
+	$( '#option-row_highlight_columns' ).disabled = highlight_parameters_disabled;
+	$( '#option-row_highlight_rows' ).disabled = highlight_parameters_disabled;
+} );
+
+add_filter( 'tablepress.optionsMetaBoxes', 'tp/row-highlighting/add-meta-box', options_meta_boxes => {
+	options_meta_boxes.push( '#tablepress_edit-row-highlighting' );
+	return options_meta_boxes;
+} );

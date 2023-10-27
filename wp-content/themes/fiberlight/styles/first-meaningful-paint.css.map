@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "first-meaningful-paint.css",
+	"sources": [
+		"first-meaningful-paint.scss",
+		"defaults/_variables.scss",
+		"utilities/_media-queries.scss",
+		"utilities/_mixins.scss"
+	],
+	"mappings": "AAAA;;EAEE;AGFF;;;;;;;IAOI;AAaJ;;;;GAIG",
+	"names": []
+}

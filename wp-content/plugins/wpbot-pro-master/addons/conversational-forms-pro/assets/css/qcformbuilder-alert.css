@@ -1,0 +1,108 @@
+.qcformbuilder-grid .alert {
+  padding: 8px;
+  margin-bottom: 18px;
+  border-radius: 2px;
+}
+.qcformbuilder-grid .alert .alert-link {
+  font-weight: bold;
+}
+.qcformbuilder-grid .alert-dismissable {
+  padding-right: 28px;
+}
+.qcformbuilder-grid .alert-success {
+  background-color: #dff0d8;
+  border-color: #a3d48e;
+  color: #3c763d;
+}
+.qcformbuilder-grid .alert-success hr {
+  border-top-color: #93cd7c;
+}
+.qcformbuilder-grid .alert-success .alert-link {
+  color: #2b542c;
+}
+.qcformbuilder-grid .alert-info {
+  background-color: #d9edf7;
+  border-color: #85c5e5;
+  color: #31708f;
+}
+.qcformbuilder-grid .alert-info hr {
+  border-top-color: #70bbe1;
+}
+.qcformbuilder-grid .alert-info .alert-link {
+  color: #245269;
+}
+.qcformbuilder-grid .alert-warning {
+  background-color: #f9edbe;
+  border-color: #f0c36d;
+  color: #333333;
+}
+.qcformbuilder-grid .alert-warning hr {
+  border-top-color: #eeb956;
+}
+.qcformbuilder-grid .alert-warning .alert-link {
+  color: #1a1a1a;
+}
+.qcformbuilder-grid .alert-error,
+.qcformbuilder-grid .alert-danger {
+  background-color: #f2dede;
+  border-color: #d59595;
+  color: #a94442;
+}
+.qcformbuilder-grid .alert-error hr,
+.qcformbuilder-grid .alert-danger hr {
+  border-top-color: #ce8383;
+}
+.qcformbuilder-grid .alert-error .alert-link,
+.qcformbuilder-grid .alert-danger .alert-link {
+  color: #843534;
+}
+.qcformbuilder-grid .alert-success,
+.qcformbuilder-grid .alert-info,
+.qcformbuilder-grid .alert-warning,
+.qcformbuilder-grid .alert-error,
+.qcformbuilder-grid .alert-danger {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.qcformbuilder-grid .has-error .help-block,
+.qcformbuilder-grid .has-error .control-label,
+.qcformbuilder-grid .has-error .radio,
+.qcformbuilder-grid .has-error .checkbox,
+.qcformbuilder-grid .has-error .radio-inline,
+.qcformbuilder-grid .has-error .checkbox-inline {
+  color: #dd4b39;
+}
+.qcformbuilder-grid .has-error .form-control {
+  border-color: #dd4b39;
+}
+.qcformbuilder-grid .has-error .form-control:focus {
+  border-color: #c23321;
+}
+.qcformbuilder-grid .has-error .input-group-addon {
+  color: #dd4b39;
+  border-color: #dd4b39;
+  background-color: #f2dede;
+}
+.qcformbuilder-grid .has-error .form-control-feedback {
+  color: #dd4b39;
+}
+.qcformbuilder-grid .has-error .form-control {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.qcformbuilder-grid .has-error .form-control:hover {
+  border-color: #dd4b39;
+}
+.qcformbuilder-grid .has-error .form-control:focus {
+  border-color: #dd4b39;
+}
+.qcformbuilder-grid.wfb_processing {
+    background: url("../images/loading.gif") no-repeat scroll center center / 30px auto rgba(0, 0, 0, 0);
+}
+.qcformbuilder-grid.wfb_processing > * {
+    opacity: 0.5;
+}
+
+
+
+
+

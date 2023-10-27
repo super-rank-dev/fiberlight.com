@@ -1,0 +1,96 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_border-radius";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_box-shadow";
+@import "../../core/site_variables";
+
+@import "../../../vendor/bootstrap-5.2.2/scss/_card";
+
+
+.service-list{
+  position: relative;
+  @import "../clone/section-padding";
+
+  // .background-inner{
+  //   background-color: var(--wp--preset--color--fl-tan);
+  //   height: calc(100% - 200px);
+  //   margin: 100px 0px;
+  // }
+
+  .services-wrap{
+    position: relative;
+    margin: 0px 0px;
+
+    &.overlapDefault{
+      margin: calc((#{$sectionPadding} + 40px) * -1) 0px ;
+    }
+    &.overlapHalf{
+      margin: calc(((#{$sectionPadding} / 2) + 40px) * -1) 0px ;
+    }
+    &.overlapThird{
+      margin: calc(((#{$sectionPadding} / 3) + 40px) * -1) 0px ;
+    }
+    &.overlapNone{
+      margin: calc(40px * -1) 0px ;
+    }
+  }
+
+  .card{
+    margin: 0px;
+    padding: 30px 20px;
+    border: none;
+    border-radius: 20px;
+
+    &.background-tan{
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#edf4ed+0,d2d8d2+100 */
+      background: #edf4ed; /* Old browsers */
+      background: -moz-linear-gradient(left,  #edf4ed 0%, #d2d8d2 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(left,  #edf4ed 0%,#d2d8d2 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right,  #edf4ed 0%,#d2d8d2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf4ed', endColorstr='#d2d8d2',GradientType=1 ); /* IE6-9 */
+    }
+
+    &.background-tan-alt{
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d2d8d2+0,edf4ed+100 */
+      background: #d2d8d2; /* Old browsers */
+      background: -moz-linear-gradient(left,  #d2d8d2 0%, #edf4ed 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(left,  #d2d8d2 0%,#edf4ed 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right,  #d2d8d2 0%,#edf4ed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2d8d2', endColorstr='#edf4ed',GradientType=1 ); /* IE6-9 */
+    }
+    
+    .bar{
+      width: 50%;
+      height: 6px;
+      display: block;
+      margin: 0 auto 12px;
+      &-green{
+        background-color: var(--wp--preset--color--fl-green);
+      }
+    }
+
+    h4{
+      @include media-breakpoint-down(md){
+        font-size: 24px;
+        text-align: center;
+      }
+    }
+    h4,
+    p,
+    .wp-block-button__link{
+      color: var(--wp--preset--color--fl-black)!important;
+    }
+
+    .wp-block-buttons{
+     @include media-breakpoint-down(md){
+      text-align: center;
+      margin-top: auto;
+     }
+    }
+    
+  }
+}
+
+

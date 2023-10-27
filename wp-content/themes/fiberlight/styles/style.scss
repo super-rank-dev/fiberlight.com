@@ -1,0 +1,24 @@
+// uncomment foundation items after $ bower install
+// foundation
+@import "../engine/bower_components/foundation-sites/scss/foundation";
+
+// defaults
+@import "defaults/variables";
+@import "defaults/settings";
+@import "defaults/foundation-components";
+@import "defaults/normalize";
+
+// utilities
+@import "utilities/media-queries";
+@import "utilities/mixins";
+
+// vendors
+@import "vendors/slick";
+@import "vendors/magnific";
+@import "vendors/aos";
+@import "vendors/font-awesome";
+@import "vendors/ubermenu";
+@import "vendors/shiftnav";
+// main css
+@import "main";
+

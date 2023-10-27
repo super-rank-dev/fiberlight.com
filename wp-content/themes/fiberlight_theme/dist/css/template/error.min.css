@@ -1,0 +1,7 @@
+@import url("https://use.typekit.net/buc6ftw.css");/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */.error-page{position:relative;height:100vh}@media (max-width: 767.98px){.error-page{height:100vh}}.error-page .search #search-form{position:relative}.error-page .search #search-form #search-input{width:100%;padding:10px 10px 10px 80px;display:block;border-radius:30px}.error-page .search #search-form #search-input::placeholder{font-weight:100;color:#B8BFB8}.error-page .search #search-form #btn-submit{background:transparent;border:none;cursor:pointer;display:inline-block;position:absolute;top:0;left:0;z-index:10;background-image:url(/wp-content/themes/fiberlight_theme/dist/images/icon_search.svg);background-size:contain;background-repeat:no-repeat;background-position:center center;width:60px;height:34px;padding:0px 20px;margin:10px 10px}.error-page .search{margin:180px 0 0}@media (max-width: 767.98px){.error-page .search{margin:120px 0 0}}.error-page .the-message{margin:100px 0 0}@media (max-width: 767.98px){.error-page .the-message{margin:50px 0 0}}@media (max-width: 767.98px){.error-page .background-image img{object-position:top center}}

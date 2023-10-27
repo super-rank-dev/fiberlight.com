@@ -1,0 +1,2954 @@
+[
+  {
+    "category_name": "Material",
+    "icons": [
+      {
+        "name": "Add Alarm Button",
+        "path": "material/add-alarm-button.svg",
+        "keywords": [
+          "add,alarm,button"
+        ]
+      },
+      {
+        "name": "Add Button Inside Black Circle",
+        "path": "material/add-button-inside-black-circle.svg",
+        "keywords": [
+          "add,button,inside,black,circle"
+        ]
+      },
+      {
+        "name": "Add Comment Button",
+        "path": "material/add-comment-button.svg",
+        "keywords": [
+          "add,comment,button"
+        ]
+      },
+      {
+        "name": "Add Label Button",
+        "path": "material/add-label-button.svg",
+        "keywords": [
+          "add,label,button"
+        ]
+      },
+      {
+        "name": "Add Plus Button",
+        "path": "material/add-plus-button.svg",
+        "keywords": [
+          "add,plus,button"
+        ]
+      },
+      {
+        "name": "Add To Queue Button",
+        "path": "material/add-to-queue-button.svg",
+        "keywords": [
+          "add,to,queue,button"
+        ]
+      },
+      {
+        "name": "Add User Button",
+        "path": "material/add-user-button.svg",
+        "keywords": [
+          "add,user,button"
+        ]
+      },
+      {
+        "name": "Adjust Button With Plus And Minus",
+        "path": "material/adjust-button-with-plus-and-minus.svg",
+        "keywords": [
+          "adjust,button,with,plus,and,minus"
+        ]
+      },
+      {
+        "name": "Airplane Mode On Symbol",
+        "path": "material/airplane-mode-on-symbol.svg",
+        "keywords": [
+          "airplane,mode,on,symbol"
+        ]
+      },
+      {
+        "name": "Android Logo 1",
+        "path": "material/android-logo-1.svg",
+        "keywords": [
+          "android,logo,1"
+        ]
+      },
+      {
+        "name": "Android Logo",
+        "path": "material/android-logo.svg",
+        "keywords": [
+          "android,logo"
+        ]
+      },
+      {
+        "name": "Apple Accessibility",
+        "path": "material/apple-accessibility.svg",
+        "keywords": [
+          "apple,accessibility"
+        ]
+      },
+      {
+        "name": "Attachment Clip",
+        "path": "material/attachment-clip.svg",
+        "keywords": [
+          "attachment,clip"
+        ]
+      },
+      {
+        "name": "Auto White Balance",
+        "path": "material/auto-white-balance.svg",
+        "keywords": [
+          "auto,white,balance"
+        ]
+      },
+      {
+        "name": "Automatic Brightness",
+        "path": "material/automatic-brightness.svg",
+        "keywords": [
+          "automatic,brightness"
+        ]
+      },
+      {
+        "name": "Automatic Flash Symbol",
+        "path": "material/automatic-flash-symbol.svg",
+        "keywords": [
+          "automatic,flash,symbol"
+        ]
+      },
+      {
+        "name": "Back Arrow",
+        "path": "material/back-arrow.svg",
+        "keywords": [
+          "back,arrow"
+        ]
+      },
+      {
+        "name": "Backspace Arrow",
+        "path": "material/backspace-arrow.svg",
+        "keywords": [
+          "backspace,arrow"
+        ]
+      },
+      {
+        "name": "Bed Quilt",
+        "path": "material/bed-quilt.svg",
+        "keywords": [
+          "bed,quilt"
+        ]
+      },
+      {
+        "name": "Been Here Marker",
+        "path": "material/been-here-marker.svg",
+        "keywords": [
+          "been,here,marker"
+        ]
+      },
+      {
+        "name": "Birthday Cake",
+        "path": "material/birthday-cake.svg",
+        "keywords": [
+          "birthday,cake"
+        ]
+      },
+      {
+        "name": "Black Bubble Speech",
+        "path": "material/black-bubble-speech.svg",
+        "keywords": [
+          "black,bubble,speech"
+        ]
+      },
+      {
+        "name": "Black Check Box With White Check",
+        "path": "material/black-check-box-with-white-check.svg",
+        "keywords": [
+          "black,check,box,with,white,check"
+        ]
+      },
+      {
+        "name": "Black Check Box",
+        "path": "material/black-check-box.svg",
+        "keywords": [
+          "black,check,box"
+        ]
+      },
+      {
+        "name": "Black Envelope Email Symbol",
+        "path": "material/black-envelope-email-symbol.svg",
+        "keywords": [
+          "black,envelope,email,symbol"
+        ]
+      },
+      {
+        "name": "Black Keyboard With White Keys",
+        "path": "material/black-keyboard-with-white-keys.svg",
+        "keywords": [
+          "black,keyboard,with,white,keys"
+        ]
+      },
+      {
+        "name": "Black Plane",
+        "path": "material/black-plane.svg",
+        "keywords": [
+          "black,plane"
+        ]
+      },
+      {
+        "name": "Blank Check Box",
+        "path": "material/blank-check-box.svg",
+        "keywords": [
+          "blank,check,box"
+        ]
+      },
+      {
+        "name": "Blank Frame",
+        "path": "material/blank-frame.svg",
+        "keywords": [
+          "blank,frame"
+        ]
+      },
+      {
+        "name": "Blank Square",
+        "path": "material/blank-square.svg",
+        "keywords": [
+          "blank,square"
+        ]
+      },
+      {
+        "name": "Blogger Logo",
+        "path": "material/blogger-logo.svg",
+        "keywords": [
+          "blogger,logo"
+        ]
+      },
+      {
+        "name": "Blueetooth Logo",
+        "path": "material/blueetooth-logo.svg",
+        "keywords": [
+          "blueetooth,logo"
+        ]
+      },
+      {
+        "name": "Bluetooth Connected",
+        "path": "material/bluetooth-connected.svg",
+        "keywords": [
+          "bluetooth,connected"
+        ]
+      },
+      {
+        "name": "Bluetooth Disabled Button",
+        "path": "material/bluetooth-disabled-button.svg",
+        "keywords": [
+          "bluetooth,disabled,button"
+        ]
+      },
+      {
+        "name": "Bluetooth Searching Signal Indicator",
+        "path": "material/bluetooth-searching-signal-indicator.svg",
+        "keywords": [
+          "bluetooth,searching,signal,indicator"
+        ]
+      },
+      {
+        "name": "Bluetooth Settings",
+        "path": "material/bluetooth-settings.svg",
+        "keywords": [
+          "bluetooth,settings"
+        ]
+      },
+      {
+        "name": "Bluetooth Signal Indicator",
+        "path": "material/bluetooth-signal-indicator.svg",
+        "keywords": [
+          "bluetooth,signal,indicator"
+        ]
+      },
+      {
+        "name": "Bookmark Button 1",
+        "path": "material/bookmark-button-1.svg",
+        "keywords": [
+          "bookmark,button,1"
+        ]
+      },
+      {
+        "name": "Bookmark Button",
+        "path": "material/bookmark-button.svg",
+        "keywords": [
+          "bookmark,button"
+        ]
+      },
+      {
+        "name": "Bookmark Outline",
+        "path": "material/bookmark-outline.svg",
+        "keywords": [
+          "bookmark,outline"
+        ]
+      },
+      {
+        "name": "Bookmark Ribbon",
+        "path": "material/bookmark-ribbon.svg",
+        "keywords": [
+          "bookmark,ribbon"
+        ]
+      },
+      {
+        "name": "Briefcase Download Button With Downwards Arrow",
+        "path": "material/briefcase-download-button-with-downwards-arrow.svg",
+        "keywords": [
+          "briefcase,download,button,with,downwards,arrow"
+        ]
+      },
+      {
+        "name": "Briefcase With Tick Inside",
+        "path": "material/briefcase-with-tick-inside.svg",
+        "keywords": [
+          "briefcase,with,tick,inside"
+        ]
+      },
+      {
+        "name": "Brightness Control",
+        "path": "material/brightness-control.svg",
+        "keywords": [
+          "brightness,control"
+        ]
+      },
+      {
+        "name": "Brochure With Three Sections",
+        "path": "material/brochure-with-three-sections.svg",
+        "keywords": [
+          "brochure,with,three,sections"
+        ]
+      },
+      {
+        "name": "Bubble Speech With Three Lines",
+        "path": "material/bubble-speech-with-three-lines.svg",
+        "keywords": [
+          "bubble,speech,with,three,lines"
+        ]
+      },
+      {
+        "name": "Bug Report Button",
+        "path": "material/bug-report-button.svg",
+        "keywords": [
+          "bug,report,button"
+        ]
+      },
+      {
+        "name": "Burn Button",
+        "path": "material/burn-button.svg",
+        "keywords": [
+          "burn,button"
+        ]
+      },
+      {
+        "name": "Button On",
+        "path": "material/button-on.svg",
+        "keywords": [
+          "button,on"
+        ]
+      },
+      {
+        "name": "Call Forwarding",
+        "path": "material/call-forwarding.svg",
+        "keywords": [
+          "call,forwarding"
+        ]
+      },
+      {
+        "name": "Call Made Right Arrow",
+        "path": "material/call-made-right-arrow.svg",
+        "keywords": [
+          "call,made,right,arrow"
+        ]
+      },
+      {
+        "name": "Call Received Arrow",
+        "path": "material/call-received-arrow.svg",
+        "keywords": [
+          "call,received,arrow"
+        ]
+      },
+      {
+        "name": "Camera Diaphragm",
+        "path": "material/camera-diaphragm.svg",
+        "keywords": [
+          "camera,diaphragm"
+        ]
+      },
+      {
+        "name": "Camera",
+        "path": "material/camera.svg",
+        "keywords": [
+          "camera"
+        ]
+      },
+      {
+        "name": "Cancel Button",
+        "path": "material/cancel-button.svg",
+        "keywords": [
+          "cancel,button"
+        ]
+      },
+      {
+        "name": "Caps Lock Button 1",
+        "path": "material/caps-lock-button-1.svg",
+        "keywords": [
+          "caps,lock,button,1"
+        ]
+      },
+      {
+        "name": "Caps Lock Button",
+        "path": "material/caps-lock-button.svg",
+        "keywords": [
+          "caps,lock,button"
+        ]
+      },
+      {
+        "name": "Car Changing Lanes",
+        "path": "material/car-changing-lanes.svg",
+        "keywords": [
+          "car,changing,lanes"
+        ]
+      },
+      {
+        "name": "Car Directions",
+        "path": "material/car-directions.svg",
+        "keywords": [
+          "car,directions"
+        ]
+      },
+      {
+        "name": "Car Front",
+        "path": "material/car-front.svg",
+        "keywords": [
+          "car,front"
+        ]
+      },
+      {
+        "name": "Cell Phone High Signal Indicator",
+        "path": "material/cell-phone-high-signal-indicator.svg",
+        "keywords": [
+          "cell,phone,high,signal,indicator"
+        ]
+      },
+      {
+        "name": "Cell Phone Vibration",
+        "path": "material/cell-phone-vibration.svg",
+        "keywords": [
+          "cell,phone,vibration"
+        ]
+      },
+      {
+        "name": "Cell Phone With Blank Screen",
+        "path": "material/cell-phone-with-blank-screen.svg",
+        "keywords": [
+          "cell,phone,with,blank,screen"
+        ]
+      },
+      {
+        "name": "Change Power Options",
+        "path": "material/change-power-options.svg",
+        "keywords": [
+          "change,power,options"
+        ]
+      },
+      {
+        "name": "Chat Bubble",
+        "path": "material/chat-bubble.svg",
+        "keywords": [
+          "chat,bubble"
+        ]
+      },
+      {
+        "name": "Chat Bubbles",
+        "path": "material/chat-bubbles.svg",
+        "keywords": [
+          "chat,bubbles"
+        ]
+      },
+      {
+        "name": "Check Box",
+        "path": "material/check-box.svg",
+        "keywords": [
+          "check,box"
+        ]
+      },
+      {
+        "name": "Check Symbol",
+        "path": "material/check-symbol.svg",
+        "keywords": [
+          "check,symbol"
+        ]
+      },
+      {
+        "name": "Chemistry Polymer",
+        "path": "material/chemistry-polymer.svg",
+        "keywords": [
+          "chemistry,polymer"
+        ]
+      },
+      {
+        "name": "Circle Outline",
+        "path": "material/circle-outline.svg",
+        "keywords": [
+          "circle,outline"
+        ]
+      },
+      {
+        "name": "Circle With Check Symbol",
+        "path": "material/circle-with-check-symbol.svg",
+        "keywords": [
+          "circle,with,check,symbol"
+        ]
+      },
+      {
+        "name": "Circles Extend Button",
+        "path": "material/circles-extend-button.svg",
+        "keywords": [
+          "circles,extend,button"
+        ]
+      },
+      {
+        "name": "Circumference",
+        "path": "material/circumference.svg",
+        "keywords": [
+          "circumference"
+        ]
+      },
+      {
+        "name": "City Buildings Silhouette",
+        "path": "material/city-buildings-silhouette.svg",
+        "keywords": [
+          "city,buildings,silhouette"
+        ]
+      },
+      {
+        "name": "Clapperboard 1",
+        "path": "material/clapperboard-1.svg",
+        "keywords": [
+          "clapperboard,1"
+        ]
+      },
+      {
+        "name": "Clapperboard",
+        "path": "material/clapperboard.svg",
+        "keywords": [
+          "clapperboard"
+        ]
+      },
+      {
+        "name": "Clear Button",
+        "path": "material/clear-button.svg",
+        "keywords": [
+          "clear,button"
+        ]
+      },
+      {
+        "name": "Clipboard Paste Button",
+        "path": "material/clipboard-paste-button.svg",
+        "keywords": [
+          "clipboard,paste,button"
+        ]
+      },
+      {
+        "name": "Clock With White Face",
+        "path": "material/clock-with-white-face.svg",
+        "keywords": [
+          "clock,with,white,face"
+        ]
+      },
+      {
+        "name": "Close Button",
+        "path": "material/close-button.svg",
+        "keywords": [
+          "close,button"
+        ]
+      },
+      {
+        "name": "Closed Caption Logo",
+        "path": "material/closed-caption-logo.svg",
+        "keywords": [
+          "closed,caption,logo"
+        ]
+      },
+      {
+        "name": "Cloud Backup Up Arrow",
+        "path": "material/cloud-backup-up-arrow.svg",
+        "keywords": [
+          "cloud,backup,up,arrow"
+        ]
+      },
+      {
+        "name": "Cloud Done Symbol",
+        "path": "material/cloud-done-symbol.svg",
+        "keywords": [
+          "cloud,done,symbol"
+        ]
+      },
+      {
+        "name": "Cloud Download",
+        "path": "material/cloud-download.svg",
+        "keywords": [
+          "cloud,download"
+        ]
+      },
+      {
+        "name": "Cloud Off",
+        "path": "material/cloud-off.svg",
+        "keywords": [
+          "cloud,off"
+        ]
+      },
+      {
+        "name": "Cloud Outline",
+        "path": "material/cloud-outline.svg",
+        "keywords": [
+          "cloud,outline"
+        ]
+      },
+      {
+        "name": "Cloud Symbol Inside A Circle",
+        "path": "material/cloud-symbol-inside-a-circle.svg",
+        "keywords": [
+          "cloud,symbol,inside,a,circle"
+        ]
+      },
+      {
+        "name": "Compass With White Needles",
+        "path": "material/compass-with-white-needles.svg",
+        "keywords": [
+          "compass,with,white,needles"
+        ]
+      },
+      {
+        "name": "Connection Indicator",
+        "path": "material/connection-indicator.svg",
+        "keywords": [
+          "connection,indicator"
+        ]
+      },
+      {
+        "name": "Copy Content",
+        "path": "material/copy-content.svg",
+        "keywords": [
+          "copy,content"
+        ]
+      },
+      {
+        "name": "Create Group Button",
+        "path": "material/create-group-button.svg",
+        "keywords": [
+          "create,group,button"
+        ]
+      },
+      {
+        "name": "Create New Pencil Button",
+        "path": "material/create-new-pencil-button.svg",
+        "keywords": [
+          "create,new,pencil,button"
+        ]
+      },
+      {
+        "name": "Credit Card",
+        "path": "material/credit-card.svg",
+        "keywords": [
+          "credit,card"
+        ]
+      },
+      {
+        "name": "Crop Button",
+        "path": "material/crop-button.svg",
+        "keywords": [
+          "crop,button"
+        ]
+      },
+      {
+        "name": "Crop Tool Button",
+        "path": "material/crop-tool-button.svg",
+        "keywords": [
+          "crop,tool,button"
+        ]
+      },
+      {
+        "name": "Cut Content Button",
+        "path": "material/cut-content-button.svg",
+        "keywords": [
+          "cut,content,button"
+        ]
+      },
+      {
+        "name": "Dark Cloud",
+        "path": "material/dark-cloud.svg",
+        "keywords": [
+          "dark,cloud"
+        ]
+      },
+      {
+        "name": "Developer Mode For Smartphones And Tablets",
+        "path": "material/developer-mode-for-smartphones-and-tablets.svg",
+        "keywords": [
+          "developer,mode,for,smartphones,and,tablets"
+        ]
+      },
+      {
+        "name": "Device Connected 1",
+        "path": "material/device-connected-1.svg",
+        "keywords": [
+          "device,connected,1"
+        ]
+      },
+      {
+        "name": "Device Connected",
+        "path": "material/device-connected.svg",
+        "keywords": [
+          "device,connected"
+        ]
+      },
+      {
+        "name": "Disc Is Full",
+        "path": "material/disc-is-full.svg",
+        "keywords": [
+          "disc,is,full"
+        ]
+      },
+      {
+        "name": "Do Not Disturb Rounded Sign",
+        "path": "material/do-not-disturb-rounded-sign.svg",
+        "keywords": [
+          "do,not,disturb,rounded,sign"
+        ]
+      },
+      {
+        "name": "Double Tick Indicator",
+        "path": "material/double-tick-indicator.svg",
+        "keywords": [
+          "double,tick,indicator"
+        ]
+      },
+      {
+        "name": "Download Button 1",
+        "path": "material/download-button-1.svg",
+        "keywords": [
+          "download,button,1"
+        ]
+      },
+      {
+        "name": "Download Button",
+        "path": "material/download-button.svg",
+        "keywords": [
+          "download,button"
+        ]
+      },
+      {
+        "name": "Download To Smartphone",
+        "path": "material/download-to-smartphone.svg",
+        "keywords": [
+          "download,to,smartphone"
+        ]
+      },
+      {
+        "name": "Downwards Arrow Key",
+        "path": "material/downwards-arrow-key.svg",
+        "keywords": [
+          "downwards,arrow,key"
+        ]
+      },
+      {
+        "name": "Drafts Evelope Button",
+        "path": "material/drafts-evelope-button.svg",
+        "keywords": [
+          "drafts,evelope,button"
+        ]
+      },
+      {
+        "name": "Drop Down Arrow",
+        "path": "material/drop-down-arrow.svg",
+        "keywords": [
+          "drop,down,arrow"
+        ]
+      },
+      {
+        "name": "Drop Down Round Button",
+        "path": "material/drop-down-round-button.svg",
+        "keywords": [
+          "drop,down,round,button"
+        ]
+      },
+      {
+        "name": "Drop Up Arrow",
+        "path": "material/drop-up-arrow.svg",
+        "keywords": [
+          "drop,up,arrow"
+        ]
+      },
+      {
+        "name": "Earth Grid Select Language Button",
+        "path": "material/earth-grid-select-language-button.svg",
+        "keywords": [
+          "earth,grid,select,language,button"
+        ]
+      },
+      {
+        "name": "Ellipsis",
+        "path": "material/ellipsis.svg",
+        "keywords": [
+          "ellipsis"
+        ]
+      },
+      {
+        "name": "Email Inbox",
+        "path": "material/email-inbox.svg",
+        "keywords": [
+          "email,inbox"
+        ]
+      },
+      {
+        "name": "Emoticon With Happy Face",
+        "path": "material/emoticon-with-happy-face.svg",
+        "keywords": [
+          "emoticon,with,happy,face"
+        ]
+      },
+      {
+        "name": "End Call Button",
+        "path": "material/end-call-button.svg",
+        "keywords": [
+          "end,call,button"
+        ]
+      },
+      {
+        "name": "Enter Arrow",
+        "path": "material/enter-arrow.svg",
+        "keywords": [
+          "enter,arrow"
+        ]
+      },
+      {
+        "name": "Exit To App Button",
+        "path": "material/exit-to-app-button.svg",
+        "keywords": [
+          "exit,to,app,button"
+        ]
+      },
+      {
+        "name": "Expand Arrow",
+        "path": "material/expand-arrow.svg",
+        "keywords": [
+          "expand,arrow"
+        ]
+      },
+      {
+        "name": "Expand Button",
+        "path": "material/expand-button.svg",
+        "keywords": [
+          "expand,button"
+        ]
+      },
+      {
+        "name": "Facebook Logo",
+        "path": "material/facebook-logo.svg",
+        "keywords": [
+          "facebook,logo"
+        ]
+      },
+      {
+        "name": "Failed Sms",
+        "path": "material/failed-sms.svg",
+        "keywords": [
+          "failed,sms"
+        ]
+      },
+      {
+        "name": "Fast Forward Button",
+        "path": "material/fast-forward-button.svg",
+        "keywords": [
+          "fast,forward,button"
+        ]
+      },
+      {
+        "name": "Favorite Heart Button",
+        "path": "material/favorite-heart-button.svg",
+        "keywords": [
+          "favorite,heart,button"
+        ]
+      },
+      {
+        "name": "Favorite Heart Outline Button",
+        "path": "material/favorite-heart-outline-button.svg",
+        "keywords": [
+          "favorite,heart,outline,button"
+        ]
+      },
+      {
+        "name": "Filled Circle",
+        "path": "material/filled-circle.svg",
+        "keywords": [
+          "filled,circle"
+        ]
+      },
+      {
+        "name": "Filled Cloud",
+        "path": "material/filled-cloud.svg",
+        "keywords": [
+          "filled,cloud"
+        ]
+      },
+      {
+        "name": "Filled Speaker With White Details",
+        "path": "material/filled-speaker-with-white-details.svg",
+        "keywords": [
+          "filled,speaker,with,white,details"
+        ]
+      },
+      {
+        "name": "Film Roll",
+        "path": "material/film-roll.svg",
+        "keywords": [
+          "film,roll"
+        ]
+      },
+      {
+        "name": "Filter Results Button",
+        "path": "material/filter-results-button.svg",
+        "keywords": [
+          "filter,results,button"
+        ]
+      },
+      {
+        "name": "Flash Off",
+        "path": "material/flash-off.svg",
+        "keywords": [
+          "flash,off"
+        ]
+      },
+      {
+        "name": "Flash On Indicator",
+        "path": "material/flash-on-indicator.svg",
+        "keywords": [
+          "flash,on,indicator"
+        ]
+      },
+      {
+        "name": "Folder Symbol",
+        "path": "material/folder-symbol.svg",
+        "keywords": [
+          "folder,symbol"
+        ]
+      },
+      {
+        "name": "Forward Arrow",
+        "path": "material/forward-arrow.svg",
+        "keywords": [
+          "forward,arrow"
+        ]
+      },
+      {
+        "name": "Forward Right Arrow Button",
+        "path": "material/forward-right-arrow-button.svg",
+        "keywords": [
+          "forward,right,arrow,button"
+        ]
+      },
+      {
+        "name": "Framed Portrait",
+        "path": "material/framed-portrait.svg",
+        "keywords": [
+          "framed,portrait"
+        ]
+      },
+      {
+        "name": "Front Bus",
+        "path": "material/front-bus.svg",
+        "keywords": [
+          "front,bus"
+        ]
+      },
+      {
+        "name": "Front Car",
+        "path": "material/front-car.svg",
+        "keywords": [
+          "front,car"
+        ]
+      },
+      {
+        "name": "Front Store",
+        "path": "material/front-store.svg",
+        "keywords": [
+          "front,store"
+        ]
+      },
+      {
+        "name": "Full Screen Exit",
+        "path": "material/full-screen-exit.svg",
+        "keywords": [
+          "full,screen,exit"
+        ]
+      },
+      {
+        "name": "Gamepad 1",
+        "path": "material/gamepad-1.svg",
+        "keywords": [
+          "gamepad,1"
+        ]
+      },
+      {
+        "name": "Gamepad",
+        "path": "material/gamepad.svg",
+        "keywords": [
+          "gamepad"
+        ]
+      },
+      {
+        "name": "Get Directions Button",
+        "path": "material/get-directions-button.svg",
+        "keywords": [
+          "get,directions,button"
+        ]
+      },
+      {
+        "name": "Gmail Logo",
+        "path": "material/gmail-logo.svg",
+        "keywords": [
+          "gmail,logo"
+        ]
+      },
+      {
+        "name": "Go Back Left Arrow",
+        "path": "material/go-back-left-arrow.svg",
+        "keywords": [
+          "go,back,left,arrow"
+        ]
+      },
+      {
+        "name": "Good Mood Emoticon",
+        "path": "material/good-mood-emoticon.svg",
+        "keywords": [
+          "good,mood,emoticon"
+        ]
+      },
+      {
+        "name": "Good Wifi Signal With Three Bars",
+        "path": "material/good-wifi-signal-with-three-bars.svg",
+        "keywords": [
+          "good,wifi,signal,with,three,bars"
+        ]
+      },
+      {
+        "name": "Google Apps Script Logo",
+        "path": "material/google-apps-script-logo.svg",
+        "keywords": [
+          "google,apps,script,logo"
+        ]
+      },
+      {
+        "name": "Google Cast Logo",
+        "path": "material/google-cast-logo.svg",
+        "keywords": [
+          "google,cast,logo"
+        ]
+      },
+      {
+        "name": "Google Chrome Logo Filled With White Colour",
+        "path": "material/google-chrome-logo-filled-with-white-colour.svg",
+        "keywords": [
+          "google,chrome,logo,filled,with,white,colour"
+        ]
+      },
+      {
+        "name": "Google Drive Document",
+        "path": "material/google-drive-document.svg",
+        "keywords": [
+          "google,drive,document"
+        ]
+      },
+      {
+        "name": "Google Drive File",
+        "path": "material/google-drive-file.svg",
+        "keywords": [
+          "google,drive,file"
+        ]
+      },
+      {
+        "name": "Google Drive Folder Symbol",
+        "path": "material/google-drive-folder-symbol.svg",
+        "keywords": [
+          "google,drive,folder,symbol"
+        ]
+      },
+      {
+        "name": "Google Drive Fusion Tables Logo",
+        "path": "material/google-drive-fusion-tables-logo.svg",
+        "keywords": [
+          "google,drive,fusion,tables,logo"
+        ]
+      },
+      {
+        "name": "Google Drive Image",
+        "path": "material/google-drive-image.svg",
+        "keywords": [
+          "google,drive,image"
+        ]
+      },
+      {
+        "name": "Google Drive Logo",
+        "path": "material/google-drive-logo.svg",
+        "keywords": [
+          "google,drive,logo"
+        ]
+      },
+      {
+        "name": "Google Drive Pdf File",
+        "path": "material/google-drive-pdf-file.svg",
+        "keywords": [
+          "google,drive,pdf,file"
+        ]
+      },
+      {
+        "name": "Google Drive Presentation",
+        "path": "material/google-drive-presentation.svg",
+        "keywords": [
+          "google,drive,presentation"
+        ]
+      },
+      {
+        "name": "Google Drive Spreadsheet",
+        "path": "material/google-drive-spreadsheet.svg",
+        "keywords": [
+          "google,drive,spreadsheet"
+        ]
+      },
+      {
+        "name": "Google Glass Logo",
+        "path": "material/google-glass-logo.svg",
+        "keywords": [
+          "google,glass,logo"
+        ]
+      },
+      {
+        "name": "Google Hangouts Logo",
+        "path": "material/google-hangouts-logo.svg",
+        "keywords": [
+          "google,hangouts,logo"
+        ]
+      },
+      {
+        "name": "Google Hangouts Turn Video Off",
+        "path": "material/google-hangouts-turn-video-off.svg",
+        "keywords": [
+          "google,hangouts,turn,video,off"
+        ]
+      },
+      {
+        "name": "Google Plus Party Mode",
+        "path": "material/google-plus-party-mode.svg",
+        "keywords": [
+          "google,plus,party,mode"
+        ]
+      },
+      {
+        "name": "Google Symbol",
+        "path": "material/google-symbol.svg",
+        "keywords": [
+          "google,symbol"
+        ]
+      },
+      {
+        "name": "Gps Fixed Indicator",
+        "path": "material/gps-fixed-indicator.svg",
+        "keywords": [
+          "gps,fixed,indicator"
+        ]
+      },
+      {
+        "name": "Gps Location Disabled",
+        "path": "material/gps-location-disabled.svg",
+        "keywords": [
+          "gps,location,disabled"
+        ]
+      },
+      {
+        "name": "Gps Location Symbol",
+        "path": "material/gps-location-symbol.svg",
+        "keywords": [
+          "gps,location,symbol"
+        ]
+      },
+      {
+        "name": "Gps Off",
+        "path": "material/gps-off.svg",
+        "keywords": [
+          "gps,off"
+        ]
+      },
+      {
+        "name": "Graduate Cap",
+        "path": "material/graduate-cap.svg",
+        "keywords": [
+          "graduate,cap"
+        ]
+      },
+      {
+        "name": "Half Filled Rating Star",
+        "path": "material/half-filled-rating-star.svg",
+        "keywords": [
+          "half,filled,rating,star"
+        ]
+      },
+      {
+        "name": "Hangouts Videocall Button",
+        "path": "material/hangouts-videocall-button.svg",
+        "keywords": [
+          "hangouts,videocall,button"
+        ]
+      },
+      {
+        "name": "Headset With Microphone",
+        "path": "material/headset-with-microphone.svg",
+        "keywords": [
+          "headset,with,microphone"
+        ]
+      },
+      {
+        "name": "Headset",
+        "path": "material/headset.svg",
+        "keywords": [
+          "headset"
+        ]
+      },
+      {
+        "name": "Help Button Speech Bubble With Question Mark",
+        "path": "material/help-button-speech-bubble-with-question-mark.svg",
+        "keywords": [
+          "help,button,speech,bubble,with,question,mark"
+        ]
+      },
+      {
+        "name": "Help Round Button",
+        "path": "material/help-round-button.svg",
+        "keywords": [
+          "help,round,button"
+        ]
+      },
+      {
+        "name": "Hide Keyboard Button",
+        "path": "material/hide-keyboard-button.svg",
+        "keywords": [
+          "hide,keyboard,button"
+        ]
+      },
+      {
+        "name": "High Quality Button",
+        "path": "material/high-quality-button.svg",
+        "keywords": [
+          "high,quality,button"
+        ]
+      },
+      {
+        "name": "High Signal Indicator",
+        "path": "material/high-signal-indicator.svg",
+        "keywords": [
+          "high,signal,indicator"
+        ]
+      },
+      {
+        "name": "High Wifi Signal Indicator",
+        "path": "material/high-wifi-signal-indicator.svg",
+        "keywords": [
+          "high,wifi,signal,indicator"
+        ]
+      },
+      {
+        "name": "History Clock Button",
+        "path": "material/history-clock-button.svg",
+        "keywords": [
+          "history,clock,button"
+        ]
+      },
+      {
+        "name": "Home Button",
+        "path": "material/home-button.svg",
+        "keywords": [
+          "home,button"
+        ]
+      },
+      {
+        "name": "Horizontal Line Remove Button",
+        "path": "material/horizontal-line-remove-button.svg",
+        "keywords": [
+          "horizontal,line,remove,button"
+        ]
+      },
+      {
+        "name": "Hotel With Three Floors",
+        "path": "material/hotel-with-three-floors.svg",
+        "keywords": [
+          "hotel,with,three,floors"
+        ]
+      },
+      {
+        "name": "Https Symbol",
+        "path": "material/https-symbol.svg",
+        "keywords": [
+          "https,symbol"
+        ]
+      },
+      {
+        "name": "Import Export Arrows",
+        "path": "material/import-export-arrows.svg",
+        "keywords": [
+          "import,export,arrows"
+        ]
+      },
+      {
+        "name": "Insert Picture Button",
+        "path": "material/insert-picture-button.svg",
+        "keywords": [
+          "insert,picture,button"
+        ]
+      },
+      {
+        "name": "Instagram Logo",
+        "path": "material/instagram-logo.svg",
+        "keywords": [
+          "instagram,logo"
+        ]
+      },
+      {
+        "name": "Invert Colors Button",
+        "path": "material/invert-colors-button.svg",
+        "keywords": [
+          "invert,colors,button"
+        ]
+      },
+      {
+        "name": "Keyboard Left Arrow Button",
+        "path": "material/keyboard-left-arrow-button.svg",
+        "keywords": [
+          "keyboard,left,arrow,button"
+        ]
+      },
+      {
+        "name": "Keyboard Right Arrow Button 1",
+        "path": "material/keyboard-right-arrow-button-1.svg",
+        "keywords": [
+          "keyboard,right,arrow,button,1"
+        ]
+      },
+      {
+        "name": "Keyboard Right Arrow Button",
+        "path": "material/keyboard-right-arrow-button.svg",
+        "keywords": [
+          "keyboard,right,arrow,button"
+        ]
+      },
+      {
+        "name": "Label Right Arrow Outline",
+        "path": "material/label-right-arrow-outline.svg",
+        "keywords": [
+          "label,right,arrow,outline"
+        ]
+      },
+      {
+        "name": "Landscape With Mountains",
+        "path": "material/landscape-with-mountains.svg",
+        "keywords": [
+          "landscape,with,mountains"
+        ]
+      },
+      {
+        "name": "Laptop Outline",
+        "path": "material/laptop-outline.svg",
+        "keywords": [
+          "laptop,outline"
+        ]
+      },
+      {
+        "name": "Left Arrow Key 1",
+        "path": "material/left-arrow-key-1.svg",
+        "keywords": [
+          "left,arrow,key,1"
+        ]
+      },
+      {
+        "name": "Left Arrow Key",
+        "path": "material/left-arrow-key.svg",
+        "keywords": [
+          "left,arrow,key"
+        ]
+      },
+      {
+        "name": "Left Arrow Missed Call",
+        "path": "material/left-arrow-missed-call.svg",
+        "keywords": [
+          "left,arrow,missed,call"
+        ]
+      },
+      {
+        "name": "Light Bulb On",
+        "path": "material/light-bulb-on.svg",
+        "keywords": [
+          "light,bulb,on"
+        ]
+      },
+      {
+        "name": "Link Button",
+        "path": "material/link-button.svg",
+        "keywords": [
+          "link,button"
+        ]
+      },
+      {
+        "name": "Linkedin Logo",
+        "path": "material/linkedin-logo.svg",
+        "keywords": [
+          "linkedin,logo"
+        ]
+      },
+      {
+        "name": "List Button With 3 Elements",
+        "path": "material/list-button-with-3-elements.svg",
+        "keywords": [
+          "list,button,with,3,elements"
+        ]
+      },
+      {
+        "name": "List Of Three Elements On Black Background",
+        "path": "material/list-of-three-elements-on-black-background.svg",
+        "keywords": [
+          "list,of,three,elements,on,black,background"
+        ]
+      },
+      {
+        "name": "Location Arrow",
+        "path": "material/location-arrow.svg",
+        "keywords": [
+          "location,arrow"
+        ]
+      },
+      {
+        "name": "Locked Padlock Outline",
+        "path": "material/locked-padlock-outline.svg",
+        "keywords": [
+          "locked,padlock,outline"
+        ]
+      },
+      {
+        "name": "Locked Padlock",
+        "path": "material/locked-padlock.svg",
+        "keywords": [
+          "locked,padlock"
+        ]
+      },
+      {
+        "name": "Low Signal Indicator",
+        "path": "material/low-signal-indicator.svg",
+        "keywords": [
+          "low,signal,indicator"
+        ]
+      },
+      {
+        "name": "Magic Wand Auto Fix Button",
+        "path": "material/magic-wand-auto-fix-button.svg",
+        "keywords": [
+          "magic,wand,auto,fix,button"
+        ]
+      },
+      {
+        "name": "Man Cycling",
+        "path": "material/man-cycling.svg",
+        "keywords": [
+          "man,cycling"
+        ]
+      },
+      {
+        "name": "Man Walking Directions Button",
+        "path": "material/man-walking-directions-button.svg",
+        "keywords": [
+          "man,walking,directions,button"
+        ]
+      },
+      {
+        "name": "Map Placeholder",
+        "path": "material/map-placeholder.svg",
+        "keywords": [
+          "map,placeholder"
+        ]
+      },
+      {
+        "name": "Map Symbol",
+        "path": "material/map-symbol.svg",
+        "keywords": [
+          "map,symbol"
+        ]
+      },
+      {
+        "name": "Mark As Favorite Star",
+        "path": "material/mark-as-favorite-star.svg",
+        "keywords": [
+          "mark,as,favorite,star"
+        ]
+      },
+      {
+        "name": "Mark As Unread Envelope Button",
+        "path": "material/mark-as-unread-envelope-button.svg",
+        "keywords": [
+          "mark,as,unread,envelope,button"
+        ]
+      },
+      {
+        "name": "Medium Brightness Cogwheel",
+        "path": "material/medium-brightness-cogwheel.svg",
+        "keywords": [
+          "medium,brightness,cogwheel"
+        ]
+      },
+      {
+        "name": "Medium Signal",
+        "path": "material/medium-signal.svg",
+        "keywords": [
+          "medium,signal"
+        ]
+      },
+      {
+        "name": "Medium Wifi Signal With Two Bars",
+        "path": "material/medium-wifi-signal-with-two-bars.svg",
+        "keywords": [
+          "medium,wifi,signal,with,two,bars"
+        ]
+      },
+      {
+        "name": "Memory Chip",
+        "path": "material/memory-chip.svg",
+        "keywords": [
+          "memory,chip"
+        ]
+      },
+      {
+        "name": "Menu Button",
+        "path": "material/menu-button.svg",
+        "keywords": [
+          "menu,button"
+        ]
+      },
+      {
+        "name": "Merge Calls Arrow",
+        "path": "material/merge-calls-arrow.svg",
+        "keywords": [
+          "merge,calls,arrow"
+        ]
+      },
+      {
+        "name": "Microphone Of Voice",
+        "path": "material/microphone-of-voice.svg",
+        "keywords": [
+          "microphone,of,voice"
+        ]
+      },
+      {
+        "name": "Microphone Voice Button",
+        "path": "material/microphone-voice-button.svg",
+        "keywords": [
+          "microphone,voice,button"
+        ]
+      },
+      {
+        "name": "Microsoft Excel Logo",
+        "path": "material/microsoft-excel-logo.svg",
+        "keywords": [
+          "microsoft,excel,logo"
+        ]
+      },
+      {
+        "name": "Microsoft Word Logo",
+        "path": "material/microsoft-word-logo.svg",
+        "keywords": [
+          "microsoft,word,logo"
+        ]
+      },
+      {
+        "name": "Missed Call Phone Receiver With Left Arrow",
+        "path": "material/missed-call-phone-receiver-with-left-arrow.svg",
+        "keywords": [
+          "missed,call,phone,receiver,with,left,arrow"
+        ]
+      },
+      {
+        "name": "Mountain Range On Black Background",
+        "path": "material/mountain-range-on-black-background.svg",
+        "keywords": [
+          "mountain,range,on,black,background"
+        ]
+      },
+      {
+        "name": "Mountain Range",
+        "path": "material/mountain-range.svg",
+        "keywords": [
+          "mountain,range"
+        ]
+      },
+      {
+        "name": "Mountains Inside A Circle",
+        "path": "material/mountains-inside-a-circle.svg",
+        "keywords": [
+          "mountains,inside,a,circle"
+        ]
+      },
+      {
+        "name": "Mouse Filled Tool",
+        "path": "material/mouse-filled-tool.svg",
+        "keywords": [
+          "mouse,filled,tool"
+        ]
+      },
+      {
+        "name": "Move Window",
+        "path": "material/move-window.svg",
+        "keywords": [
+          "move,window"
+        ]
+      },
+      {
+        "name": "New Tab Button",
+        "path": "material/new-tab-button.svg",
+        "keywords": [
+          "new,tab,button"
+        ]
+      },
+      {
+        "name": "New Tab",
+        "path": "material/new-tab.svg",
+        "keywords": [
+          "new,tab"
+        ]
+      },
+      {
+        "name": "Nfc Near Field Communication",
+        "path": "material/nfc-near-field-communication.svg",
+        "keywords": [
+          "nfc,near,field,communication"
+        ]
+      },
+      {
+        "name": "Notifications Bell Button",
+        "path": "material/notifications-bell-button.svg",
+        "keywords": [
+          "notifications,bell,button"
+        ]
+      },
+      {
+        "name": "Notifications Button",
+        "path": "material/notifications-button.svg",
+        "keywords": [
+          "notifications,button"
+        ]
+      },
+      {
+        "name": "Notifications Silenced",
+        "path": "material/notifications-silenced.svg",
+        "keywords": [
+          "notifications,silenced"
+        ]
+      },
+      {
+        "name": "Pages Of Google Plus",
+        "path": "material/pages-of-google-plus.svg",
+        "keywords": [
+          "pages,of,google,plus"
+        ]
+      },
+      {
+        "name": "Painter Palette",
+        "path": "material/painter-palette.svg",
+        "keywords": [
+          "painter,palette"
+        ]
+      },
+      {
+        "name": "Panoramic Mountain Photography",
+        "path": "material/panoramic-mountain-photography.svg",
+        "keywords": [
+          "panoramic,mountain,photography"
+        ]
+      },
+      {
+        "name": "Parking Sign",
+        "path": "material/parking-sign.svg",
+        "keywords": [
+          "parking,sign"
+        ]
+      },
+      {
+        "name": "Pause Button",
+        "path": "material/pause-button.svg",
+        "keywords": [
+          "pause,button"
+        ]
+      },
+      {
+        "name": "Phone Call Button",
+        "path": "material/phone-call-button.svg",
+        "keywords": [
+          "phone,call,button"
+        ]
+      },
+      {
+        "name": "Phone Locked",
+        "path": "material/phone-locked.svg",
+        "keywords": [
+          "phone,locked"
+        ]
+      },
+      {
+        "name": "Phone Paused Indicator",
+        "path": "material/phone-paused-indicator.svg",
+        "keywords": [
+          "phone,paused,indicator"
+        ]
+      },
+      {
+        "name": "Phone Receiver With Bluetooth Sign",
+        "path": "material/phone-receiver-with-bluetooth-sign.svg",
+        "keywords": [
+          "phone,receiver,with,bluetooth,sign"
+        ]
+      },
+      {
+        "name": "Phone Settings",
+        "path": "material/phone-settings.svg",
+        "keywords": [
+          "phone,settings"
+        ]
+      },
+      {
+        "name": "Phone Working Indicator",
+        "path": "material/phone-working-indicator.svg",
+        "keywords": [
+          "phone,working,indicator"
+        ]
+      },
+      {
+        "name": "Photo Album",
+        "path": "material/photo-album.svg",
+        "keywords": [
+          "photo,album"
+        ]
+      },
+      {
+        "name": "Photo Frame",
+        "path": "material/photo-frame.svg",
+        "keywords": [
+          "photo,frame"
+        ]
+      },
+      {
+        "name": "Photo Library",
+        "path": "material/photo-library.svg",
+        "keywords": [
+          "photo,library"
+        ]
+      },
+      {
+        "name": "Photographic Film Roll",
+        "path": "material/photographic-film-roll.svg",
+        "keywords": [
+          "photographic,film,roll"
+        ]
+      },
+      {
+        "name": "Pinterest Logo",
+        "path": "material/pinterest-logo.svg",
+        "keywords": [
+          "pinterest,logo"
+        ]
+      },
+      {
+        "name": "Planet Earth",
+        "path": "material/planet-earth.svg",
+        "keywords": [
+          "planet,earth"
+        ]
+      },
+      {
+        "name": "Play Arrow",
+        "path": "material/play-arrow.svg",
+        "keywords": [
+          "play,arrow"
+        ]
+      },
+      {
+        "name": "Play Button Inside A Circle",
+        "path": "material/play-button-inside-a-circle.svg",
+        "keywords": [
+          "play,button,inside,a,circle"
+        ]
+      },
+      {
+        "name": "Play Next Button",
+        "path": "material/play-next-button.svg",
+        "keywords": [
+          "play,next,button"
+        ]
+      },
+      {
+        "name": "Play Rounded Button",
+        "path": "material/play-rounded-button.svg",
+        "keywords": [
+          "play,rounded,button"
+        ]
+      },
+      {
+        "name": "Play Slideshow Button",
+        "path": "material/play-slideshow-button.svg",
+        "keywords": [
+          "play,slideshow,button"
+        ]
+      },
+      {
+        "name": "Plus One",
+        "path": "material/plus-one.svg",
+        "keywords": [
+          "plus,one"
+        ]
+      },
+      {
+        "name": "Poll Symbol On Black Square With Rounded Corners",
+        "path": "material/poll-symbol-on-black-square-with-rounded-corners.svg",
+        "keywords": [
+          "poll,symbol,on,black,square,with,rounded,corners"
+        ]
+      },
+      {
+        "name": "Power Connection Indicator",
+        "path": "material/power-connection-indicator.svg",
+        "keywords": [
+          "power,connection,indicator"
+        ]
+      },
+      {
+        "name": "Previous Track",
+        "path": "material/previous-track.svg",
+        "keywords": [
+          "previous,track"
+        ]
+      },
+      {
+        "name": "Printer Printing Document",
+        "path": "material/printer-printing-document.svg",
+        "keywords": [
+          "printer,printing,document"
+        ]
+      },
+      {
+        "name": "Problems With Synchronization",
+        "path": "material/problems-with-synchronization.svg",
+        "keywords": [
+          "problems,with,synchronization"
+        ]
+      },
+      {
+        "name": "Progress Indicator",
+        "path": "material/progress-indicator.svg",
+        "keywords": [
+          "progress,indicator"
+        ]
+      },
+      {
+        "name": "Public Transport Subway",
+        "path": "material/public-transport-subway.svg",
+        "keywords": [
+          "public,transport,subway"
+        ]
+      },
+      {
+        "name": "Public Transport Train Directions",
+        "path": "material/public-transport-train-directions.svg",
+        "keywords": [
+          "public,transport,train,directions"
+        ]
+      },
+      {
+        "name": "Puzzle Piece Plugin",
+        "path": "material/puzzle-piece-plugin.svg",
+        "keywords": [
+          "puzzle,piece,plugin"
+        ]
+      },
+      {
+        "name": "Radio On Button",
+        "path": "material/radio-on-button.svg",
+        "keywords": [
+          "radio,on,button"
+        ]
+      },
+      {
+        "name": "Random Line",
+        "path": "material/random-line.svg",
+        "keywords": [
+          "random,line"
+        ]
+      },
+      {
+        "name": "Rate Star Button",
+        "path": "material/rate-star-button.svg",
+        "keywords": [
+          "rate,star,button"
+        ]
+      },
+      {
+        "name": "Read More Left Arrow Button",
+        "path": "material/read-more-left-arrow-button.svg",
+        "keywords": [
+          "read,more,left,arrow,button"
+        ]
+      },
+      {
+        "name": "Receipt",
+        "path": "material/receipt.svg",
+        "keywords": [
+          "receipt"
+        ]
+      },
+      {
+        "name": "Record Voice Microphone Button",
+        "path": "material/record-voice-microphone-button.svg",
+        "keywords": [
+          "record,voice,microphone,button"
+        ]
+      },
+      {
+        "name": "Refresh Button 1",
+        "path": "material/refresh-button-1.svg",
+        "keywords": [
+          "refresh,button,1"
+        ]
+      },
+      {
+        "name": "Refresh Button",
+        "path": "material/refresh-button.svg",
+        "keywords": [
+          "refresh,button"
+        ]
+      },
+      {
+        "name": "Reminder Bow",
+        "path": "material/reminder-bow.svg",
+        "keywords": [
+          "reminder,bow"
+        ]
+      },
+      {
+        "name": "Replay Arrow",
+        "path": "material/replay-arrow.svg",
+        "keywords": [
+          "replay,arrow"
+        ]
+      },
+      {
+        "name": "Reply All Button",
+        "path": "material/reply-all-button.svg",
+        "keywords": [
+          "reply,all,button"
+        ]
+      },
+      {
+        "name": "Report Symbol",
+        "path": "material/report-symbol.svg",
+        "keywords": [
+          "report,symbol"
+        ]
+      },
+      {
+        "name": "Rewind Button",
+        "path": "material/rewind-button.svg",
+        "keywords": [
+          "rewind,button"
+        ]
+      },
+      {
+        "name": "Right Arrow Forward",
+        "path": "material/right-arrow-forward.svg",
+        "keywords": [
+          "right,arrow,forward"
+        ]
+      },
+      {
+        "name": "Ring Volume Control Button",
+        "path": "material/ring-volume-control-button.svg",
+        "keywords": [
+          "ring,volume,control,button"
+        ]
+      },
+      {
+        "name": "Rotate To Left Button",
+        "path": "material/rotate-to-left-button.svg",
+        "keywords": [
+          "rotate,to,left,button"
+        ]
+      },
+      {
+        "name": "Rotate To Right Button",
+        "path": "material/rotate-to-right-button.svg",
+        "keywords": [
+          "rotate,to,right,button"
+        ]
+      },
+      {
+        "name": "Round Account Button With User Inside",
+        "path": "material/round-account-button-with-user-inside.svg",
+        "keywords": [
+          "round,account,button,with,user,inside"
+        ]
+      },
+      {
+        "name": "Round Add Button",
+        "path": "material/round-add-button.svg",
+        "keywords": [
+          "round,add,button"
+        ]
+      },
+      {
+        "name": "Round Data Usage Symbol",
+        "path": "material/round-data-usage-symbol.svg",
+        "keywords": [
+          "round,data,usage,symbol"
+        ]
+      },
+      {
+        "name": "Round Delete Button",
+        "path": "material/round-delete-button.svg",
+        "keywords": [
+          "round,delete,button"
+        ]
+      },
+      {
+        "name": "Round Error Symbol",
+        "path": "material/round-error-symbol.svg",
+        "keywords": [
+          "round,error,symbol"
+        ]
+      },
+      {
+        "name": "Round Info Button",
+        "path": "material/round-info-button.svg",
+        "keywords": [
+          "round,info,button"
+        ]
+      },
+      {
+        "name": "Round Pause Button",
+        "path": "material/round-pause-button.svg",
+        "keywords": [
+          "round,pause,button"
+        ]
+      },
+      {
+        "name": "Round Remove Button",
+        "path": "material/round-remove-button.svg",
+        "keywords": [
+          "round,remove,button"
+        ]
+      },
+      {
+        "name": "Round Rgb Button",
+        "path": "material/round-rgb-button.svg",
+        "keywords": [
+          "round,rgb,button"
+        ]
+      },
+      {
+        "name": "Rounded Add Button 1",
+        "path": "material/rounded-add-button-1.svg",
+        "keywords": [
+          "rounded,add,button,1"
+        ]
+      },
+      {
+        "name": "Rounded Add Button",
+        "path": "material/rounded-add-button.svg",
+        "keywords": [
+          "rounded,add,button"
+        ]
+      },
+      {
+        "name": "Rounded Adjust Button With Plus And Minus",
+        "path": "material/rounded-adjust-button-with-plus-and-minus.svg",
+        "keywords": [
+          "rounded,adjust,button,with,plus,and,minus"
+        ]
+      },
+      {
+        "name": "Rounded Block Sign",
+        "path": "material/rounded-block-sign.svg",
+        "keywords": [
+          "rounded,block,sign"
+        ]
+      },
+      {
+        "name": "Rounded Info Button",
+        "path": "material/rounded-info-button.svg",
+        "keywords": [
+          "rounded,info,button"
+        ]
+      },
+      {
+        "name": "Rounded Pause Button",
+        "path": "material/rounded-pause-button.svg",
+        "keywords": [
+          "rounded,pause,button"
+        ]
+      },
+      {
+        "name": "Rounded Remove Button",
+        "path": "material/rounded-remove-button.svg",
+        "keywords": [
+          "rounded,remove,button"
+        ]
+      },
+      {
+        "name": "Rubbish Bin Delete Button",
+        "path": "material/rubbish-bin-delete-button.svg",
+        "keywords": [
+          "rubbish,bin,delete,button"
+        ]
+      },
+      {
+        "name": "Save Button",
+        "path": "material/save-button.svg",
+        "keywords": [
+          "save,button"
+        ]
+      },
+      {
+        "name": "Schedule Button",
+        "path": "material/schedule-button.svg",
+        "keywords": [
+          "schedule,button"
+        ]
+      },
+      {
+        "name": "Screen Locked 1",
+        "path": "material/screen-locked-1.svg",
+        "keywords": [
+          "screen,locked,1"
+        ]
+      },
+      {
+        "name": "Screen Locked",
+        "path": "material/screen-locked.svg",
+        "keywords": [
+          "screen,locked"
+        ]
+      },
+      {
+        "name": "Screen Rotation Button",
+        "path": "material/screen-rotation-button.svg",
+        "keywords": [
+          "screen,rotation,button"
+        ]
+      },
+      {
+        "name": "Screen Rotation Lock Button",
+        "path": "material/screen-rotation-lock-button.svg",
+        "keywords": [
+          "screen,rotation,lock,button"
+        ]
+      },
+      {
+        "name": "Screen With News Sections",
+        "path": "material/screen-with-news-sections.svg",
+        "keywords": [
+          "screen,with,news,sections"
+        ]
+      },
+      {
+        "name": "Screen With Rounded Corners",
+        "path": "material/screen-with-rounded-corners.svg",
+        "keywords": [
+          "screen,with,rounded,corners"
+        ]
+      },
+      {
+        "name": "Sd Card 1",
+        "path": "material/sd-card-1.svg",
+        "keywords": [
+          "sd,card,1"
+        ]
+      },
+      {
+        "name": "Sd Card",
+        "path": "material/sd-card.svg",
+        "keywords": [
+          "sd,card"
+        ]
+      },
+      {
+        "name": "Searching Location Gps Indicator",
+        "path": "material/searching-location-gps-indicator.svg",
+        "keywords": [
+          "searching,location,gps,indicator"
+        ]
+      },
+      {
+        "name": "Searching Magnifying Glass",
+        "path": "material/searching-magnifying-glass.svg",
+        "keywords": [
+          "searching,magnifying,glass"
+        ]
+      },
+      {
+        "name": "Select All",
+        "path": "material/select-all.svg",
+        "keywords": [
+          "select,all"
+        ]
+      },
+      {
+        "name": "Select Brightness Button",
+        "path": "material/select-brightness-button.svg",
+        "keywords": [
+          "select,brightness,button"
+        ]
+      },
+      {
+        "name": "Send Button",
+        "path": "material/send-button.svg",
+        "keywords": [
+          "send,button"
+        ]
+      },
+      {
+        "name": "Send To Back Button",
+        "path": "material/send-to-back-button.svg",
+        "keywords": [
+          "send,to,back,button"
+        ]
+      },
+      {
+        "name": "Send To Front Button",
+        "path": "material/send-to-front-button.svg",
+        "keywords": [
+          "send,to,front,button"
+        ]
+      },
+      {
+        "name": "Server Rack With Three Levels",
+        "path": "material/server-rack-with-three-levels.svg",
+        "keywords": [
+          "server,rack,with,three,levels"
+        ]
+      },
+      {
+        "name": "Set Alarm",
+        "path": "material/set-alarm.svg",
+        "keywords": [
+          "set,alarm"
+        ]
+      },
+      {
+        "name": "Set Timer Button",
+        "path": "material/set-timer-button.svg",
+        "keywords": [
+          "set,timer,button"
+        ]
+      },
+      {
+        "name": "Settings Cogwheel Button",
+        "path": "material/settings-cogwheel-button.svg",
+        "keywords": [
+          "settings,cogwheel,button"
+        ]
+      },
+      {
+        "name": "Settings Cogwheel Inside Black Square",
+        "path": "material/settings-cogwheel-inside-black-square.svg",
+        "keywords": [
+          "settings,cogwheel,inside,black,square"
+        ]
+      },
+      {
+        "name": "Share Button",
+        "path": "material/share-button.svg",
+        "keywords": [
+          "share,button"
+        ]
+      },
+      {
+        "name": "Shared Folder",
+        "path": "material/shared-folder.svg",
+        "keywords": [
+          "shared,folder"
+        ]
+      },
+      {
+        "name": "Shining Rectangular Object",
+        "path": "material/shining-rectangular-object.svg",
+        "keywords": [
+          "shining,rectangular,object"
+        ]
+      },
+      {
+        "name": "Shining Sun",
+        "path": "material/shining-sun.svg",
+        "keywords": [
+          "shining,sun"
+        ]
+      },
+      {
+        "name": "Shopping Basket Button",
+        "path": "material/shopping-basket-button.svg",
+        "keywords": [
+          "shopping,basket,button"
+        ]
+      },
+      {
+        "name": "Shopping Cart",
+        "path": "material/shopping-cart.svg",
+        "keywords": [
+          "shopping,cart"
+        ]
+      },
+      {
+        "name": "Show Apps Button",
+        "path": "material/show-apps-button.svg",
+        "keywords": [
+          "show,apps,button"
+        ]
+      },
+      {
+        "name": "Show Less Fold Button",
+        "path": "material/show-less-fold-button.svg",
+        "keywords": [
+          "show,less,fold,button"
+        ]
+      },
+      {
+        "name": "Show Menu Button",
+        "path": "material/show-menu-button.svg",
+        "keywords": [
+          "show,menu,button"
+        ]
+      },
+      {
+        "name": "Show More Button With Three Dots",
+        "path": "material/show-more-button-with-three-dots.svg",
+        "keywords": [
+          "show,more,button,with,three,dots"
+        ]
+      },
+      {
+        "name": "Show More Button",
+        "path": "material/show-more-button.svg",
+        "keywords": [
+          "show,more,button"
+        ]
+      },
+      {
+        "name": "Shuffle Mode Arrows",
+        "path": "material/shuffle-mode-arrows.svg",
+        "keywords": [
+          "shuffle,mode,arrows"
+        ]
+      },
+      {
+        "name": "Sim Card Problem",
+        "path": "material/sim-card-problem.svg",
+        "keywords": [
+          "sim,card,problem"
+        ]
+      },
+      {
+        "name": "Smartphone Dock",
+        "path": "material/smartphone-dock.svg",
+        "keywords": [
+          "smartphone,dock"
+        ]
+      },
+      {
+        "name": "Smartphone With Three Buttons",
+        "path": "material/smartphone-with-three-buttons.svg",
+        "keywords": [
+          "smartphone,with,three,buttons"
+        ]
+      },
+      {
+        "name": "Sms Bubble Speech",
+        "path": "material/sms-bubble-speech.svg",
+        "keywords": [
+          "sms,bubble,speech"
+        ]
+      },
+      {
+        "name": "Sms Speech Bubble",
+        "path": "material/sms-speech-bubble.svg",
+        "keywords": [
+          "sms,speech,bubble"
+        ]
+      },
+      {
+        "name": "Snake Game",
+        "path": "material/snake-game.svg",
+        "keywords": [
+          "snake,game"
+        ]
+      },
+      {
+        "name": "Sort Button With Three Lines",
+        "path": "material/sort-button-with-three-lines.svg",
+        "keywords": [
+          "sort,button,with,three,lines"
+        ]
+      },
+      {
+        "name": "Speech Bubble With Mountains Inside",
+        "path": "material/speech-bubble-with-mountains-inside.svg",
+        "keywords": [
+          "speech,bubble,with,mountains,inside"
+        ]
+      },
+      {
+        "name": "Split Call Arrows",
+        "path": "material/split-call-arrows.svg",
+        "keywords": [
+          "split,call,arrows"
+        ]
+      },
+      {
+        "name": "Square Add Button",
+        "path": "material/square-add-button.svg",
+        "keywords": [
+          "square,add,button"
+        ]
+      },
+      {
+        "name": "Stop Button",
+        "path": "material/stop-button.svg",
+        "keywords": [
+          "stop,button"
+        ]
+      },
+      {
+        "name": "Swap Horizontal Orientation Arrows",
+        "path": "material/swap-horizontal-orientation-arrows.svg",
+        "keywords": [
+          "swap,horizontal,orientation,arrows"
+        ]
+      },
+      {
+        "name": "Swap Vertical Orientation Arrows",
+        "path": "material/swap-vertical-orientation-arrows.svg",
+        "keywords": [
+          "swap,vertical,orientation,arrows"
+        ]
+      },
+      {
+        "name": "Switch Camera Button",
+        "path": "material/switch-camera-button.svg",
+        "keywords": [
+          "switch,camera,button"
+        ]
+      },
+      {
+        "name": "Switch To Full Screen Button",
+        "path": "material/switch-to-full-screen-button.svg",
+        "keywords": [
+          "switch,to,full,screen,button"
+        ]
+      },
+      {
+        "name": "Switch Vertical Orientation Arrows",
+        "path": "material/switch-vertical-orientation-arrows.svg",
+        "keywords": [
+          "switch,vertical,orientation,arrows"
+        ]
+      },
+      {
+        "name": "Switch Video On",
+        "path": "material/switch-video-on.svg",
+        "keywords": [
+          "switch,video,on"
+        ]
+      },
+      {
+        "name": "Synchronization Arrows",
+        "path": "material/synchronization-arrows.svg",
+        "keywords": [
+          "synchronization,arrows"
+        ]
+      },
+      {
+        "name": "Synchronization Button With Two Arrows",
+        "path": "material/synchronization-button-with-two-arrows.svg",
+        "keywords": [
+          "synchronization,button,with,two,arrows"
+        ]
+      },
+      {
+        "name": "Synchronization Problem",
+        "path": "material/synchronization-problem.svg",
+        "keywords": [
+          "synchronization,problem"
+        ]
+      },
+      {
+        "name": "Tab Symbol",
+        "path": "material/tab-symbol.svg",
+        "keywords": [
+          "tab,symbol"
+        ]
+      },
+      {
+        "name": "Tablet With Blank Screen",
+        "path": "material/tablet-with-blank-screen.svg",
+        "keywords": [
+          "tablet,with,blank,screen"
+        ]
+      },
+      {
+        "name": "Tack Save Button",
+        "path": "material/tack-save-button.svg",
+        "keywords": [
+          "tack,save,button"
+        ]
+      },
+      {
+        "name": "Tag Button With Happy Face",
+        "path": "material/tag-button-with-happy-face.svg",
+        "keywords": [
+          "tag,button,with,happy,face"
+        ]
+      },
+      {
+        "name": "Telephone Keypad With Ten Keys",
+        "path": "material/telephone-keypad-with-ten-keys.svg",
+        "keywords": [
+          "telephone,keypad,with,ten,keys"
+        ]
+      },
+      {
+        "name": "Thermostat Temperature Wheel",
+        "path": "material/thermostat-temperature-wheel.svg",
+        "keywords": [
+          "thermostat,temperature,wheel"
+        ]
+      },
+      {
+        "name": "Three Columns Layout",
+        "path": "material/three-columns-layout.svg",
+        "keywords": [
+          "three,columns,layout"
+        ]
+      },
+      {
+        "name": "Three Dots More Indicator",
+        "path": "material/three-dots-more-indicator.svg",
+        "keywords": [
+          "three,dots,more,indicator"
+        ]
+      },
+      {
+        "name": "Thumb Down Button",
+        "path": "material/thumb-down-button.svg",
+        "keywords": [
+          "thumb,down,button"
+        ]
+      },
+      {
+        "name": "Thumb Up Button",
+        "path": "material/thumb-up-button.svg",
+        "keywords": [
+          "thumb,up,button"
+        ]
+      },
+      {
+        "name": "Tick Inside Circle",
+        "path": "material/tick-inside-circle.svg",
+        "keywords": [
+          "tick,inside,circle"
+        ]
+      },
+      {
+        "name": "Time Lapse",
+        "path": "material/time-lapse.svg",
+        "keywords": [
+          "time,lapse"
+        ]
+      },
+      {
+        "name": "Traffic Light",
+        "path": "material/traffic-light.svg",
+        "keywords": [
+          "traffic,light"
+        ]
+      },
+      {
+        "name": "Train Public Transport",
+        "path": "material/train-public-transport.svg",
+        "keywords": [
+          "train,public,transport"
+        ]
+      },
+      {
+        "name": "Tumblr Logo",
+        "path": "material/tumblr-logo.svg",
+        "keywords": [
+          "tumblr,logo"
+        ]
+      },
+      {
+        "name": "Turn Airplane Mode Off",
+        "path": "material/turn-airplane-mode-off.svg",
+        "keywords": [
+          "turn,airplane,mode,off"
+        ]
+      },
+      {
+        "name": "Turn Microphone Off Button",
+        "path": "material/turn-microphone-off-button.svg",
+        "keywords": [
+          "turn,microphone,off,button"
+        ]
+      },
+      {
+        "name": "Turn Notifications Off Button",
+        "path": "material/turn-notifications-off-button.svg",
+        "keywords": [
+          "turn,notifications,off,button"
+        ]
+      },
+      {
+        "name": "Turn Notifications On Button",
+        "path": "material/turn-notifications-on-button.svg",
+        "keywords": [
+          "turn,notifications,on,button"
+        ]
+      },
+      {
+        "name": "Turn Synchronization Off",
+        "path": "material/turn-synchronization-off.svg",
+        "keywords": [
+          "turn,synchronization,off"
+        ]
+      },
+      {
+        "name": "Turn Video Off Button",
+        "path": "material/turn-video-off-button.svg",
+        "keywords": [
+          "turn,video,off,button"
+        ]
+      },
+      {
+        "name": "Turn Visibility Off Button",
+        "path": "material/turn-visibility-off-button.svg",
+        "keywords": [
+          "turn,visibility,off,button"
+        ]
+      },
+      {
+        "name": "Twitter Logo On Black Background",
+        "path": "material/twitter-logo-on-black-background.svg",
+        "keywords": [
+          "twitter,logo,on,black,background"
+        ]
+      },
+      {
+        "name": "Two Circles One Inside The Other",
+        "path": "material/two-circles-one-inside-the-other.svg",
+        "keywords": [
+          "two,circles,one,inside,the,other"
+        ]
+      },
+      {
+        "name": "Two Men",
+        "path": "material/two-men.svg",
+        "keywords": [
+          "two,men"
+        ]
+      },
+      {
+        "name": "Two Rows And Three Columns Layout",
+        "path": "material/two-rows-and-three-columns-layout.svg",
+        "keywords": [
+          "two,rows,and,three,columns,layout"
+        ]
+      },
+      {
+        "name": "Underline Button",
+        "path": "material/underline-button.svg",
+        "keywords": [
+          "underline,button"
+        ]
+      },
+      {
+        "name": "Underline Text Button",
+        "path": "material/underline-text-button.svg",
+        "keywords": [
+          "underline,text,button"
+        ]
+      },
+      {
+        "name": "Undo Button",
+        "path": "material/undo-button.svg",
+        "keywords": [
+          "undo,button"
+        ]
+      },
+      {
+        "name": "Unlocked Padlock",
+        "path": "material/unlocked-padlock.svg",
+        "keywords": [
+          "unlocked,padlock"
+        ]
+      },
+      {
+        "name": "Up Arrow Key",
+        "path": "material/up-arrow-key.svg",
+        "keywords": [
+          "up,arrow,key"
+        ]
+      },
+      {
+        "name": "Upload Button",
+        "path": "material/upload-button.svg",
+        "keywords": [
+          "upload,button"
+        ]
+      },
+      {
+        "name": "Upload To Cloud Button",
+        "path": "material/upload-to-cloud-button.svg",
+        "keywords": [
+          "upload,to,cloud,button"
+        ]
+      },
+      {
+        "name": "Usb Symbol",
+        "path": "material/usb-symbol.svg",
+        "keywords": [
+          "usb,symbol"
+        ]
+      },
+      {
+        "name": "User Account Box 1",
+        "path": "material/user-account-box-1.svg",
+        "keywords": [
+          "user,account,box,1"
+        ]
+      },
+      {
+        "name": "User Account Box",
+        "path": "material/user-account-box.svg",
+        "keywords": [
+          "user,account,box"
+        ]
+      },
+      {
+        "name": "User Inside Bubble Speech",
+        "path": "material/user-inside-bubble-speech.svg",
+        "keywords": [
+          "user,inside,bubble,speech"
+        ]
+      },
+      {
+        "name": "User Outline",
+        "path": "material/user-outline.svg",
+        "keywords": [
+          "user,outline"
+        ]
+      },
+      {
+        "name": "User Shape",
+        "path": "material/user-shape.svg",
+        "keywords": [
+          "user,shape"
+        ]
+      },
+      {
+        "name": "Users Social Symbol",
+        "path": "material/users-social-symbol.svg",
+        "keywords": [
+          "users,social,symbol"
+        ]
+      },
+      {
+        "name": "Verification Mark",
+        "path": "material/verification-mark.svg",
+        "keywords": [
+          "verification,mark"
+        ]
+      },
+      {
+        "name": "Videocall Button",
+        "path": "material/videocall-button.svg",
+        "keywords": [
+          "videocall,button"
+        ]
+      },
+      {
+        "name": "Videocam Filled Tool",
+        "path": "material/videocam-filled-tool.svg",
+        "keywords": [
+          "videocam,filled,tool"
+        ]
+      },
+      {
+        "name": "View List Button",
+        "path": "material/view-list-button.svg",
+        "keywords": [
+          "view,list,button"
+        ]
+      },
+      {
+        "name": "Virtual Private Network Vpn Symbol",
+        "path": "material/virtual-private-network-vpn-symbol.svg",
+        "keywords": [
+          "virtual,private,network,vpn,symbol"
+        ]
+      },
+      {
+        "name": "Visibility Button",
+        "path": "material/visibility-button.svg",
+        "keywords": [
+          "visibility,button"
+        ]
+      },
+      {
+        "name": "Voice Message Microphone Button",
+        "path": "material/voice-message-microphone-button.svg",
+        "keywords": [
+          "voice,message,microphone,button"
+        ]
+      },
+      {
+        "name": "Voicemail",
+        "path": "material/voicemail.svg",
+        "keywords": [
+          "voicemail"
+        ]
+      },
+      {
+        "name": "Volume Down Indicator",
+        "path": "material/volume-down-indicator.svg",
+        "keywords": [
+          "volume,down,indicator"
+        ]
+      },
+      {
+        "name": "Volume Muted",
+        "path": "material/volume-muted.svg",
+        "keywords": [
+          "volume,muted"
+        ]
+      },
+      {
+        "name": "Volume Off Indicator",
+        "path": "material/volume-off-indicator.svg",
+        "keywords": [
+          "volume,off,indicator"
+        ]
+      },
+      {
+        "name": "Volume Up Indicator",
+        "path": "material/volume-up-indicator.svg",
+        "keywords": [
+          "volume,up,indicator"
+        ]
+      },
+      {
+        "name": "Warning Sign",
+        "path": "material/warning-sign.svg",
+        "keywords": [
+          "warning,sign"
+        ]
+      },
+      {
+        "name": "Watch With Blank Face",
+        "path": "material/watch-with-blank-face.svg",
+        "keywords": [
+          "watch,with,blank,face"
+        ]
+      },
+      {
+        "name": "Waving Flag",
+        "path": "material/waving-flag.svg",
+        "keywords": [
+          "waving,flag"
+        ]
+      },
+      {
+        "name": "Web Server",
+        "path": "material/web-server.svg",
+        "keywords": [
+          "web,server"
+        ]
+      },
+      {
+        "name": "Website With Different Sections",
+        "path": "material/website-with-different-sections.svg",
+        "keywords": [
+          "website,with,different,sections"
+        ]
+      },
+      {
+        "name": "Wifi High Signal",
+        "path": "material/wifi-high-signal.svg",
+        "keywords": [
+          "wifi,high,signal"
+        ]
+      },
+      {
+        "name": "Wifi Low Signal With One Bar",
+        "path": "material/wifi-low-signal-with-one-bar.svg",
+        "keywords": [
+          "wifi,low,signal,with,one,bar"
+        ]
+      },
+      {
+        "name": "Wifi Signal Waves",
+        "path": "material/wifi-signal-waves.svg",
+        "keywords": [
+          "wifi,signal,waves"
+        ]
+      },
+      {
+        "name": "Window With Different Sections",
+        "path": "material/window-with-different-sections.svg",
+        "keywords": [
+          "window,with,different,sections"
+        ]
+      },
+      {
+        "name": "Work Briefcase",
+        "path": "material/work-briefcase.svg",
+        "keywords": [
+          "work,briefcase"
+        ]
+      },
+      {
+        "name": "Workspace With Two Horizontal Windows",
+        "path": "material/workspace-with-two-horizontal-windows.svg",
+        "keywords": [
+          "workspace,with,two,horizontal,windows"
+        ]
+      },
+      {
+        "name": "World Shape Public Symbol",
+        "path": "material/world-shape-public-symbol.svg",
+        "keywords": [
+          "world,shape,public,symbol"
+        ]
+      },
+      {
+        "name": "Write Email Envelope Button",
+        "path": "material/write-email-envelope-button.svg",
+        "keywords": [
+          "write,email,envelope,button"
+        ]
+      },
+      {
+        "name": "Youtube Logo",
+        "path": "material/youtube-logo.svg",
+        "keywords": [
+          "youtube,logo"
+        ]
+      }
+    ]
+  }
+]

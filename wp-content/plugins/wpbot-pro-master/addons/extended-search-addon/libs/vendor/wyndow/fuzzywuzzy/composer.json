@@ -1,0 +1,27 @@
+{
+    "name": "wyndow/fuzzywuzzy",
+    "description": "Fuzzy string matching based on FuzzyWuzzy from Seatgeek",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Michael Crumm",
+        "email": "mike@crumm.net"
+      }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "phpspec/php-diff": "^1.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+          "FuzzyWuzzy\\": "lib/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}

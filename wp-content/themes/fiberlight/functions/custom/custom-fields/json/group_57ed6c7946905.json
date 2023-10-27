@@ -1,0 +1,52 @@
+{
+    "key": "group_57ed6c7946905",
+    "title": "AOR SEO Options",
+    "fields": [
+        {
+            "key": "field_57ed6e54476fe",
+            "label": "Custom Search Excerpt",
+            "name": "custom_excerpt",
+            "type": "textarea",
+            "instructions": "This will replace the WP generated excerpt <b>in this site's WordPress search<\/b>. 240 max characters.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": 240,
+            "rows": 4,
+            "new_lines": "wpautop"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "!=",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 5,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "featured_image"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1500576689
+}

@@ -1,0 +1,52 @@
+{
+    "key": "group_57e583b787c7c",
+    "title": "Blog Post",
+    "fields": [
+        {
+            "key": "field_57e583e7182ce",
+            "label": "Image",
+            "name": "image",
+            "type": "image",
+            "instructions": "If no image is added here, a default image will be used (found in Options > Default Images > Default Blog Post Image). Ideal size is 600x370.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "format",
+        "featured_image",
+        "tags"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1474659590
+}

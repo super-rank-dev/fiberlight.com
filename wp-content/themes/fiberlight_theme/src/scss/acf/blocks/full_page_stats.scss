@@ -1,0 +1,215 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+
+.full-page-stats{
+
+  position: relative;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: $headerHeight;
+  padding-bottom: $headerHeight;
+
+  // @include media-breakpoint-up(md){
+  //   scroll-snap-align: start;
+  // }
+
+  @include media-breakpoint-down(md){
+    height: 100%;
+  }
+
+  .stats{
+    width: 100%;
+    margin: 0 0 1rem;
+    clip-path: polygon(50px 0%, 100% 0, 100% 100%, 0 100%, 0% 50px);
+    padding: 0px;
+
+    @include media-breakpoint-down(md){
+      clip-path: none;
+      background-color: transparent;
+    }
+
+    .stat-wrap{
+      background-color: $white;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      padding: 0px 40px 20px 80px;
+
+      @include media-breakpoint-down(xxl){
+        padding: 0px 30px 20px 80px;
+      }
+      @include media-breakpoint-down(lg){
+        padding: 0px 30px 20px 40px;
+      }
+
+      @include media-breakpoint-down(md){
+        background-color: transparent;
+        padding: 0 20px;
+      }
+
+      .stat-item{
+        width: 50%;
+        padding: 30px 10px 20px 0px;
+
+        &:nth-child(even){
+          padding: 30px 10px 2px 20px;
+        }
+        @include media-breakpoint-down(xxl){
+          padding: 20px 10px 10px 0px;
+          &:nth-child(even){
+            padding: 20px 10px 10px 0px;
+          }
+        }
+        @include media-breakpoint-down(md){
+          padding: 20px;
+          background-color: $white;
+          width: 100%;
+          margin: 0 0 10px;
+
+          &:nth-child(even){
+            padding: 20px;
+          }
+        }
+
+        .number{
+          position: relative;
+          z-index: 5;
+          display: inline-block;
+
+          &-item{
+            font-family: $headings-font-family;
+            font-size: 70px;
+            line-height: 70px;
+            font-weight: 600;
+            color: var(--wp--preset--color--black);
+
+            @include media-breakpoint-down(xxl){
+              font-size: 56px;
+              line-height: 56px;
+            }
+            @include media-breakpoint-down(xl){
+              font-size: 46px;
+              line-height: 46px;
+            }
+            @include media-breakpoint-down(md){
+              font-size: 42px;
+              line-height: 42px;
+            }
+          }
+
+          &:after{
+            content: '';
+            background: var(--wp--preset--color--fl-green);
+            position: absolute;
+            z-index: -1;
+            bottom: 2px;
+            left: -5%;
+            width: 110%;
+            height: 36%;
+            clip-path: polygon(2% 0, 100% 0, 98% 99%, 0 100%);
+          }
+        }
+        .description{
+          font-family: $headings-font-family;
+          font-size: 20px;
+          line-height: 20px;
+          font-weight: 400;
+          font-style: italic;
+          color: var(--wp--preset--color--black);
+
+          @include media-breakpoint-down(xxl){
+            font-size: 18px;
+            line-height: 18px;
+          }
+          @include media-breakpoint-down(xl){
+            font-size: 14px;
+            line-height: 14px;
+          }
+          @include media-breakpoint-down(md){
+            font-size: 17px;
+            line-height: 17px;
+            padding: 0 0 0 30px;
+            width: 50%;
+          }
+        }
+      }
+    }
+
+    .image-wrap{
+      position: relative;
+      width: 100%;
+      height: 230px;
+
+      @include media-breakpoint-down(xl){
+        height: 200px;
+      }
+      img{
+        object-fit: cover;
+        object-position: center center;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+  
+    .embed-responsive-item,
+    iframe,
+    embed,
+    object,
+    video {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  }
+  
+  // Modifier class for 16:9 aspect ratio
+  .embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+  }
+  
+  // Modifier class for 4:3 aspect ratio
+  .embed-responsive-4by3 {
+    padding-bottom: 75%;
+  }
+}
+
+
+.home .full-page-stats{
+  padding-bottom: calc(200px + #{$headerHeight});
+
+  @include media-breakpoint-down(xxl){
+    padding-bottom: calc(100px + #{$headerHeight});
+
+  }
+  @include media-breakpoint-down(lg){
+    padding-bottom: $headerHeight;
+  }
+  
+  .stats{
+    &.break-section-above{
+      transform: translateY(-230px);
+      margin-bottom: -210px;
+
+      @include media-breakpoint-down(xxl){
+        transform: translateY(-200px);
+        margin-bottom: -190px;
+      }
+    }
+  }
+}

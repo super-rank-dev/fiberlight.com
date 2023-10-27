@@ -1,0 +1,135 @@
+@import "../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../core/site_variables";
+
+
+.single-team-member {
+  @import "../acf/blocks/breadcrumb";
+
+  .move-up{
+    transform: translateY(-200px);
+    margin-bottom: -150px;
+
+    @include media-breakpoint-down(md){
+      transform: translateY(-90px);
+      margin-bottom: -50px;
+    }
+  }
+
+  .team-member{
+    
+    .image-wrap{
+      width: 100%;
+      height: 260px;
+      position: relative;
+
+      @include media-breakpoint-down(xxl){
+        height: 230px;
+      }
+      @include media-breakpoint-down(lg){
+        height: 160px;
+      }
+      @include media-breakpoint-down(md){
+        height: 360px;
+      }
+      img{
+        object-fit: cover;
+        object-position: center top;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+
+    &-box{
+      position: relative;
+      z-index: 10;
+
+      &-outline{
+        position: absolute;
+        z-index: 0;
+        border: 2px solid var(--wp--preset--color--fl-green);
+        width: 95%;
+        height: 85%;
+        top: -20px;
+        left: -20px;
+
+        @include media-breakpoint-down(lg){
+          top: -10px;
+          left: -10px;
+        }
+      }
+      &-content{
+        position: relative;
+        z-index: 10;
+        padding: 30px;
+        background-color: var(--wp--preset--color--fl-dark-blue);
+        .breadcrumbs{
+          margin: 0px 0px 20px;
+        }
+  
+        h1{
+          color: $white;
+          margin: 0 0 .5rem 0;
+  
+          @include media-breakpoint-down(md){
+            margin: 1rem 0 .5rem 0;
+          }
+        }
+  
+        .title{
+          color: var(--wp--preset--color--fl-green);
+        }
+      }
+
+
+    }
+
+    &-btn{
+      background-color: var(--wp--preset--color--fl-green);
+      color: $white;
+      padding: 6px 16px;
+      text-decoration: none;
+
+      @include media-breakpoint-down(lg){
+        font-size: 14px;
+        padding: 4px 10px;
+      }
+      @include media-breakpoint-down(md){
+        font-size: 16px;
+        padding: 6px 16px;
+      }
+    }
+
+    &-box-text{
+      position: relative;
+      z-index: 20;
+      color: $white;
+      padding: 30px;
+      margin: 0px 20px -150px 15px;
+      background-color: var(--wp--preset--color--fl-light-blue);
+      transform: translateY(-150px);
+
+      @include media-breakpoint-down(xxl){
+        transform: translateY(-130px);
+        margin: 0px 20px -130px 15px;
+      }
+      @include media-breakpoint-down(lg){
+        transform: translateY(-100px);
+        margin: 0px 20px -100px 15px;
+      }
+      @include media-breakpoint-down(md){
+        transform: translateY(-80px);
+        margin: 0px 20px -80px 15px;
+      }
+
+      h1,h2,h3,h4,h5,h6,p,li{
+        color: $white;
+      }
+    }
+  }
+
+}
+
+

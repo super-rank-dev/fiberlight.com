@@ -1,0 +1,1 @@
+["Bot::<p>Here is your answer<\/p>\n","User::Ankara","Bot::capital of turkey","User::Vladimir Putin","Bot::Who is russia's president","User::Mathew Arnold","Bot::Who is russia's president","User::Mathew Arnold","Bot::'Culture and Anarchy' was written by"]

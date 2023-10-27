@@ -1,0 +1,81 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+
+.file-download{
+  position: relative;
+  min-height: 200px;
+  padding: $sectionPadding 0px ;
+  @import "../clone/section-padding";
+
+  .container,
+  .container-fluid{
+    position: relative;
+    z-index: 10;
+  }  
+
+  h2{
+    @include media-breakpoint-down(md){
+      font-size: $h1-font-size * .7!important;
+    }
+  }
+
+  h3{
+    font-weight: 400;
+    font-size: $h3-font-size * 0.6;
+    padding: 0;
+    margin: 0;
+  }
+
+  .the-download{
+    border-left: 3px solid var(--wp--preset--color--fl-light-blue);
+
+    @include media-breakpoint-down(md){
+      border-left: none;
+    }
+
+    p{
+      font-size: $font-size-base * .8;
+      margin: 0;
+      padding:0;
+    }
+    .icon_download{
+      width: 146px;
+      padding: 0 0 .5rem;
+      transform: translateX(17px);
+    }
+    .wp-block-buttons {
+      max-width: 75%;
+      margin: 0 auto;
+
+      .wp-block-button{
+        margin: 0;
+        // &:after{
+        //   content: '';
+        //   bottom: calc(50% - 24px);
+        // }
+        .wp-block-button__link{
+          font-size: 24px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+
+  &.has-fl-gradient-light-dark-blue-gradient-background,
+  .has-fl-gradient-light-blue-gradient-background,
+  .has-fl-gradient-med-blue-gradient-background,
+  .has-fl-gradient-dark-blue-gradient-background,
+  .has-fl-gradient-light-dark-blue-gradient-background,
+  .has-fl-gradient-med-blue-gradient-background,
+  .has-fl-dark-blue-background-color,
+  .has-fl-light-blue-background-color,
+  .has-foreground-background{
+      h3{
+        color: var(--wp--preset--color--fl-light-light-blue);
+      }
+  }
+}
+

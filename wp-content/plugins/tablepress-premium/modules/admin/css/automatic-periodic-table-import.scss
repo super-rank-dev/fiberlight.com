@@ -1,0 +1,37 @@
+/**
+ * CSS code for the "Automatic Periodic Table Import" Screen.
+ *
+ * @package TablePress
+ * @subpackage Automatic Periodic Table Import
+ * @author Tobias Bäthge
+ * @since 2.0.0
+ */
+
+/* Import spinner and alert box styling. */
+@import "../../../admin/css/spinner-alert";
+
+#tablepress-automatic-periodic-import-tables {
+	th,
+	td {
+		vertical-align: middle;
+	}
+
+	.check-column {
+		white-space: nowrap;
+		padding: 4px 8px 4px 4px;
+	}
+
+	th.check-column {
+		label {
+			font-size: small;
+		}
+
+		input {
+			margin: 0 0.25rem 0 0;
+		}
+	}
+
+	.auto-import-location {
+		min-width: 300px;
+	}
+}

@@ -1,0 +1,1 @@
+["Bot::How do you want to calculate the room area?"]

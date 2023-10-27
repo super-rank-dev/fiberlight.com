@@ -1,0 +1,110 @@
+.qcfb_msg_heading{line-height: 26px;}
+.qcfb_text_color_red{color:red !important;}
+.qcfb_example_image_1{width:600px;}
+.qcfb_example_image_2{width:500px;}
+.qcfb_display_none{display:none}
+.wpfb_pages_loading{line-height: 26px;}
+.wpfb_pages_header{margin-top: 18px;}
+.wpfb_pages_content_area{margin-top: 50px;}
+.wpfb_page_box{background: #fff;
+    display: inline-flex;
+    width: 200px;
+    text-align: center;
+     padding: 0px 10px; 
+    margin: 0 12px 0px 0;
+    text-decoration: none;
+    font-size: 17px;
+    min-height: 150px;
+    justify-content: center;
+    align-items: center;}
+.wpfb_posts_load{line-height: 28px;display:none;margin-left: 10px;}
+#wpfb_reload_fb_post{margin-bottom: 14px;}
+.wpfb_post_title{font-size: 14px;}
+.wpfb_private_reply_conditional_area{margin-top: 12px;}
+.wpfb_logical_container, .wpfb_logical_container_comment{margin-top:12px;margin-bottom:10px;}
+.wpfb_logic_elem {
+    padding: 10px;
+    background: #e9e9e9;
+    margin-bottom: 10px;
+    border-radius: 9px;
+}
+.wpfb_logic_elem select{vertical-align: unset;margin-right:5px}
+.wpfb_reply_comment_area{}
+.wpfb_reply_comment_area p{margin-bottom: 2px;}
+.wpfb_reply_comment_area textarea{width:100%;height: 110px;}
+.wpfb_page_name{}
+.wpfb_page_name img{float: left;
+    margin-right: 10px;
+    border-radius: 50%;}
+.wpfb_page_name span{display: inline-block;
+    margin-top: 16px;}
+.wpfb_campaign_comment_repeatable textarea{width: 100%;
+    height: 110px;}
+#wpfb_campaign_comment_remove{float: right;margin: 5px;}
+.wpfb_pr_status{background: #d27d35;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;}
+.wpfb_cr_status{background: #35d25e;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;}
+.wpfb_cc_status{background: #3548d2;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;}
+
+.fb_condition_container {
+
+}
+.fb_condition_item {
+    border: 1px solid #2e2e2e;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.fb_add_new_condition, .fb_add_new_condition_comment {
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    float: right;
+    background: #ddd;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.fb_condition_item_close {
+    width: 20px;
+    display: block;
+    position: absolute;
+    right: 32px;
+    background: #ddd;
+    text-align: center;
+    border-radius: 12px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.wpfb_condition_add, .wpfb_comment_condition_add {
+    cursor: pointer !important;
+    background: #ddd !important;
+    padding: 10px !important;
+    margin-right: 10px !important;
+    border-radius: 6px !important;
+    font-weight: 600 !important;
+    line-height: 12px !important;
+    color: #3c434a !important;
+    border: unset !important;
+}
+
+#toplevel_page_wbfb-botsetting-page ul li:nth-child(4) a::after, #toplevel_page_wbfb-botsetting-page ul li:nth-child(6) a::after {
+    background: #b4b9be;
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 5px 0px 0;
+    width: calc(100% - 0px);
+    opacity: .4;
+}

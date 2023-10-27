@@ -1,0 +1,1 @@
+["Bot::<p>WPBot can Interact with Users in Three Different Ways inside the ChatBot<\/p>\n<ul style=\"list-style: circle;padding-left: 10px;margin-top: 10px;\">\n<li>Predefined intents &#8211; Built-in ChatBot Features<\/li>\n<li>Custom intents &#8211; Created Inside DialogFlow<\/li>\n<li>Menu Driven &#8211; Created with Conversational Form Builder Addon<\/li>\n<\/ul>\n"]

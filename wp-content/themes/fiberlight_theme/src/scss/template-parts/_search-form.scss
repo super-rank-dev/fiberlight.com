@@ -1,0 +1,38 @@
+.search{
+  
+  #search-form{
+    position: relative;
+
+    #search-input {
+      width: 100%;
+      padding: 10px 10px 10px 80px;
+      display: block;
+      border-radius: 30px;
+
+      &::placeholder {
+        font-weight: 100;
+        color: #B8BFB8;
+      }
+    
+    }
+    
+    #btn-submit {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      background-image: url(/wp-content/themes/fiberlight_theme/dist/images/icon_search.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      width: 60px;
+      height: 34px;
+      padding: 0px 20px;
+      margin: 10px 10px;
+    }
+  }
+}

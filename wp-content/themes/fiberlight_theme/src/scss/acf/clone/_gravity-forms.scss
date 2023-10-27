@@ -1,0 +1,219 @@
+
+
+$fieldHeight: 46px;
+
+.gform_ajax_spinner {
+	position: absolute;
+	right: -30px;
+	bottom: -50px;
+	height: 20px;
+	opacity: .25;
+	animation: gravitySpinner .5s infinite linear;
+	@keyframes gravitySpinner {
+			0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); }
+	};
+}
+
+.gform{
+
+	&_validation_errors{
+		display: none;
+	}
+
+	&_wrapper {
+		position: relative;
+		z-index: 50;
+		padding: 40px 0; 
+
+		&.gravity-theme .chosen-container-multi .chosen-choices{
+			font-family: $font-family-sans-serif;
+			color: var(--wp--preset--color--fl-dark-blue);
+			border-radius: 0px;
+			border: 1px solid var(--wp--preset--color--fl-dark-blue)
+		}
+	}
+
+	&_heading{
+			display: none;
+	}
+
+	&_confirmation_wrapper{
+		padding: 40px 0;
+	}
+
+	&_confirmation_message{
+		background-color: var(--wp--preset--color--fl-gray);
+		padding: 20px;
+	}
+
+	&_wrapper form{
+
+		.gf_page_steps{
+			display: flex;
+			border-bottom: none!important;
+			margin: 0 0 20px!important;
+
+			.gf_step{
+				flex-grow: 1;
+				clip-path: polygon(97% 0%, 100% 50%, 97% 100%, 0% 100%, 3% 50%, 0% 0%);
+				background-color: var(--wp--preset--color--fl-gray);
+				color: var(--wp--preset--color--fl-dark-blue);
+				text-align: center;
+				margin: 8px 0px;
+				padding: 12px 15px;
+
+				&:first-child{
+					clip-path: polygon(97% 0%, 100% 50%, 97% 100%, 0% 100%, 0% 0%);
+				}
+
+				&_active{
+					background-color: var(--wp--preset--color--fl-dark-blue);
+					color: var(--wp--preset--color--fl-white);
+				}
+
+				&_number{
+					display: none;
+				}
+
+				&_label{
+					display: block;
+					font-size: 1rem;
+					line-height: 1rem;
+					padding: 0px;
+				}
+			}
+		}
+
+		.gform_body{
+
+			.gform_page{
+
+				&_fields{
+
+					.gform_fields{
+
+						.gfield{
+
+							&_label{
+								font-size: 16px;
+								line-height: 16px;
+								@include media-breakpoint-down(lg){
+									min-height: 24px;
+								}
+							}
+							&_required{
+
+							}
+
+							.ginput_container{
+
+								input{
+									font-family: $font-family-sans-serif;
+									height: $fieldHeight;
+									width: 100%;
+									font-size: 16px;
+									color: var(--wp--preset--color--fl-dark-blue);
+									border-radius: 0px;
+									border: 1px solid var(--wp--preset--color--fl-dark-blue);
+
+									&::placeholder{
+										font-size: 16px;
+										color: var(--wp--preset--color--fl-dark-blue);
+									}
+								}
+								&_select{
+									select{
+										font-family: $font-family-sans-serif;
+										height: $fieldHeight;
+										width: 100%;
+										color: var(--wp--preset--color--fl-dark-blue);
+										border-radius: 0px;
+									}
+								}
+								&_multiselect{
+									select{
+										width: 100%;
+									}
+									.chosen-container-multi{
+										width: 100%!important;
+										color: var(--wp--preset--color--fl-dark-blue);
+
+										ul.chosen-choices{
+											border-radius: 0px;
+											border: 1px solid var(--wp--preset--color--fl-dark-blue);
+											li{
+												input{
+													font-family: $font-family-sans-serif;
+													font-size: 15px;
+													color: var(--wp--preset--color--fl-dark-blue);
+												}
+											}
+										}
+										.chosen-choices{
+											box-shadow: none;
+											li.search-choice{
+												background-image: none;
+												background-color: var(--wp--preset--color--fl-gray);
+												span{
+													font-size: 15px;
+												}
+												.search-choice-close{
+													font-size: 15px;
+													top: 5px;
+												}
+											}
+										}
+										.chosen-drop{
+											ul.chosen-results{
+												li.active-result{
+													font-size: 14px;
+													line-height: 14px;
+													padding: 8px;
+													&.highlighted{
+														background-image: none;
+														background-color: var(--wp--preset--color--fl-dark-blue);
+														color: var(--wp--preset--color--fl-white);
+													}
+												}
+												li.result-selected{
+													font-size: 14px;
+													line-height: 14px;
+													padding: 8px;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+
+						.gfield_error{
+							.gfield_label{
+							color: var(--wp--preset--color--fl-black);
+							}
+							.validation_message{
+								background-color: transparent;
+								border: none;
+								padding: 0;
+							}
+						}
+					}
+				}
+
+				&_footer{
+					text-align: right;
+
+					.button{
+						background-color: var(--wp--preset--color--fl-dark-blue);
+						color: var(--wp--preset--color--fl-white);
+						text-transform: uppercase;
+						font-size: 1rem;
+						padding: 10px 20px;
+					}
+				}
+			}
+		}
+	}
+
+}
+

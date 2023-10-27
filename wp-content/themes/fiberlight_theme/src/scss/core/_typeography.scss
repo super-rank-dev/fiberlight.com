@@ -1,0 +1,158 @@
+a{
+  color: var(--wp--preset--color--fl-light-blue);
+  text-decoration: none;
+
+  &:hover{
+    color: var(--wp--preset--color--fl-green);
+    cursor: pointer;
+  }
+}
+
+//Typeography
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	color: var(--wp--preset--color--fl-dark-blue);
+  padding: 0 0 1rem 0;
+  @include media-breakpoint-down(xss){
+    padding: 0 0 .5rem 0!important;
+  }
+}
+
+
+h1,
+h1.wp-block-heading{
+  padding: 0 0 1rem 0;
+  font-size: $h1-font-size;
+
+  @include media-breakpoint-down(xxl){
+    font-size: $h1-font-size * .8;
+  }
+  @include media-breakpoint-down(xl){
+    font-size: $h1-font-size * .7;
+  }
+  @include media-breakpoint-down(md){
+    font-size: $h1-font-size * .6;
+    padding: 0 0 1rem 0!important;
+  }
+  @include media-breakpoint-down(sm){
+    font-size: $h1-font-size * .5;
+  }
+  @include media-breakpoint-down(xss){
+    font-size: $h1-font-size * .5;
+  }
+}
+
+h2,
+h2.wp-block-heading{
+  padding: 0 0 1rem 0;
+  font-size: $h2-font-size;
+
+  @include media-breakpoint-down(xxl){
+    font-size: $h2-font-size * .8;
+  }
+  @include media-breakpoint-down(xl){
+    font-size: $h2-font-size * .7;
+  }
+  @include media-breakpoint-down(md){
+    font-size: $h2-font-size * .6;
+    padding: 0 0 1rem 0!important;
+  }
+  @include media-breakpoint-down(sm){
+    font-size: $h2-font-size * .7;
+  }
+}
+
+h3,
+h3.wp-block-heading{
+  padding: 0 0 1rem 0;
+  font-size: $h3-font-size;
+
+  @include media-breakpoint-down(xxl){
+    font-size: $h3-font-size * .8;
+  }
+  @include media-breakpoint-down(xl){
+    font-size: $h3-font-size * .7;
+  }
+  @include media-breakpoint-down(md){
+    font-size: $h3-font-size * .7;
+    padding: 0 0 1rem 0!important;
+  }
+}
+
+h4,
+h4.wp-block-heading{
+  padding: 0 0 1rem 0;
+  font-size: $h4-font-size;
+
+  @include media-breakpoint-down(xxl){
+    font-size: $h4-font-size * .8;
+  }
+  @include media-breakpoint-down(xl){
+    font-size: $h4-font-size * .7;
+  }
+  @include media-breakpoint-down(md){
+    font-size: $h4-font-size * .7;
+    padding: 0 0 1rem 0!important;
+  }
+
+}
+
+p,li{
+  font-size: $font-size-base;
+  
+  @include media-breakpoint-down(xxl){
+    font-size: $font-size-base * .9;
+  }
+  @include media-breakpoint-down(xl){
+    font-size: $font-size-base * .8;
+  }
+  @include media-breakpoint-down(xss){
+    font-size: $font-size-base * .75;
+  }
+
+}
+p{
+	color: var(--wp--preset--color--black);
+  padding: 0 0 .75rem 0;
+  font-size: $font-size-base;
+  
+  &:last-child{
+    padding: 0;
+  }
+  @include media-breakpoint-down(md){
+    padding: 0 0 .75rem 0;
+  }
+  @include media-breakpoint-down(xss){
+    padding: 0 0 .45rem 0;
+  }
+}
+li{
+	color: var(--wp--preset--color--black);
+  padding: 0 0 .25rem 0;
+}
+
+
+
+.has-fl-gradient-light-blue-gradient-background,
+.has-fl-gradient-med-blue-gradient-background,
+.has-fl-gradient-dark-blue-gradient-background,
+.has-fl-gradient-light-dark-blue-gradient-background,
+.has-fl-gradient-med-blue-gradient-background,
+.has-fl-dark-blue-background-color,
+.has-fl-light-blue-background-color,
+.has-foreground-background{
+	h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+	p,
+  li{
+		color: var(--wp--preset--color--fl-white);
+	}
+}

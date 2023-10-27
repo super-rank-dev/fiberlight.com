@@ -1,0 +1,158 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+
+.page-hero-3{
+  position: relative;
+  padding-right: 0px;
+  padding-left: 0px;
+
+  @import 'breadcrumb.scss';
+  .breadcrumbs{
+    margin: 0 0 30px;
+  }
+
+  &.makeHeaderDark{
+    .breadcrumbs{
+      .item{
+        color: var(--wp--preset--color--fl-black);
+        a{
+          color: var(--wp--preset--color--fl-black);
+
+          &:hover{
+            color: var(--wp--preset--color--fl-green);
+          }
+        }
+      }
+    }
+  }
+
+  .headline-wrap{
+    text-align: right;
+    display: inline-block;
+
+    .headline{
+        font-size: $h1-font-size * 1.6;
+        padding: 0;
+        margin: 0 0 -8px 0;
+        @include media-breakpoint-down(xxl){
+          font-size: $h1-font-size * 1.6;
+        }
+        @include media-breakpoint-down(xl){
+          font-size: $h1-font-size * 1.2;
+        }
+        @include media-breakpoint-down(md){
+          font-size: $h1-font-size * 1;
+        }
+      }
+      .sub-headline{
+        display: block;
+        font-size: $h1-font-size * 0.59 ;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: var(--wp--preset--color--fl-green);
+        margin: 0 0 12px 0;
+        @include media-breakpoint-down(xxl){
+          font-size: $h1-font-size * 0.55;
+        }
+        @include media-breakpoint-down(xxl){
+          font-size: $h1-font-size * 0.4;
+        }
+        @include media-breakpoint-down(md){
+          font-size: $h1-font-size * .35;
+        }
+      }
+  }
+ 
+
+  &.full-height{
+    height: 100vh;
+    padding-top: calc(40px + #{$headerHeight});
+    padding-bottom: $headerHeight;
+    overflow: hidden;
+
+    p{
+      font-size: $font-size-base * 1.5;
+      line-height: 1.75rem;
+
+      @include media-breakpoint-down(xl){
+        font-size: $font-size-base * 1.25;
+      }
+      @include media-breakpoint-down(md){
+        font-size: $font-size-base * 1;
+      }
+    }
+    .wp-block-image{
+      margin: 0;
+      display: block;
+    }
+    .wp-block-buttons{
+      margin: 30px 0 0;
+    }
+  }
+  &.half-height{
+    .darken{
+      opacity: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      width: 100%; 
+      height: 100%;
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,1e5799+100&1+0,0+60 */
+      background: -moz-linear-gradient(left,  rgba(237,244,237,1) 35%, rgba(237,244,237,.5) 60%, rgba(237,244,237,0) 80%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(left,  rgba(237,244,237,1) 35%,rgba(237,244,237,.5) 60%,rgba(237,244,237,0) 80%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right,  rgba(237,244,237,1) 35%,rgba(237,244,237,.5) 60%,rgba(237,244,237,0) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#001e5799',GradientType=1 ); /* IE6-9 */
+    }
+
+    height: auto;
+    min-height: 420px;
+    padding-top: 50px + $headerHeight;
+    padding-bottom: $headerHeight / 1.5;
+
+    p{
+      margin: 0px;
+    }
+
+    .hero-image{
+      max-height: 300px;
+    }
+
+    .background-image{
+      img{
+        object-fit: cover;
+        object-position: center center;
+
+        @include media-breakpoint-down(md){
+          object-fit: cover;
+          object-position: center top;
+        }
+      }
+    }
+
+  } 
+}
+
+.single-case-study{
+  .page-hero{
+    &.half-height{
+      .darken{
+        opacity: 1;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,1e5799+100&1+0,0+60 */
+        background: -moz-linear-gradient(left,  rgba(237,244,237,1) 25%, rgba(237,244,237,.5) 50%, rgba(237,244,237,0) 70%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  rgba(237,244,237,1) 25%,rgba(237,244,237,.5) 50%,rgba(237,244,237,0) 70%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  rgba(237,244,237,1) 25%,rgba(237,244,237,.5) 50%,rgba(237,244,237,0) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#001e5799',GradientType=1 ); /* IE6-9 */
+      }
+      h2{
+        font-size: $font-size-base * 2.5;
+        font-weight: 600;
+        text-transform: none;
+        color: var(--wp--preset--color--fl-black);
+      }
+    }
+  }
+}

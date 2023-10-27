@@ -1,0 +1,201 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+
+.content-snapshot{
+  @import "breadcrumb";
+  position: relative;
+  @import "../clone/section-padding";
+
+  @include media-breakpoint-down(lg){
+    .moveup-90{
+      width: 100vw;
+    }
+  }
+
+  @include media-breakpoint-down(md){
+    &.default{
+      padding: 0px ;
+    }
+    &.half{
+      padding: 0px ;
+    }
+    &.third{
+      padding: 0px ;
+    }
+    &.none{
+      padding: 0px;
+    }
+
+    .container{
+      padding: 0;
+    }
+  }
+
+  .breadcrumbs{
+    margin: 0 0 20px;
+  }
+
+  .content{
+    padding: 60px 40px 30px 0px;
+    @include media-breakpoint-down(lg){
+      padding: 30px 30px 0px 0px;
+    }
+    @include media-breakpoint-down(md){
+      padding: 0px 15px 20px;
+    }
+  }
+  .snapshot{
+    padding: 40px 30px 40px;
+    background-color: var(--wp--preset--color--fl-dark-blue);
+
+    @include media-breakpoint-down(md){
+      padding: 40px 0 40px;
+    }
+    @include media-breakpoint-down(md){
+      padding: 40px 15px 40px;
+
+    }
+
+    h2{
+      font-size: 2.75rem;
+      padding: 0 0 5px 0;
+      margin: 0;
+      color: var(--wp--preset--color--fl-white);
+
+      @include media-breakpoint-down(md){
+        padding: 0 0px 10px 0px;
+      }
+    }
+    h3{
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: var(--wp--preset--color--fl-light-blue);
+      padding: 0;
+      margin: 0;
+  
+      @include media-breakpoint-down(md){
+        padding: 0 0px 10px 0px;
+      }
+    }
+  
+    ul{
+      margin: 20px 0 0;
+      padding: 0 0 0 15px;
+  
+      li{
+        padding: 0 0 10px;
+      }
+    }
+    p,li{
+      color: var(--wp--preset--color--fl-white);
+      font-size: 1rem;
+      line-height: 1rem;
+    }
+
+    &-blue{
+      background-color: var(--wp--preset--color--fl-light-blue);
+      h3{
+        color: var(--wp--preset--color--fl-dark-blue);
+      }
+    }
+    &-tan{
+      background-color: var(--wp--preset--color--fl-tan);
+      h2{
+        color: var(--wp--preset--color--fl-dark-blue);
+      }
+      h3{
+        color: var(--wp--preset--color--fl-light-blue);
+      }
+      li,p{
+        color: var(--wp--preset--color--fl-black);
+      }
+      .breadcrumbs .item{
+        color: var(--wp--preset--color--fl-light-blue);
+      }
+    }
+  }
+
+  .stats-row{
+    transform: translate(0px, -20px);
+    padding: 0 15px;
+
+    @include media-breakpoint-down(md){
+      margin: 0 15px;
+      padding: 0;
+    }
+
+
+  }
+  .stats{
+    background-color: var(--wp--preset--color--fl-light-blue);
+    padding: 20px 6px;
+    height: 100%;
+    
+    .number,
+    .description{
+      display: block;
+    }
+
+    .number{
+      font-size: 3rem;
+      line-height: 3rem;
+      font-weight: 800;
+      color: var(--wp--preset--color--fl-white);
+      margin: 0;
+      padding: 0;
+    }
+    .description{
+      font-size: 21px;
+      line-height: 21px;
+      margin: 0;
+      padding: 8px 0 0;
+      font-weight: 600;
+
+      @include media-breakpoint-down(md){
+        font-size: 18px;
+        line-height: 18px;
+      }
+    }
+
+    &-blue{
+      background-color: var(--wp--preset--color--fl-dark-blue);
+      .number,
+      .description{
+        color: var(--wp--preset--color--fl-white);
+      }
+    }
+    &-tan{
+      background-color: var(--wp--preset--color--fl-light-blue);
+      .number,
+      .description{
+        color: var(--wp--preset--color--fl-white);
+      }
+    }
+  }
+
+  .picture-wrap{
+    position: relative;
+    top: -50px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    // clip-path: polygon(50px 0%, 100% 0, 100% 100%, 0 100%, 0% 50px);
+
+    @include media-breakpoint-down(lg){
+      width: 100%;
+    }
+    @include media-breakpoint-down(md){
+      top: 0;
+    }
+
+    img{
+      object-fit: cover;
+      object-position: center center;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

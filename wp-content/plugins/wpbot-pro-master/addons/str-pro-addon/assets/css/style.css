@@ -1,0 +1,23 @@
+.users_answer_section{}
+.users_answer_section a{}
+.users_answer_container{}
+.users_answer_item{
+    margin-bottom: 10px;
+}
+.users_answer_item input{
+    width: 40%;
+}
+.users_answer_item:first-child span.users_answer_close{
+    display:none;
+}
+.users_answer_item span.users_answer_close{
+    width: 27px;
+    display: inline-block;
+    text-align: center;
+    background: #353535;
+    border-radius: 50%;
+    line-height: 27px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+}

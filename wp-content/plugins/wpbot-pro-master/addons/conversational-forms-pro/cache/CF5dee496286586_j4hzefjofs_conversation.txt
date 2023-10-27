@@ -1,0 +1,1 @@
+["Bot::What is your weight in KG?","User::111","Bot::What is your weight in KG?","Bot::What is your weight in KG?","Bot::<p>Welcome to our BMI calculator!<\/p>\n"]

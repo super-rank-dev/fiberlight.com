@@ -1,0 +1,16 @@
+&.default{
+  padding: $sectionPadding 0px ;
+
+  @include media-breakpoint-down(md){
+    padding: calc(#{$sectionPadding} / 2) 0px ;
+  }
+}
+&.half{
+  padding: calc(#{$sectionPadding} / 2) 0px ;
+}
+&.third{
+  padding: calc(#{$sectionPadding} / 3) 0px ;
+}
+&.none{
+  padding: 1px 0px ;
+}

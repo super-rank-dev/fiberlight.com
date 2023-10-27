@@ -1,0 +1,30 @@
+$primary: #3885b8;
+
+// .acf-flexible-content {
+//     .layout {
+//         .acf-fc-layout-handle{
+//             background: $primary;
+//             color: #fff;
+//             padding: 1.5rem 1rem;
+//             font-size: 17px;
+//             text-transform: uppercase;
+//         }
+//         .acf-fc-layout-order{
+//             width: 36px;
+//             height: 21px;
+//             margin: 0px 3px 0 0;
+//             font-size: 16px;
+//         }
+//     }
+// }
+
+ul.acf-radio-list li label, ul.acf-checkbox-list li label{
+        color: #000!important;
+    }
+
+
+// Style for WP Admin Clone Button Icon List
+.clone-btn-icon-menu{
+    vertical-align: middle;
+    margin: -1px 4px 0 0;
+}

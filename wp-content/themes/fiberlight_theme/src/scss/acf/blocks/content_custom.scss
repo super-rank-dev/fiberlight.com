@@ -1,0 +1,44 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+@import "../../core/blocks/accordion";
+
+.content-custom{
+  position: relative;
+  min-height: 50px;
+  @import "../clone/section-padding";
+
+
+  .wp-block-column{
+    @include media-breakpoint-down(md){
+      padding: 0px!important;
+    }
+  }
+
+
+  .bump-up{
+    transform: translateY(-200px);
+    margin-bottom: -200px;
+    background: var(--wp--preset--color--fl-white);
+    box-shadow: 0 -20px 25px -5px #258ea69e;
+  }
+
+  ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: var(--wp--preset--color--fl-green); 
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; 
+  }
+}
+
+
+
+

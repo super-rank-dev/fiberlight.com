@@ -1,0 +1,7 @@
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */.full-page-layout-2{position:relative;padding-top:95px;padding-right:0px;padding-left:0px;padding-bottom:0px;margin-bottom:calc((0px + 95px) * -1)}.full-page-layout-2 .background-image{position:absolute;z-index:1;width:100%;height:100%;top:0}.full-page-layout-2 .background-image img{object-fit:cover;object-position:center center;width:100%;height:100%}.full-page-layout-2 .background-pattern{position:absolute;z-index:5;top:0;opacity:0.15;width:100%;height:100%}.full-page-layout-2 .background-pattern img{object-fit:cover;object-position:center center;width:100%;height:100%}@media (min-width: 768px){.full-page-layout-2{scroll-snap-align:start}}.full-page-layout-2 .container{position:relative;height:auto;z-index:10}.full-page-layout-2 .break-section-above{position:relative;z-index:20;transform:translateY(calc((50px + 95px) * -1))}.full-page-layout-2 .image-02{transform:translate(20px, -40px)}.full-page-layout-2 .image-03{transform:translate(30px, 20px)}.full-page-layout-2 .content-pad{padding:calc((40px + 95px) * 1) 0 0}

@@ -1,0 +1,42 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_border-radius";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_box-shadow";
+@import "../../../vendor/bootstrap-5.2.2/scss/card";
+@import "../../../vendor/slick-1.8.1/slick/slick.scss";
+@import "../../core/site_variables";
+
+
+.page-slider{
+  @import "../clone/slider";
+  position: relative;
+  padding: $headerHeight 0px;
+  @import "../clone/section-padding";
+  
+  @include media-breakpoint-up(md){
+    scroll-snap-align: start;
+  }
+
+  .container,
+  .container-fluid{
+    position: relative;
+    z-index: 10;
+  }  
+
+  
+  
+  .wp-block-buttons {
+    .wp-block-button{
+      &:after{
+        content: '';
+        bottom: calc(50% - 22px);
+      }
+      .wp-block-button__link{
+        font-size: 22px;
+        line-height: 22px;
+      }
+    }
+  }
+}

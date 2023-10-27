@@ -1,0 +1,4 @@
+[04-Nov-2018 01:24:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/devquantum/public_html/woowbot/wp-content/plugins/woowbot-woocommerce-chatbot-pro/conversion-tracker/class-qc-conversion-tracker.php:509
+Stack trace:
+#0 {main}
+  thrown in /home/devquantum/public_html/woowbot/wp-content/plugins/woowbot-woocommerce-chatbot-pro/conversion-tracker/class-qc-conversion-tracker.php on line 509

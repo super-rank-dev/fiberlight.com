@@ -1,0 +1,6 @@
+{
+    "require": {
+        "loilo/fuse": "^3.4",
+        "wyndow/fuzzywuzzy": "^0.6.0"
+    }
+}

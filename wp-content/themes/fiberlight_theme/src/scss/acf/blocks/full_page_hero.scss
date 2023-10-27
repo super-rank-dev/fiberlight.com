@@ -1,0 +1,192 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+
+
+.full-page-hero{
+  position: relative;
+  min-height: 100vh;
+  height: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: $headerHeight;
+  padding-bottom: 0;
+
+
+  // @include media-breakpoint-up(sm){
+  //   scroll-snap-align: start;
+  // }
+  @include media-breakpoint-down(md){
+    padding: calc(#{$headerHeight} * 1.75) 0 0 0;
+    height: 100%;
+    overflow-x: hidden
+  }
+  @include media-breakpoint-down(xss){
+    padding-top: calc(#{$headerHeight} * 1.5);
+  }
+
+  .hero-image-wrap{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: calc(100vh - (#{$headerHeight} * 2));
+    text-align: center;
+
+    @include media-breakpoint-down(md){
+      position: absolute;
+      height: 140%;
+      width: 100%;
+      left: 60%;
+      top: -20%;
+    }
+
+    img{
+      object-fit: contain;
+      object-position: center center;
+      width: auto;
+      height: 100%;
+
+      @include media-breakpoint-down(md){
+        object-fit: cover;
+        object-position: left top;
+        width: auto;
+        height: 100%;
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+
+  .container-solutions-nav{
+    position: relative;
+    z-index: 10;
+    height: $headerHeight;
+    padding: 0;
+
+    @include media-breakpoint-down(md){
+      position: relative;
+      height: auto;
+      padding-top: 85px;
+      
+    }
+
+    .solutions-nav{
+      position: absolute;
+      bottom: 0;
+      right: 15px;
+
+
+      @include media-breakpoint-down(md){
+        position: relative;
+        right: 0;
+      }
+     
+
+      p{
+        display: inline-block;
+        font-size: 18px;
+        line-height: 18px;
+        font-style: italic;
+        padding: 0 .5rem 0 0;
+        margin: 0;
+
+        @include media-breakpoint-down(xxl){
+          font-size: 16px;
+          line-height: 16px;
+        }
+        @include media-breakpoint-down(md){
+          display: none;
+        }
+      }
+      a{
+        background: var(--wp--preset--color--fl-white);
+        padding: .5rem 1rem .75rem 1rem;
+        margin: 0 0 0 .5rem;
+        width: 160px;
+        height: 100%;
+        text-align: center;
+        color: #000;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+        text-decoration: none;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        border-top: 4px solid var(--wp--preset--color--fl-white);
+        transition: 0.2s;
+        display: inline-block;
+
+        @include media-breakpoint-down(xxl){
+          font-size: 14px;
+          line-height: 14px;
+        }
+        @include media-breakpoint-down(xl){
+          font-size: 13px;
+          line-height: 13px;
+          padding: .3rem .8rem .55rem .8rem;
+          width: 140px;
+        }
+        @include media-breakpoint-down(md){
+          color: var(--wp--preset--color--fl-white);
+          font-size: 13px;
+          line-height: 13px;
+          margin: 0;
+          padding: 1rem .8rem 1rem .8rem;
+          width: 100%;
+          border-radius: 0;
+          border: none;
+          text-align: center;
+          display: block;
+
+
+          &:nth-child(2){
+            color: #000;
+            background: linear-gradient(90deg,#edf4ed 0%,#d2d8d2 100%);
+          }
+          &:nth-child(3){
+            background: linear-gradient(90deg,#258ea6 0%,#0a2239 100%);
+          }
+          &:nth-child(4){
+            background: linear-gradient(90deg,#0a2239 0%,#091b28 100%);
+          }
+        }
+        @include media-breakpoint-down(xss){
+          padding: 1rem .6rem 1rem .6rem;
+        }
+
+        img{
+          height: 30px;
+          margin: 0 auto;
+
+          @include media-breakpoint-down(xss){
+            height: 25px;
+          }
+        }
+        &:hover{
+          border-top: 4px solid var(--wp--preset--color--fl-black);
+          transition: 0.4s;
+
+          @include media-breakpoint-down(md){
+            border-top: 0px;
+            transition: none;
+          }
+        }
+      }
+      .chat-bar{
+        position: relative;
+        width: 100%;
+        height: 14px;
+        background: var(--wp--preset--color--fl-green);
+        img{
+          position: absolute;
+          bottom: 0px;
+          right: 10px;
+          width: 50px;
+        }
+      }
+    }
+  }
+
+}

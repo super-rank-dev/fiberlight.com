@@ -1,0 +1,138 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+
+.quote{
+  position: relative;
+  padding: $sectionPadding 0px ;
+  @import "../clone/section-padding";
+  
+  .container,
+  .container-fluid{
+    position: relative;
+    z-index: 10;
+  }  
+
+ .author-content{
+  position: relative;
+  z-index: 10;
+  width: calc(100% + 60px);
+  padding: 30px;
+
+  @include media-breakpoint-down(md){
+    width: 100%;
+  }
+
+  .bar{
+    right: -5px;
+    top: 50%;
+    transform: translate(0, -50%);
+    height: 60%;
+    width: 10px;
+    display: block;
+    position: absolute;
+    &-green{
+      background-color: var(--wp--preset--color--fl-green);
+    }
+  }
+
+  .author-text,
+  .title-text{
+    padding: 0px;
+    margin: 0px;
+  }
+  .author-text{
+    font-weight: 600;
+  }
+  .title-text{
+    font-size: $font-size-base * .75;
+    font-weight: 600;
+    color: var(--wp--preset--color--fl-light-blue);
+  }
+ }
+  .quote-content{
+    position: relative;
+    z-index: 5;
+    padding: 30px 30px 30px 60px;
+    min-height: 220px;
+
+    .quote-text{
+      padding: 0;
+      margin: 0;
+    }
+    .icon_quote{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-image: url(/wp-content/themes/fiberlight_theme/dist/images/icon_quote.svg);
+      background-size: 40px 40px;
+      background-repeat: no-repeat;
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .layout-2{
+
+    .quote-text{
+      font-size: 36px;
+      line-height: 40px;
+      padding: 0;
+      margin: 0 0 40px;
+
+      @include media-breakpoint-down(xxl){
+        font-size: 32px;
+        line-height: 38px;
+      }
+      @include media-breakpoint-down(md){
+        font-size: 26px;
+        line-height: 32px;
+      }
+    }
+
+    .author-text{
+      font-size: 26px;
+      font-weight: 600;
+      padding: 0px;
+      margin: 0px;
+
+      @include media-breakpoint-down(md){
+        font-size: 20px;
+        line-height: 22px;
+        padding: 0 0 10px;
+      }
+    }
+    .title-text{
+      font-size: 22px;
+      color: var(--wp--preset--color--fl-light-blue);
+      padding: 0px;
+      margin: 0px;
+
+      @include media-breakpoint-down(md){
+        font-size: 16px;
+        line-height: 18px;
+      }
+    }
+
+    .icon_quote{
+      background-image: url(/wp-content/themes/fiberlight_theme/dist/images/icon_quote_green.svg);
+      background-size: 40px 40px;
+      background-repeat: no-repeat;
+      width: 40px;
+      height: 40px;
+      margin: 0 auto 10px;
+    }
+    .bar{
+      height: 10px;
+      width: 33%;
+      display: block;
+      margin: 60px auto 0px;
+      &-green{
+        background-color: var(--wp--preset--color--fl-green);
+      }
+    }
+  }
+}
+

@@ -1,0 +1,20 @@
+// Functions first
+@import "../vendor/bootstrap-5.2.2/scss/functions";
+
+// Variable overrides second
+@import "core/bootstrap_variables";
+
+// Required Bootstrap imports
+@import "../vendor/bootstrap-5.2.2/scss/variables";
+@import "../vendor/bootstrap-5.2.2/scss/maps";
+@import "../vendor/bootstrap-5.2.2/scss/mixins";
+@import "../vendor/bootstrap-5.2.2/scss/root";
+
+@import "../vendor/bootstrap-5.2.2/scss/alert";
+
+
+.editor-styles-wrapper {
+  li{
+    color: #000!important;
+  }
+}

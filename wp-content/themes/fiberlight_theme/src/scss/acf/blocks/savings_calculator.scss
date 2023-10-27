@@ -1,0 +1,44 @@
+@import "../../../vendor/bootstrap-5.2.2/scss/functions";
+@import "../../core/bootstrap_variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/variables";
+@import "../../../vendor/bootstrap-5.2.2/scss/mixins/_breakpoints";
+@import "../../core/site_variables";
+
+@import "../clone/gravity-forms";
+
+
+.savings-calculator{
+  padding: $sectionPadding 0px ;
+  @import "../clone/section-padding";
+    
+.gform{
+	&_wrapper form{
+		.gform_body{
+			.page-2{
+				.gform_page_fields{
+					.gform_fields{
+						display: flex;
+						flex-wrap: wrap;
+						.gfield{
+							flex-grow: 1;
+							flex-basis: 32%;
+
+							@include media-breakpoint-down(md){
+								flex-basis: 100%;
+							}
+
+							&.calculator-disclaimer{
+								flex-basis: 100%;
+								font-size: 15px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+    
+    
+
+}

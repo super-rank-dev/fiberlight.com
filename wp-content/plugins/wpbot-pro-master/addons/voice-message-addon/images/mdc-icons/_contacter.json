@@ -1,0 +1,40 @@
+[
+  {
+    "category_name": "VoiceMessageAddon",
+    "icons": [
+      {
+        "name": "VoiceMessageAddon",
+        "path": "_contacter/wpbotvoicemessage.svg",
+        "keywords": [
+          "wpbotvoicemessage,microphone"
+        ]
+      },
+      {
+        "name": "Microphone",
+        "path": "_contacter/microphone.svg",
+        "keywords": [
+          "wpbotvoicemessage,microphone"
+        ]
+      },
+      {
+        "name": "Microphone Outline",
+        "path": "_contacter/microphone-outline.svg",
+        "keywords": [
+          "wpbotvoicemessage,microphone"
+        ]
+      },{
+        "name": "Voice Mail",
+        "path": "_contacter/voice-mail.svg",
+        "keywords": [
+          "wpbotvoicemessage,voice,mail"
+        ]
+      },{
+        "name": "Waves",
+        "path": "_contacter/waves.svg",
+        "keywords": [
+          "wpbotvoicemessage,waves"
+        ]
+      }
+    ]
+  }
+]
